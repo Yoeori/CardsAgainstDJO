@@ -11,26 +11,47 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/site.css" rel="stylesheet">
+    <link href="css/octicons.css" rel="stylesheet">
   </head>
   <body>
     <div id="page_username" class="hidden">
       <div class="container">
         <div class="row username-field">
-          <div class="col-xs-8 col-xs-offset-2">
+          <div class="col-md-8 col-md-offset-2">
+            <div style="margin: 30px;">
+              <center><h1><b>Cards Against <a href="http://djoamersfoort.nl" target="_blank">DJO</a></b></h1></center>
+            </div>
             <div class="well">
               <div class="row">
-                <div class="col-xs-10">
+                <div class="col-sm-10">
                   <input type="text" class="form-control" id="username" placeholder="Username">
                 </div>
-                <div class="col-xs-2" style="padding-left: 0;">
+                <div class="visible-xs"><br /></div>
+                <div class="col-sm-2 remove-padding-login-button">
                   <button class="btn btn-info" id="username_submit_button" style="width: 100%;">log in</button>
                 </div>
               </div>
+            </div>
+            <div style="margin: 20px;">
+              <p>A web version of <a href="http://cardsagainsthumanity.com/" target="_blank">Cards Against Humanity</a> made by Jelmerro &amp; Yoeori.</p>
+              <p>We included a bunch of packs ourselves, but custom packs can be added using the 5-digit code from <a href="http://cardcastgame.com" target="_blank">Cardcast</a>.</p>
+              <p>Still in early development.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div id="page_dashboard" class="hidden">
+      <div class="game_selection_header">
+        <button class="btn btn-info" id="create_game_button">Start new game</button>
+        <button class="btn btn-default" id="logout_button" style="float: right;">Logout</button>
+      </div>
+      <div class="game_selection_games">
+        Games. Rejoice.
+      </div>
+    </div>
+
     <div id="page_game" class="hidden">
       <canvas id="canvas" height="500px">
         the canvas element is not supported by your inferior browser.
@@ -45,6 +66,14 @@
         </div>
       </div>
     </div>
+
+    <footer>
+      <span class="octicon octicon-code"></span>
+      with <span class="octicon octicon-heart"></span> by
+      <a href="https://github.com/Jelmerro">@Jelmerro</a> &amp;
+      <a href="https://github.com/Yoeori">@Yoeori</a>.
+      view us on <a class="octicon octicon-logo-github" style="vertical-align: text-bottom;" href="https://github.com/Yoeori/CardsAgainstDJO"></a>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
