@@ -2,7 +2,7 @@ var PageUsernameView = {
   app: undefined,
 
   initialize: function(app) {
-    self = this;
+    var self = this;
 
     this.app = app;
 
@@ -32,10 +32,10 @@ var PageUsernameView = {
     });
 
     this.getApp().getSocket().once("set_username_succeeded", function() {
-      this.getApp().setView(PageDashboardView);
+      self.getApp().setView(PageDashboardView);
     });
 
-    this.getApp().getUser().setUsername(username);
+    this.getApp().getUser().setUsernameAndSendToServer(username);
   },
 
   onDie: function() {

@@ -36,8 +36,9 @@ module.exports = App = {
   },
 
   hasUserWithUsername: function(username) {
-    for(user in this.users) {
-      if(user.getUsername() == username) {
+    for(user_id in this.users) {
+      user = this.users[user_id];
+      if(user.getUsername() != undefined && user.getUsername().toLowerCase() == username.toLowerCase()) {
         return true;
       }
     }

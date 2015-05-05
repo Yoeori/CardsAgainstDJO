@@ -14,9 +14,13 @@ var UserModel = {
     })
   },
 
+  setUsernameAndSendToServer: function(username) {
+    this.setUsername(username);
+    this.socket.emit("set_username", this.getUsername());
+  },
+
   setUsername: function(username) {
     this.name = username;
-    this.socket.emit("set_username", this.getUsername());
   },
 
   getUsername: function() {
