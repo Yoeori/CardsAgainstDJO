@@ -9,7 +9,7 @@ app.use(express.static('static'));
 app.use("/js", express.static('client'));
 app.use("/js", express.static('shared'));
 
-server.listen(3000, function() {
+server.listen(3003, function() {
   console.log("Server listening at: *:3000");
 });
 
