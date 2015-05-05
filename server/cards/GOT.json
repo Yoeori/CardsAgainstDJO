@@ -1,0 +1,790 @@
+{
+  "info": {
+    "name": "Cards Against the Realm",
+    "code": "SFM6O",
+    "description": "Its a pack for Hardcore Game of Thrones fans and casual watchers.",
+    "rating": "4.4"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "Dark wings, dark _.",
+        "answers": 1
+      },
+      {
+        "text": "In the battle of the trident many lost their lives due to _.",
+        "answers": 1
+      },
+      {
+        "text": "The mind needs _ like a sword needs a _.",
+        "answers": 2
+      },
+      {
+        "text": "When travelling the Kingsroad, One should always bring _ for good luck.",
+        "answers": 1
+      },
+      {
+        "text": "The one thing the hound is afraid of is _.",
+        "answers": 1
+      },
+      {
+        "text": "In the House of the Undying Dany saw a vision of _.",
+        "answers": 1
+      },
+      {
+        "text": "Family, Duty, _.",
+        "answers": 1
+      },
+      {
+        "text": "The king shits and the hand _.",
+        "answers": 1
+      },
+      {
+        "text": "_ cuts deeper than swords.",
+        "answers": 1
+      },
+      {
+        "text": "If I had a direwolf, I'd name it _.",
+        "answers": 1
+      },
+      {
+        "text": "Robert Baratheon Secretly gave _ to each of his bastards at their births.",
+        "answers": 1
+      },
+      {
+        "text": "When Daenerys emerged from the fire, her first wish was _.",
+        "answers": 1
+      },
+      {
+        "text": "Khal Drogo's morning ritual included _ and _.",
+        "answers": 2
+      },
+      {
+        "text": "The only game that matters is _.",
+        "answers": 1
+      },
+      {
+        "text": "\"_ for me, little bird.\"",
+        "answers": 1
+      },
+      {
+        "text": "What stopped Joffrey (Lanister) Baratheon's killing spree? ",
+        "answers": 1
+      },
+      {
+        "text": "When King Joffrey wants to have fun he asks for _.",
+        "answers": 1
+      },
+      {
+        "text": "The battle of Blackwater Bay was decided by _.",
+        "answers": 1
+      },
+      {
+        "text": "One needs _ to make the eight.",
+        "answers": 1
+      },
+      {
+        "text": "You know _, Jon Snow.",
+        "answers": 1
+      },
+      {
+        "text": "Robert Baratheon wouldn't have lost the throne if he had known about _.",
+        "answers": 1
+      },
+      {
+        "text": "If Westeros had porn, the most popular would feature _ and  _.",
+        "answers": 2
+      },
+      {
+        "text": "I'll take what is mine with _ and _.",
+        "answers": 2
+      },
+      {
+        "text": "1 horn blast means _ 2 blasts mean _ 3 blasts mean _.",
+        "answers": 3
+      },
+      {
+        "text": "The man who passes the sentence should swing the _.",
+        "answers": 1
+      },
+      {
+        "text": "\"Born amidst salt and smoke, What is he a _?\"",
+        "answers": 1
+      },
+      {
+        "text": "All men must _.",
+        "answers": 1
+      },
+      {
+        "text": "After a tragic encounter with _, the kingslayer's hand was replaced with _.",
+        "answers": 2
+      },
+      {
+        "text": "_ is as useful as nipples on a breastplate.",
+        "answers": 1
+      },
+      {
+        "text": "Having fallen prey to _ , the King lies dying.",
+        "answers": 1
+      },
+      {
+        "text": "The king's peace was restored by _.",
+        "answers": 1
+      },
+      {
+        "text": "Littlefinger's nickname was a direct result of _.",
+        "answers": 1
+      },
+      {
+        "text": "_ won the iron throne with the help of _.",
+        "answers": 2
+      },
+      {
+        "text": "Any man who must say 'I am _ , 'is no true _.",
+        "answers": 2
+      },
+      {
+        "text": "Melisandre was shocked to see _ in her fires.",
+        "answers": 1
+      },
+      {
+        "text": "Last time Cersei had too much to drink, she had a bad experience with _.",
+        "answers": 1
+      },
+      {
+        "text": "Everyone fears _ 's _.",
+        "answers": 2
+      },
+      {
+        "text": "A Dothraki wedding without _ is considered a dull affair.",
+        "answers": 1
+      },
+      {
+        "text": "Before losing his package Varys's favorite pastime was _.",
+        "answers": 1
+      },
+      {
+        "text": "The night is dark and full of _.",
+        "answers": 1
+      },
+      {
+        "text": "Tywin Lannister's nightly bathroom visit was interrupted by _.",
+        "answers": 1
+      },
+      {
+        "text": "What did Tyrion bitch slap Joffrey with? ",
+        "answers": 1
+      },
+      {
+        "text": "Maester Luwin forged one of his links by _.",
+        "answers": 1
+      },
+      {
+        "text": "For the Night is dark and full of _.",
+        "answers": 1
+      },
+      {
+        "text": "_, the greatest _ that ever was or will be.",
+        "answers": 2
+      },
+      {
+        "text": "In the game of _ you win or you _.",
+        "answers": 2
+      },
+      {
+        "text": "At the Red Wedding, Robb Stark lost his _.",
+        "answers": 1
+      },
+      {
+        "text": "My worst nightmare is meeting _ face to face.",
+        "answers": 1
+      },
+      {
+        "text": "On her wedding day, Daenerys was presented with _.",
+        "answers": 1
+      },
+      {
+        "text": "In his next book, GRRM will spend 500 pages to describe _.",
+        "answers": 1
+      },
+      {
+        "text": "The things i do for _.",
+        "answers": 1
+      },
+      {
+        "text": "Chaos is a _.",
+        "answers": 1
+      },
+      {
+        "text": "A lannister always _.",
+        "answers": 1
+      },
+      {
+        "text": "Jaqen H'ghar: \" A man is in need of _\".",
+        "answers": 1
+      },
+      {
+        "text": "For House Frey, it is customary to give your guests _.",
+        "answers": 1
+      },
+      {
+        "text": "Varys sometimes wishes his missing goods were replaced with _.",
+        "answers": 1
+      },
+      {
+        "text": "_ is coming.",
+        "answers": 1
+      },
+      {
+        "text": "If you can't defeat your enemies in battle, there's always _.",
+        "answers": 1
+      },
+      {
+        "text": "Rhaegar fought _ Rhaegar fought _ and Rhaegar died.",
+        "answers": 2
+      }
+    ],
+    "responses": [
+      {
+        "text": "the faith of the Seven"
+      },
+      {
+        "text": "Walder Frey's puckered lips"
+      },
+      {
+        "text": "goddamn dragons"
+      },
+      {
+        "text": "it rhymes with freak"
+      },
+      {
+        "text": "the proper noun Jerry"
+      },
+      {
+        "text": "Lannister twincest"
+      },
+      {
+        "text": "griffins"
+      },
+      {
+        "text": "Erotic fiction Sam Tarly probably writes about Wildling girls and Jon Snow"
+      },
+      {
+        "text": "a faceless man"
+      },
+      {
+        "text": "Jaime's sword hand"
+      },
+      {
+        "text": "Khaleesi"
+      },
+      {
+        "text": "Podrick Payne's sexual prowess"
+      },
+      {
+        "text": "the gold price"
+      },
+      {
+        "text": "Ser Jorah Mormont, Lord of the Friendzone"
+      },
+      {
+        "text": "10,000 horses"
+      },
+      {
+        "text": "A gay orgy among the First Men"
+      },
+      {
+        "text": "Brienne the Beauty's weight lifting record"
+      },
+      {
+        "text": "Ramsey's Sausage"
+      },
+      {
+        "text": "Vargo Hoat's beard fetish"
+      },
+      {
+        "text": "Dracarys"
+      },
+      {
+        "text": "the three-eyed raven"
+      },
+      {
+        "text": "the truth about Jon and Sam"
+      },
+      {
+        "text": "shitting gold"
+      },
+      {
+        "text": "waking the dragon"
+      },
+      {
+        "text": "Needle"
+      },
+      {
+        "text": "the Tickler"
+      },
+      {
+        "text": "minimal punctuation"
+      },
+      {
+        "text": "a crannogman with a hard-on"
+      },
+      {
+        "text": "a dwarf riding a pig"
+      },
+      {
+        "text": "Varys' fake facebook account"
+      },
+      {
+        "text": "The Mountain's Massive cock"
+      },
+      {
+        "text": "Tywin Lanister"
+      },
+      {
+        "text": "A night of pox-free lovin' courtesy of Alayaya"
+      },
+      {
+        "text": "Tywin's disappointed father face"
+      },
+      {
+        "text": "the Horn of Winter"
+      },
+      {
+        "text": "Sandsnake fanfiction"
+      },
+      {
+        "text": "Chataya's pleasure house"
+      },
+      {
+        "text": "making the eight"
+      },
+      {
+        "text": "The Iron Throne"
+      },
+      {
+        "text": "a loaded crossbow"
+      },
+      {
+        "text": "Stannis the Mannis"
+      },
+      {
+        "text": "\"I was a Fookin' Legend in Gin Alley!\""
+      },
+      {
+        "text": "milk of the poppy"
+      },
+      {
+        "text": "getting pricked in the ass by the Iron Throne"
+      },
+      {
+        "text": "Winterfell"
+      },
+      {
+        "text": "pissing off the edge of the wall"
+      },
+      {
+        "text": "Theon's Favorite Toy"
+      },
+      {
+        "text": "A horde of underdeveloped characters"
+      },
+      {
+        "text": "the prick of a rose's thorn"
+      },
+      {
+        "text": "the nipple of an unsullied"
+      },
+      {
+        "text": "a scale from the dragon that flamed you"
+      },
+      {
+        "text": "Musk of a direwolf"
+      },
+      {
+        "text": "Barack Obama's Red Wedding reaction video"
+      },
+      {
+        "text": "Khal Drogo's stallion"
+      },
+      {
+        "text": "the onion knight's severed fingertips"
+      },
+      {
+        "text": "Dothraki mating rituals"
+      },
+      {
+        "text": "wildfyre"
+      },
+      {
+        "text": "Catelyn's everflowing river of tears"
+      },
+      {
+        "text": "the pround and noble House manwoody"
+      },
+      {
+        "text": "ravens"
+      },
+      {
+        "text": "Blackwater Bay"
+      },
+      {
+        "text": "bastards in their fathers' eyes"
+      },
+      {
+        "text": "Littlefinger's credit card"
+      },
+      {
+        "text": "growing stronger"
+      },
+      {
+        "text": "a Dothraki wedding"
+      },
+      {
+        "text": "Robbert's Bastards"
+      },
+      {
+        "text": "Melisandre's flaming pyre"
+      },
+      {
+        "text": "her weight in sapphires"
+      },
+      {
+        "text": "polishing his helmet"
+      },
+      {
+        "text": "Lady"
+      },
+      {
+        "text": "Stannis and his bros"
+      },
+      {
+        "text": "a handful of Dothraki Bloodriders"
+      },
+      {
+        "text": "a dream of spring"
+      },
+      {
+        "text": "foreskin"
+      },
+      {
+        "text": "Keeping it in the family"
+      },
+      {
+        "text": "Lysa Arryn's breast milk"
+      },
+      {
+        "text": "Jorah Mormont refusing to shave his chest"
+      },
+      {
+        "text": "bread and salt"
+      },
+      {
+        "text": "George RR Martin"
+      },
+      {
+        "text": "The Kingslayer"
+      },
+      {
+        "text": "Robert Baratheon's 10-inch warhammer"
+      },
+      {
+        "text": "Roose Bolton's used leaches"
+      },
+      {
+        "text": "Jon Snow's thousand yard stare"
+      },
+      {
+        "text": "Jojen's dreams"
+      },
+      {
+        "text": "Teenage Sandor Clegane trying to cover his scars with his mom's makeup"
+      },
+      {
+        "text": "cave sex"
+      },
+      {
+        "text": "Varys's root and stem"
+      },
+      {
+        "text": "Arya"
+      },
+      {
+        "text": "Jon Snow's ability to not know something."
+      },
+      {
+        "text": "Jon Snow's Real Parents"
+      },
+      {
+        "text": "HOT PIE!"
+      },
+      {
+        "text": "The mother of dragons"
+      },
+      {
+        "text": "a crown of molten gold"
+      },
+      {
+        "text": "a legion of pig-mounted dwarf warriors"
+      },
+      {
+        "text": "Maester Qyburn"
+      },
+      {
+        "text": "lemoncakes"
+      },
+      {
+        "text": "Autoerotic asphyxiation in the name of the drowned god."
+      },
+      {
+        "text": "a shadow-baby"
+      },
+      {
+        "text": "Ned Stark's head"
+      },
+      {
+        "text": "The Old Gods and the New."
+      },
+      {
+        "text": "The Bear and the Maiden Fair"
+      },
+      {
+        "text": "bitch-slapping Joffrey"
+      },
+      {
+        "text": "Sansa"
+      },
+      {
+        "text": "Tyrion Lanister"
+      },
+      {
+        "text": "Crasters' many wives/daughters"
+      },
+      {
+        "text": "Prince Doran's gout"
+      },
+      {
+        "text": "the Dothraki word for \"handjob\""
+      },
+      {
+        "text": "Ygritte's lusty longbow"
+      },
+      {
+        "text": "The bastard of Bolton"
+      },
+      {
+        "text": "a bunch of pissed off White Walkers"
+      },
+      {
+        "text": "a troupe of mummers"
+      },
+      {
+        "text": "a homoerotic interlude â la Loras Tyrell"
+      },
+      {
+        "text": "Stannis Baratheon"
+      },
+      {
+        "text": "the wintery abode of the white walkers"
+      },
+      {
+        "text": "tansy tea"
+      },
+      {
+        "text": "blood magic"
+      },
+      {
+        "text": "Dragon Porn"
+      },
+      {
+        "text": "Manticore Venom"
+      },
+      {
+        "text": "Ros the whore"
+      },
+      {
+        "text": "Spoilers from the next book"
+      },
+      {
+        "text": "dance"
+      },
+      {
+        "text": "Old-fashioned Dothraki wedding rituals"
+      },
+      {
+        "text": "taking the throne"
+      },
+      {
+        "text": "Renly's tourney lance"
+      },
+      {
+        "text": "an entire khalasar"
+      },
+      {
+        "text": "Tyrion"
+      },
+      {
+        "text": "A Wedding Planner in Westeros"
+      },
+      {
+        "text": "HODOR!"
+      },
+      {
+        "text": "a Weirwood tree with the face of Bill Cosby"
+      },
+      {
+        "text": "a braavosi salesman dealing drugs"
+      },
+      {
+        "text": "a pack of retarded direwolves"
+      },
+      {
+        "text": "the kraken rises"
+      },
+      {
+        "text": "Podrick Payne"
+      },
+      {
+        "text": "Ser Illyn Payne's hollow mouth hole"
+      },
+      {
+        "text": "the public bathroom at harrenhall"
+      },
+      {
+        "text": "the champion's \"purse\""
+      },
+      {
+        "text": "Whatever Podrick did to those prostitues"
+      },
+      {
+        "text": "homoerotic overtones"
+      },
+      {
+        "text": "a masturbating giant"
+      },
+      {
+        "text": "Bronn's curved dagger"
+      },
+      {
+        "text": "virginity"
+      },
+      {
+        "text": "bowl of brown"
+      },
+      {
+        "text": "Daenarys Targaryen's smelly khalasar"
+      },
+      {
+        "text": "Jon Snow's Daddy issues"
+      },
+      {
+        "text": "The Knight of Flowers' bathing routine"
+      },
+      {
+        "text": "Ned's dead, baby"
+      },
+      {
+        "text": "the Meereenese Knot"
+      },
+      {
+        "text": "Jon Snow's total lack of knowing things"
+      },
+      {
+        "text": "Flea Bottom furries"
+      },
+      {
+        "text": "Milasandre's ruby throat bling"
+      },
+      {
+        "text": "the first example response"
+      },
+      {
+        "text": "where whores go"
+      },
+      {
+        "text": "Joffrey's phsyco tendencies"
+      },
+      {
+        "text": "killing"
+      },
+      {
+        "text": "the old way"
+      },
+      {
+        "text": "Littlefinger"
+      },
+      {
+        "text": "Taking the Black"
+      },
+      {
+        "text": "Blindly charging into battle without stopping to pee first."
+      },
+      {
+        "text": "meat & mead"
+      },
+      {
+        "text": "Hodor singing the GoT theme song"
+      },
+      {
+        "text": "more boobs"
+      },
+      {
+        "text": "a spicy wildfire cocktail"
+      },
+      {
+        "text": "an Other orgy"
+      },
+      {
+        "text": "the iron price"
+      },
+      {
+        "text": "Grumpkins and snarks"
+      },
+      {
+        "text": "Skagosi Unicorns"
+      },
+      {
+        "text": "Bees?"
+      },
+      {
+        "text": "Podrick Payne"
+      },
+      {
+        "text": "dragon poop"
+      },
+      {
+        "text": "Stannis the Fucking Mannis"
+      },
+      {
+        "text": "Ham"
+      },
+      {
+        "text": "the burnt side of the Hound's face"
+      },
+      {
+        "text": "hear me roar"
+      },
+      {
+        "text": "chilling on top of the wall"
+      },
+      {
+        "text": "the mother fuckin' Red Viper!"
+      },
+      {
+        "text": "Tears of Lys"
+      },
+      {
+        "text": "Patrolling the hood in Mole's Town"
+      },
+      {
+        "text": "All the gold of Casterly Rock"
+      },
+      {
+        "text": "Young Grif"
+      },
+      {
+        "text": "the long, slimy, smooth tentacles of a kraken"
+      }
+    ]
+  }
+}

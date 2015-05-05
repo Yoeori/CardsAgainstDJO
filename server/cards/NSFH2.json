@@ -1,0 +1,270 @@
+{
+  "info": {
+    "name": "Not Safe For Humanity 2",
+    "code": "KW8B6",
+    "description": "My second generic deck, also made with the Ars Against Humanity G+ group. I like to believe it is better constructed and more focused than NSFH1, thanks to over a year of experience and research into deck making.",
+    "rating": "4.8"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "Nothing is worse than having to clean up after _.",
+        "answers": 1
+      },
+      {
+        "text": "During the 2013 shutdown the US government had to stop all funding for _.",
+        "answers": 1
+      },
+      {
+        "text": "In high school I was voted \"Most Likely To End Up _.\"",
+        "answers": 1
+      },
+      {
+        "text": "Thanks to budget cuts, NASA has been reduced to strapping a rocket to _.",
+        "answers": 1
+      },
+      {
+        "text": "_ is a luxury we can no longer afford.",
+        "answers": 1
+      },
+      {
+        "text": "We are gathered here today to witness the union of _ and _.",
+        "answers": 2
+      },
+      {
+        "text": "The most powerful force in Washington DC is the _ Lobby.",
+        "answers": 1
+      },
+      {
+        "text": "How do I kill time at work? ",
+        "answers": 1
+      },
+      {
+        "text": "Since drugs and terror are dealt with, America has declared The War On _.",
+        "answers": 1
+      },
+      {
+        "text": "In case of emergency break glass and begin _.",
+        "answers": 1
+      },
+      {
+        "text": "Remember: Take only _ and leave only _.",
+        "answers": 2
+      },
+      {
+        "text": "My grandmother taught me 101 uses for _.",
+        "answers": 1
+      },
+      {
+        "text": "Thank you for calling Technical Support. What is the answer to your Secret Security Question? ",
+        "answers": 1
+      },
+      {
+        "text": "The Westboro Baptist Church has announced it will now protest against _.",
+        "answers": 1
+      },
+      {
+        "text": "This program is dedicated in loving memory of _.",
+        "answers": 1
+      },
+      {
+        "text": "Psst, buddy, can I interest you in _?",
+        "answers": 1
+      },
+      {
+        "text": "_ is the only reason I get up in the morning.",
+        "answers": 1
+      },
+      {
+        "text": "Diarrhea is like _ raging inside you.",
+        "answers": 1
+      },
+      {
+        "text": "There's no problem that can't be solved with liberal application of _.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "a souvenir Eiffel Tower dildo"
+      },
+      {
+        "text": "pretending your penis is a lightsaber"
+      },
+      {
+        "text": "really classy blackface"
+      },
+      {
+        "text": "naked skydiving"
+      },
+      {
+        "text": "our one black friend"
+      },
+      {
+        "text": "Glenn Beck's skin sloughing off in meaty clumps upon direct contact with sunlight"
+      },
+      {
+        "text": "pillow humping"
+      },
+      {
+        "text": "just-Out-Of-Prison Sex"
+      },
+      {
+        "text": "invading raccoons"
+      },
+      {
+        "text": "having more children than teeth"
+      },
+      {
+        "text": "writing, directing, and starring in snuff porn"
+      },
+      {
+        "text": "mommy's wooden spoon"
+      },
+      {
+        "text": "morning sickness"
+      },
+      {
+        "text": "Glenn Beck's internal organs liquefying and exiting through his sphincter"
+      },
+      {
+        "text": "a bucket of oiled-up frogs"
+      },
+      {
+        "text": "taking hostages"
+      },
+      {
+        "text": "cocktopus"
+      },
+      {
+        "text": "ejaculating confetti"
+      },
+      {
+        "text": "the entire Autism Spectrum"
+      },
+      {
+        "text": "the drizzling shits"
+      },
+      {
+        "text": "vagina dentata"
+      },
+      {
+        "text": "a cat stoned off its furry ass"
+      },
+      {
+        "text": "cock and ball torture"
+      },
+      {
+        "text": "bloody panties"
+      },
+      {
+        "text": "a mountain of diapers"
+      },
+      {
+        "text": "live-fire Civil War re-enactments"
+      },
+      {
+        "text": "cunnilingus performed by a giant spider"
+      },
+      {
+        "text": "six feet of packed earth"
+      },
+      {
+        "text": "god turning his back on the world"
+      },
+      {
+        "text": "an unmarked white van full of puppies and candy"
+      },
+      {
+        "text": "close friends and family"
+      },
+      {
+        "text": "an all-purpose porpoise"
+      },
+      {
+        "text": "going all in"
+      },
+      {
+        "text": "sandpaper masturbation"
+      },
+      {
+        "text": "sloppy seconds"
+      },
+      {
+        "text": "rum, sodomy, and the lash"
+      },
+      {
+        "text": "madame Esmeralda's crystal balls"
+      },
+      {
+        "text": "glow in the dark condoms"
+      },
+      {
+        "text": "a misplaced engagement ring"
+      },
+      {
+        "text": "ropey jizz chains"
+      },
+      {
+        "text": "totally radical dinosaurs"
+      },
+      {
+        "text": "dishonourably discharged seamen"
+      },
+      {
+        "text": "the crushing weight of our monotonous daily lives"
+      },
+      {
+        "text": "a tired and emotional mother of three"
+      },
+      {
+        "text": "Delayed Onset Orgasm Syndrome"
+      },
+      {
+        "text": "that empty moment when your heart stops"
+      },
+      {
+        "text": "carjacking the Popemobile"
+      },
+      {
+        "text": "gatecrashing a child's funeral"
+      },
+      {
+        "text": "both eyes popping out on springs"
+      },
+      {
+        "text": "feminism"
+      },
+      {
+        "text": "the 26 feet of intestines inside us all"
+      },
+      {
+        "text": "potty training a stubborn toddler"
+      },
+      {
+        "text": "black on black crime"
+      },
+      {
+        "text": "a drunken shopping mall Santa and his two ex-con elves"
+      },
+      {
+        "text": "a screwdriver straight to the kidneys"
+      },
+      {
+        "text": "sex in the confessional"
+      },
+      {
+        "text": "23lb of aged Stilton"
+      },
+      {
+        "text": "haunted pornography"
+      },
+      {
+        "text": "rolling in flour to find the wet spot"
+      },
+      {
+        "text": "crowdsurfing a riot"
+      }
+    ]
+  }
+}

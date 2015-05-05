@@ -1,0 +1,247 @@
+{
+  "info": {
+    "name": "Pocket Monsters",
+    "code": "TMIBR",
+    "description": "A deck of Pokemon and Pokemon related cards.",
+    "rating": "4.8"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "My new Pokemon sprite combines _ and _!",
+        "answers": 2
+      },
+      {
+        "text": "Having given up on trying to steal Ash's Pikachu, Team Rocket now tries to steal _ instead",
+        "answers": 1
+      },
+      {
+        "text": "Mewtwo is the most powerful Pokemon. Don't worry. It can't leave the cave because _ is in the way.",
+        "answers": 1
+      },
+      {
+        "text": "Now tell me. Are you a _ or a _?",
+        "answers": 2
+      },
+      {
+        "text": "_! Gotta catch 'em all!",
+        "answers": 1
+      },
+      {
+        "text": "What's the secret to Ash never aging? ",
+        "answers": 1
+      },
+      {
+        "text": "Oh, I know! I'll use my handy frying pan as  _!",
+        "answers": 1
+      },
+      {
+        "text": "This is my grandson. Erm... What was his name again? ",
+        "answers": 1
+      },
+      {
+        "text": "What's Brock's latest conquest? ",
+        "answers": 1
+      },
+      {
+        "text": "_, _, and _ all point to one thing: Hoenn confirmed.",
+        "answers": 3
+      },
+      {
+        "text": "A wild _ appears! Go, _!",
+        "answers": 2
+      },
+      {
+        "text": "Last thing I remember, I woke up as a Pokemon in a field... Now, I'm _!",
+        "answers": 1
+      },
+      {
+        "text": "In the next Pokemon game, the main legendary will be based off of ",
+        "answers": 1
+      },
+      {
+        "text": "My name is Professor Oak! But most people just call me ",
+        "answers": 1
+      },
+      {
+        "text": "i herd u liek ",
+        "answers": 1
+      },
+      {
+        "text": "I'm not ashamed to like the hacked versions of _ instead of the originals.",
+        "answers": 1
+      },
+      {
+        "text": "Ash's travel buddies change all the time. You know what hasn't changed? _.",
+        "answers": 1
+      },
+      {
+        "text": "The newest Pokemon CreepyPasta is about ",
+        "answers": 1
+      },
+      {
+        "text": "_ used _. It's super effective!",
+        "answers": 2
+      },
+      {
+        "text": "Dad's words echo... There's a time and place for _.",
+        "answers": 1
+      },
+      {
+        "text": "With all the hype over the new Fairy type, people all but forgot about the new _ type Pokemon as well!",
+        "answers": 1
+      },
+      {
+        "text": "Realizing Meowth's face was too obvious, Team Rocket's new balloon looks like ",
+        "answers": 1
+      },
+      {
+        "text": "Lavender Town wasn't scary. You know what is scary? _.",
+        "answers": 1
+      },
+      {
+        "text": "PIIII-KAAAA-_!",
+        "answers": 1
+      },
+      {
+        "text": "Ditto can transform into anything you want... Yes, even _.",
+        "answers": 1
+      },
+      {
+        "text": "I wanted to use my Master Ball, but instead I used _.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "The sweet, supple song of a Jigglypuff"
+      },
+      {
+        "text": "Being sexually attracted to a Gardevoir"
+      },
+      {
+        "text": "Hypno's insatiable bloodlust"
+      },
+      {
+        "text": "Using Water Gun on Misty just to get her to take her top off"
+      },
+      {
+        "text": "The Nurse Joy Clone Army"
+      },
+      {
+        "text": "Thoughts of suicide from listening to a chiptune"
+      },
+      {
+        "text": "Brock's squinty fucking eyes"
+      },
+      {
+        "text": "Accidentally pressing A and prompting Nurse Joy in the pokemon center a second time."
+      },
+      {
+        "text": "Turning off XP Share because I'm not a fucking casual"
+      },
+      {
+        "text": "The horrible war flashbacks going on inside every Espurr's mind"
+      },
+      {
+        "text": "Realizing that Rotom and Ekans are Motor and Snake backwards"
+      },
+      {
+        "text": "Zubats, Zubats, Zubats, and more Zubats"
+      },
+      {
+        "text": "A Rattata in the top percentage of Rattatas"
+      },
+      {
+        "text": "Those moments where James crossdresses"
+      },
+      {
+        "text": "Being a Pokemon breeder for more than one reason"
+      },
+      {
+        "text": "The power of a God contained within six balls. And I'm not even eleven yet!"
+      },
+      {
+        "text": "Flirting with every possible cop or nurse in sight even though they all look the same"
+      },
+      {
+        "text": "A real life Geodude"
+      },
+      {
+        "text": "Actually catching and training a MissingNo"
+      },
+      {
+        "text": "MY POKEMANS"
+      },
+      {
+        "text": "A small tree that you have to cut down because you can't just walk around it"
+      },
+      {
+        "text": "Ass Ketchup"
+      },
+      {
+        "text": "The Lavender Town song"
+      },
+      {
+        "text": "Trying to catch every possible variation of Spinda"
+      },
+      {
+        "text": "Registeel being confirmed for Nazi"
+      },
+      {
+        "text": "Getting nearly electrocuted to death by Pikachu when all you wanted was a hug"
+      },
+      {
+        "text": "Gary Oak's many cheerleaders and cockslaves"
+      },
+      {
+        "text": "The sudden realization that the 3 legendary birds are Artic-UNO, Zap-DOS, and Mol-TRES"
+      },
+      {
+        "text": "A Splash attack"
+      },
+      {
+        "text": "Gary Oak, champion of the world"
+      },
+      {
+        "text": "18,000 Mudkips"
+      },
+      {
+        "text": "A motherfucking shiny Charizard"
+      },
+      {
+        "text": "Master Hand's appearance in Lavender Town on a girl's shoulder"
+      },
+      {
+        "text": "VENOSHOCK VENOSHOCK VENOSHOCK VENOSHOCK"
+      },
+      {
+        "text": "Almighty Lord Helix"
+      },
+      {
+        "text": "Getting cockBrocked"
+      },
+      {
+        "text": "Never evolving your Eevee because you appreciate it for who it is like a decent human being"
+      },
+      {
+        "text": "A move called Double Slap that hits more than twice"
+      },
+      {
+        "text": "Our lord and savior, Arceus"
+      },
+      {
+        "text": "Only using Harden"
+      },
+      {
+        "text": "A bullshit Fairy type attack"
+      },
+      {
+        "text": "Being incapable of running until you have special shoes"
+      },
+      {
+        "text": "Ash's hot MILF mom"
+      }
+    ]
+  }
+}

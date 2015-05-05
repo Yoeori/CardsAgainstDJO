@@ -1,0 +1,664 @@
+{
+  "info": {
+    "name": "Cards Against Smash Bros",
+    "code": "NQW9V",
+    "description": "A Nintendo themed pack.",
+    "rating": "3.5"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "SUPER FIGHTING ROBOT! _ MAN!",
+        "answers": 1
+      },
+      {
+        "text": "It's a me, _!",
+        "answers": 1
+      },
+      {
+        "text": "Mewtwo, your Smash Bros time is up. We're replacing you with _.",
+        "answers": 1
+      },
+      {
+        "text": "I heard a rumor that _ is coming to Smash Bros.",
+        "answers": 1
+      },
+      {
+        "text": "I was banned from the Brawl server for using _ over and over.",
+        "answers": 1
+      },
+      {
+        "text": "You need a strategy guide for _.",
+        "answers": 1
+      },
+      {
+        "text": "This console's gimmick is _.",
+        "answers": 1
+      },
+      {
+        "text": "What's Bowser jacking off to today? ",
+        "answers": 1
+      },
+      {
+        "text": "My favorite game at E3 was _.",
+        "answers": 1
+      },
+      {
+        "text": "Earthbound will get a new game when _ flies out of my butt.",
+        "answers": 1
+      },
+      {
+        "text": "Link smashed the pot, only to find that _ was inside.",
+        "answers": 1
+      },
+      {
+        "text": "Nintendo seriously needs to make a crossover of _ and _.",
+        "answers": 2
+      },
+      {
+        "text": "Due to the shared hatred for the Duck Hunt dog, _ will now laugh at you for missing ducks instead.",
+        "answers": 1
+      },
+      {
+        "text": "This month's Nintendo power gave cheat codes for _.",
+        "answers": 1
+      },
+      {
+        "text": "Do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do... ba-daa-daa-ding! You got _!",
+        "answers": 1
+      },
+      {
+        "text": "The Legend of Zelda: _.",
+        "answers": 1
+      },
+      {
+        "text": "Daisy killed Luigi using _.",
+        "answers": 1
+      },
+      {
+        "text": "It's dangerous to go alone! Take _.",
+        "answers": 1
+      },
+      {
+        "text": "I ship _ and _. OTP.",
+        "answers": 2
+      },
+      {
+        "text": "Today Mario put _ in his pasta.",
+        "answers": 1
+      },
+      {
+        "text": "According to the Mario wiki, Bowser Junior's actual parents are Bowser and _.",
+        "answers": 1
+      },
+      {
+        "text": "Why is Ganondorf so fucking pissed? ",
+        "answers": 1
+      },
+      {
+        "text": "I HAVE _!",
+        "answers": 1
+      },
+      {
+        "text": "Ravio's new expensive item is _. Rentals are half the price!",
+        "answers": 1
+      },
+      {
+        "text": "The new OP Mario Kart item is _.",
+        "answers": 1
+      },
+      {
+        "text": "That hungry luma just ate _!",
+        "answers": 1
+      },
+      {
+        "text": "New Super_ Land: 3D",
+        "answers": 1
+      },
+      {
+        "text": "My final smash is _.",
+        "answers": 1
+      },
+      {
+        "text": "Charizard used _. It's super effective!",
+        "answers": 1
+      },
+      {
+        "text": "_: The Movie The Game",
+        "answers": 1
+      },
+      {
+        "text": "There's only one good Nintendo system, and it is _.",
+        "answers": 1
+      },
+      {
+        "text": "Nintendo games would be better if they had _.",
+        "answers": 1
+      },
+      {
+        "text": "_ CONFIRMED FOR BRAWL!!!",
+        "answers": 1
+      },
+      {
+        "text": "Join the _ fun club today, Mac!",
+        "answers": 1
+      },
+      {
+        "text": "Dr. Eggman's newest plot involves turning _ into robots.",
+        "answers": 1
+      },
+      {
+        "text": "A delayed game is _. A bad game is _ forever.",
+        "answers": 2
+      },
+      {
+        "text": "You're becoming more like _!",
+        "answers": 1
+      },
+      {
+        "text": "Use _ wisely.",
+        "answers": 1
+      },
+      {
+        "text": "Club Nintendo's newest reward for 1000 coins is a tote bag with _ on it.",
+        "answers": 1
+      },
+      {
+        "text": "GET THE POWER!! _ POWER!!",
+        "answers": 1
+      },
+      {
+        "text": "The best Smash Bros. stage is the _ one. I don't bother with the others.",
+        "answers": 1
+      },
+      {
+        "text": "Show me your _!",
+        "answers": 1
+      },
+      {
+        "text": "_ the Hedgehog.",
+        "answers": 1
+      },
+      {
+        "text": "Master, the batteries in _ are nearly depleted.",
+        "answers": 1
+      },
+      {
+        "text": "_ reminds me of a puzzle!",
+        "answers": 1
+      },
+      {
+        "text": "Holy shit! Kirby just turned into _!",
+        "answers": 1
+      },
+      {
+        "text": "My boy! _ is what all true warriors strive for!",
+        "answers": 1
+      },
+      {
+        "text": "Everyone knows that _ is weak against _.",
+        "answers": 2
+      },
+      {
+        "text": "When _ is added to Smash Bros, their final smash will be _.",
+        "answers": 2
+      },
+      {
+        "text": "_ 4: Mercenaries, is better than the shit Nintendo puts out every year.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "Mr. Game and Watch if he were human."
+      },
+      {
+        "text": "Midna, doing Link doggy style."
+      },
+      {
+        "text": "Zant, on WAY too many drugs."
+      },
+      {
+        "text": "Tingle, dry humping your leg like a dog."
+      },
+      {
+        "text": "The Wii U's only game."
+      },
+      {
+        "text": "The Power Glove."
+      },
+      {
+        "text": "Link: The Faces of Evil."
+      },
+      {
+        "text": "Epona."
+      },
+      {
+        "text": "Navi."
+      },
+      {
+        "text": "My Power Pellets."
+      },
+      {
+        "text": "Fucked up glitches."
+      },
+      {
+        "text": "Vodka Drunkinski."
+      },
+      {
+        "text": "Tom Nook."
+      },
+      {
+        "text": "Ganondork."
+      },
+      {
+        "text": "HYAAAAHH!!! KYEHHHT!!!"
+      },
+      {
+        "text": "Unfair tripping mechanics."
+      },
+      {
+        "text": "Phoenix Wright."
+      },
+      {
+        "text": "The leader of the bunch, who you know well."
+      },
+      {
+        "text": "My Smash Balls."
+      },
+      {
+        "text": "An unnecessary HD remake."
+      },
+      {
+        "text": "Dr. Wily."
+      },
+      {
+        "text": "Babies in go karts."
+      },
+      {
+        "text": "That bird girl from Wind Waker."
+      },
+      {
+        "text": "The Wii U Gamepad."
+      },
+      {
+        "text": "Fucking Navi."
+      },
+      {
+        "text": "My Maxim Tomatoes."
+      },
+      {
+        "text": "My Great Aether."
+      },
+      {
+        "text": "My Dry Bones."
+      },
+      {
+        "text": "Stupid sexy Samus."
+      },
+      {
+        "text": "A Super Smash Bros orgy."
+      },
+      {
+        "text": "Too many rupees."
+      },
+      {
+        "text": "Sonic 06'."
+      },
+      {
+        "text": "Donkey Kong, furiously masturbating."
+      },
+      {
+        "text": "Genwunners."
+      },
+      {
+        "text": "Turning into an eggplant, and dying of asphyxiation."
+      },
+      {
+        "text": "Princess Zelda."
+      },
+      {
+        "text": "Tails, the fox."
+      },
+      {
+        "text": "An adorable pink blob that eats everything."
+      },
+      {
+        "text": "Link."
+      },
+      {
+        "text": "My Screw Attack."
+      },
+      {
+        "text": "The most badass Waddle Dee."
+      },
+      {
+        "text": "Meta Knight's goddamn Mach Tornado."
+      },
+      {
+        "text": "Dicks drawn in Mario Paint."
+      },
+      {
+        "text": "The announcer at E3 who was way too excited."
+      },
+      {
+        "text": "A Link to my Ass."
+      },
+      {
+        "text": "A game just for Waluigi."
+      },
+      {
+        "text": "A plumber beating the shit out of a giant-ass turtle."
+      },
+      {
+        "text": "Bowser fucking Petey Piranha."
+      },
+      {
+        "text": "Playable goombas."
+      },
+      {
+        "text": "Bathing in Kraid's entrails."
+      },
+      {
+        "text": "Giygas, butt-fucking Ness."
+      },
+      {
+        "text": "Ice Climber incest."
+      },
+      {
+        "text": "Reggie Fils-Aime."
+      },
+      {
+        "text": "Miyamoto laughing maniacally."
+      },
+      {
+        "text": "DO A BARREL ROLL."
+      },
+      {
+        "text": "n00bs who play Brawl."
+      },
+      {
+        "text": "My Poké Balls."
+      },
+      {
+        "text": "Acquiring all the Chaos Emeralds."
+      },
+      {
+        "text": "Fox McCloud."
+      },
+      {
+        "text": "Green Mario."
+      },
+      {
+        "text": "The one that came in between the N64 and the Wii."
+      },
+      {
+        "text": "Justin Bailey."
+      },
+      {
+        "text": "A Tanooki Suit."
+      },
+      {
+        "text": "The Super Mario Bros. movie."
+      },
+      {
+        "text": "My Wiggler."
+      },
+      {
+        "text": "Slippy Toad."
+      },
+      {
+        "text": "Marth's sexy bod."
+      },
+      {
+        "text": "Luigi's death stare."
+      },
+      {
+        "text": "Every Nintendo game ever made."
+      },
+      {
+        "text": "A giant eye that looks like a target."
+      },
+      {
+        "text": "Tetra, calling Link \"The Green Ween\" behind his back."
+      },
+      {
+        "text": "8-bit music that sounds like 16-bit music."
+      },
+      {
+        "text": "Splatoon, but with jizz instead of ink."
+      },
+      {
+        "text": "A warp star."
+      },
+      {
+        "text": "Inky, blinky, pinky, and clyde."
+      },
+      {
+        "text": "Wart."
+      },
+      {
+        "text": "Sakurai being adorable as usual."
+      },
+      {
+        "text": "Wii Fit Trainer."
+      },
+      {
+        "text": "Dark Ness."
+      },
+      {
+        "text": "My Bullet Bill."
+      },
+      {
+        "text": "Tingle."
+      },
+      {
+        "text": "Another sword character from another sword game."
+      },
+      {
+        "text": "Wii Music."
+      },
+      {
+        "text": "My dad, who works at Nintendo."
+      },
+      {
+        "text": "Yoshi, finally eating Baby Mario."
+      },
+      {
+        "text": "Lickitung's cunnilingus skills."
+      },
+      {
+        "text": "R.O.B. rule 34."
+      },
+      {
+        "text": "The N64 controller's dick."
+      },
+      {
+        "text": "My Wind Waker."
+      },
+      {
+        "text": "The Zelda character with the pointy ears."
+      },
+      {
+        "text": "My Star Rod."
+      },
+      {
+        "text": "Great gameplay, graphics, soundtrack and story, but SHIT voice acting."
+      },
+      {
+        "text": "World 8-4."
+      },
+      {
+        "text": "FALCON PUUUUNCH!!"
+      },
+      {
+        "text": "Another goddamn \"thank you for your patience.\""
+      },
+      {
+        "text": "F.L.U.D.D."
+      },
+      {
+        "text": "Blowing on a NES cartridge seductively."
+      },
+      {
+        "text": "Starfox Adventures."
+      },
+      {
+        "text": "Games that seemed like a great idea at the time."
+      },
+      {
+        "text": "Wario's sweaty chode."
+      },
+      {
+        "text": "A final smash where you put your clothes back on."
+      },
+      {
+        "text": "My Mega Mushroom."
+      },
+      {
+        "text": "Professor Layton."
+      },
+      {
+        "text": "A Mr. Saturn shaped sex toy."
+      },
+      {
+        "text": "Kirby."
+      },
+      {
+        "text": "A secret to everybody."
+      },
+      {
+        "text": "That balloon guy from that balloon game."
+      },
+      {
+        "text": "The Forest Maze."
+      },
+      {
+        "text": "A Magikarp in a Master Ball."
+      },
+      {
+        "text": "Mario's PhD."
+      },
+      {
+        "text": "Muk, spelled backwards."
+      },
+      {
+        "text": "A Metroid."
+      },
+      {
+        "text": "Captain Toad's Adventure in Cubeland."
+      },
+      {
+        "text": "A Mii of Chuck Norris that looks nothing like Chuck Norris."
+      },
+      {
+        "text": "Link's pallid weiner."
+      },
+      {
+        "text": "Enslaving tiny ant people to carry garbage for you."
+      },
+      {
+        "text": "The Duck Hunt dog and duck."
+      },
+      {
+        "text": "My Falchion."
+      },
+      {
+        "text": "A disappointing sequel."
+      },
+      {
+        "text": "My Jigglypuffs."
+      },
+      {
+        "text": "My Hookshot."
+      },
+      {
+        "text": "Ms. Pac-Man."
+      },
+      {
+        "text": "Ghirahim slowly licking your neck."
+      },
+      {
+        "text": "My Master Sword."
+      },
+      {
+        "text": "Doc Louis' chocolate bar."
+      },
+      {
+        "text": "Toad's shitty voice."
+      },
+      {
+        "text": "An annoying companion who tells you how to play the game every five seconds."
+      },
+      {
+        "text": "Nintendo's pathetic Facebook page."
+      },
+      {
+        "text": "ReDeads."
+      },
+      {
+        "text": "The assumption that Ridley will be in Smash Bros."
+      },
+      {
+        "text": "The Virtual Boy."
+      },
+      {
+        "text": "Turbo Super Smash Bros All-Stars Battle Royale At The Olympic Games HD Remix & Knuckles."
+      },
+      {
+        "text": "Samus."
+      },
+      {
+        "text": "My Star Bits."
+      },
+      {
+        "text": "Falco's shit attitude."
+      },
+      {
+        "text": "King Dedede's stupid dance."
+      },
+      {
+        "text": "Rule 63 of Shiek, for some reason."
+      },
+      {
+        "text": "Fat Pikachu."
+      },
+      {
+        "text": "Pit and Palutena sitting in a tree, K-I-S-S-I-N-G."
+      },
+      {
+        "text": "Xenoblade Chronicals."
+      },
+      {
+        "text": "No items, Fox only, Final Destination."
+      },
+      {
+        "text": "Purple pikmin."
+      },
+      {
+        "text": "Louie eating 147 pikmin, a bulborb, all the treasure, the ship, and Olimar."
+      },
+      {
+        "text": "My Hero's Bow."
+      },
+      {
+        "text": "Laughing at all the sad parts in Mother 3."
+      },
+      {
+        "text": "The Super Mario Bros. Super Show."
+      },
+      {
+        "text": "Donkey Kong's stupid ass."
+      },
+      {
+        "text": "Kuribo's shoe."
+      },
+      {
+        "text": "Mario."
+      },
+      {
+        "text": "A sex machine that vacuums your dick, built by professor E. Gadd."
+      }
+    ]
+  }
+}

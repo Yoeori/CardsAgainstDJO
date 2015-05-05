@@ -1,0 +1,931 @@
+{
+  "info": {
+    "name": "Cards Against Gaming",
+    "code": "66HK4",
+    "description": "Because video games.\n\nIs there anything else I should say? We all complain about them sometimes.\n\nAnyway, this is my first deck! Feel free to use and rate.",
+    "rating": "5.0"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "The limited edition copy of _ comes with _.",
+        "answers": 2
+      },
+      {
+        "text": "What makes any video game better? ",
+        "answers": 1
+      },
+      {
+        "text": "The only thing that would make this game better is _.",
+        "answers": 1
+      },
+      {
+        "text": "I hate _, and nobody can change that.",
+        "answers": 1
+      },
+      {
+        "text": "My party consists of _, _ and _.",
+        "answers": 3
+      },
+      {
+        "text": "My new favourite franchise is _.",
+        "answers": 1
+      },
+      {
+        "text": "_. That is all.",
+        "answers": 1
+      },
+      {
+        "text": "No horror game is scarier than _.",
+        "answers": 1
+      },
+      {
+        "text": "That'sssss a very nice _ you've got there.... it would be a sssssshame if anything were to happen to it...",
+        "answers": 1
+      },
+      {
+        "text": "Only _ play _!",
+        "answers": 2
+      },
+      {
+        "text": "Gamers consider _ a very important moment in video game history.",
+        "answers": 1
+      },
+      {
+        "text": "_.",
+        "answers": 1
+      },
+      {
+        "text": "_ buried millions of copies of _ in the middle of the desert.",
+        "answers": 2
+      },
+      {
+        "text": "The reviewers say _ is garbage, but I like it.",
+        "answers": 1
+      },
+      {
+        "text": "I always enjoy  _ to relieve stress.",
+        "answers": 1
+      },
+      {
+        "text": "If I could have any video game power in real life, it would be _.",
+        "answers": 1
+      },
+      {
+        "text": "Nobody knew that _ was actually _.",
+        "answers": 2
+      },
+      {
+        "text": "No remake was worse for any video game than _.",
+        "answers": 1
+      },
+      {
+        "text": "_ got me into video games.",
+        "answers": 1
+      },
+      {
+        "text": "_ has the worst gamer community, it always hates on _.",
+        "answers": 2
+      },
+      {
+        "text": "Nothing gets me more pumped for _ than _.",
+        "answers": 2
+      },
+      {
+        "text": "I hate it when people compare _ to _.  Clearly _ is better than both of them.",
+        "answers": 3
+      },
+      {
+        "text": "_. Best game since _.",
+        "answers": 2
+      },
+      {
+        "text": "What is amusing yet difficult to play? ",
+        "answers": 1
+      },
+      {
+        "text": "What is the worst game of all time? ",
+        "answers": 1
+      },
+      {
+        "text": "If they were real, I would have sex with _ in a heartbeat.",
+        "answers": 1
+      },
+      {
+        "text": "Most people consider _ a game, but I call it a huge pile of crap.",
+        "answers": 1
+      },
+      {
+        "text": "_. Hardest game ever.",
+        "answers": 1
+      },
+      {
+        "text": "What do you hate the most in video games? ",
+        "answers": 1
+      },
+      {
+        "text": "What is the biggest achievement in video games? ",
+        "answers": 1
+      },
+      {
+        "text": "_? People still play that?",
+        "answers": 1
+      },
+      {
+        "text": "Nobody can make up their mind on which _ game is the best in the series.",
+        "answers": 1
+      },
+      {
+        "text": "I think people are _ when they play _.",
+        "answers": 2
+      },
+      {
+        "text": "_ is a game, I don't care what you all think.",
+        "answers": 1
+      },
+      {
+        "text": "Right now I want to play _.",
+        "answers": 1
+      },
+      {
+        "text": "_ is the biggest let-down of this generation.",
+        "answers": 1
+      },
+      {
+        "text": "I hate it when nobody knows about _.",
+        "answers": 1
+      },
+      {
+        "text": "_ won the console wars.",
+        "answers": 1
+      },
+      {
+        "text": "I wish I hadn't read the comments, or else I wouldn't have spoilers for _.",
+        "answers": 1
+      },
+      {
+        "text": "If you call yourself a gamer and don't know about _, go home.",
+        "answers": 1
+      },
+      {
+        "text": "YOU LOST _.",
+        "answers": 1
+      },
+      {
+        "text": "_ is the biggest cash cow of the century.",
+        "answers": 1
+      },
+      {
+        "text": "I hated it when they made _ into a video game.",
+        "answers": 1
+      },
+      {
+        "text": "Nobody seems to understand that _ is a horrible game.",
+        "answers": 1
+      },
+      {
+        "text": "_ 10/10",
+        "answers": 1
+      },
+      {
+        "text": "You know what I hate the most? ",
+        "answers": 1
+      },
+      {
+        "text": "_ can only be played correctly on _.",
+        "answers": 2
+      },
+      {
+        "text": "Please join my guild! We love _!",
+        "answers": 1
+      },
+      {
+        "text": "If it were not for _, I would have given up on the video game industry years ago.",
+        "answers": 1
+      },
+      {
+        "text": "Everyone knows _ is better on the _.",
+        "answers": 2
+      },
+      {
+        "text": "_. 'Nuff said.",
+        "answers": 1
+      },
+      {
+        "text": "What destroyed the video game franchise? ",
+        "answers": 1
+      },
+      {
+        "text": "I want a game where we can have sex with _.",
+        "answers": 1
+      },
+      {
+        "text": "During the Steam Summer Sale, I bought _ at a low, low price!",
+        "answers": 1
+      },
+      {
+        "text": "_. Worst game since _.",
+        "answers": 2
+      },
+      {
+        "text": "_ is bound to happen in any _ video game.",
+        "answers": 2
+      },
+      {
+        "text": "I think _ is overrated.",
+        "answers": 1
+      },
+      {
+        "text": "_ GOTY 2014",
+        "answers": 1
+      },
+      {
+        "text": "_ vs _. That's what I'd like to see.",
+        "answers": 2
+      },
+      {
+        "text": "_ is better than _, hands down.",
+        "answers": 2
+      },
+      {
+        "text": "I hate it when I get up to the part with _ in _.",
+        "answers": 2
+      },
+      {
+        "text": "All gamers must remember _.",
+        "answers": 1
+      },
+      {
+        "text": "What was the biggest shock to all gamers ever? ",
+        "answers": 1
+      },
+      {
+        "text": "Did you hear the news? _ has been confirmed for Smash!",
+        "answers": 1
+      },
+      {
+        "text": "my video game waifu is _. I don't care what you think.",
+        "answers": 1
+      },
+      {
+        "text": "I will kill myself if _ made a sequel to _ but not to _.",
+        "answers": 3
+      },
+      {
+        "text": "_ is the biggest badass in video games.",
+        "answers": 1
+      },
+      {
+        "text": "Who is the most beloved video game character of all time? _.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "the rainbow of emotions a player experiences in every Tales Of game"
+      },
+      {
+        "text": "the Portal gun"
+      },
+      {
+        "text": "the badass smartass Yuri Lowell"
+      },
+      {
+        "text": "Smash Bros"
+      },
+      {
+        "text": "DS"
+      },
+      {
+        "text": "snipers"
+      },
+      {
+        "text": "DayZ"
+      },
+      {
+        "text": "Soulcalibur"
+      },
+      {
+        "text": "gen wunners"
+      },
+      {
+        "text": "Fallout"
+      },
+      {
+        "text": "the Legend of Zelda"
+      },
+      {
+        "text": "Beyond: Two Souls"
+      },
+      {
+        "text": "Princess Rosalina"
+      },
+      {
+        "text": "Call of Duty"
+      },
+      {
+        "text": "ET (the game)"
+      },
+      {
+        "text": "the one character that looks like a girl but is actually a guy"
+      },
+      {
+        "text": "Miranda and her sexy, full toned ass"
+      },
+      {
+        "text": "kicking the shit out of noobs"
+      },
+      {
+        "text": "video game mascots"
+      },
+      {
+        "text": "Corpse Party"
+      },
+      {
+        "text": "Tales of"
+      },
+      {
+        "text": "Kirby"
+      },
+      {
+        "text": "Skylanders"
+      },
+      {
+        "text": "Chrono Trigger"
+      },
+      {
+        "text": "Crash Bandicoot"
+      },
+      {
+        "text": "Mass Effect"
+      },
+      {
+        "text": "Ni No Kuni: Wrath of the White Witch"
+      },
+      {
+        "text": "the cameo battle"
+      },
+      {
+        "text": "the collective screams of every frustrated Dark Souls player"
+      },
+      {
+        "text": "Dead or Alive"
+      },
+      {
+        "text": "80's arcade games"
+      },
+      {
+        "text": "spoilers"
+      },
+      {
+        "text": "Long Live the Queen"
+      },
+      {
+        "text": "Half-Life 3 is confirmed"
+      },
+      {
+        "text": "stereotypical male sword wielding players"
+      },
+      {
+        "text": "Fire Emblem"
+      },
+      {
+        "text": "the sublime satisfaction of clearing a video game after 150+ hours"
+      },
+      {
+        "text": "murder quests"
+      },
+      {
+        "text": "Far Cry"
+      },
+      {
+        "text": "Portal"
+      },
+      {
+        "text": "video games"
+      },
+      {
+        "text": "Rust"
+      },
+      {
+        "text": "god mode"
+      },
+      {
+        "text": "game-breaking glitches"
+      },
+      {
+        "text": "mystery games where the culprit is easy to predict"
+      },
+      {
+        "text": "Shadowrun"
+      },
+      {
+        "text": "naming your rival ASSHOLE in pokemon"
+      },
+      {
+        "text": "Dragon Age"
+      },
+      {
+        "text": "Nintendo"
+      },
+      {
+        "text": "the final boss"
+      },
+      {
+        "text": "Microsoft"
+      },
+      {
+        "text": "MMORPGs"
+      },
+      {
+        "text": "getting the shit kicked out of you in a video game"
+      },
+      {
+        "text": "Origin, EA's bitch"
+      },
+      {
+        "text": "Pokemon"
+      },
+      {
+        "text": "Bioshock"
+      },
+      {
+        "text": "Castlevania"
+      },
+      {
+        "text": "THOSE GODDAMN CREEPERS"
+      },
+      {
+        "text": "the stupidity of your avatar"
+      },
+      {
+        "text": "dying AGAIN in Long Live the Queen"
+      },
+      {
+        "text": "being fucked in a video game"
+      },
+      {
+        "text": "people who take the game too seriously"
+      },
+      {
+        "text": "Final Fantasy"
+      },
+      {
+        "text": "Space Invaders"
+      },
+      {
+        "text": "dying again in Dark Souls"
+      },
+      {
+        "text": "noobs"
+      },
+      {
+        "text": "the PlayStation"
+      },
+      {
+        "text": "Wii"
+      },
+      {
+        "text": "Neverwinter"
+      },
+      {
+        "text": "the rocket launcher"
+      },
+      {
+        "text": "Final Fantasy loyalist dickheads"
+      },
+      {
+        "text": "the secret prophesised cow level"
+      },
+      {
+        "text": "xyzzy"
+      },
+      {
+        "text": "Psycho Mantis' fourth wall breaking, game card reading skills"
+      },
+      {
+        "text": "Indie Games"
+      },
+      {
+        "text": "Gran Turismo"
+      },
+      {
+        "text": "\"War. War never changes.\""
+      },
+      {
+        "text": "the game you are playing right now"
+      },
+      {
+        "text": "the SNES"
+      },
+      {
+        "text": "Candy Crush"
+      },
+      {
+        "text": "MMOs"
+      },
+      {
+        "text": "the pain everyone feels when their character dies"
+      },
+      {
+        "text": "Surgeon Simulator 2013"
+      },
+      {
+        "text": "Super Mario Bros"
+      },
+      {
+        "text": "PS3"
+      },
+      {
+        "text": "dungeon crawlers"
+      },
+      {
+        "text": "Steam"
+      },
+      {
+        "text": "7 Days to Die"
+      },
+      {
+        "text": "dog mode"
+      },
+      {
+        "text": "crappy free video games"
+      },
+      {
+        "text": "Diablo"
+      },
+      {
+        "text": "those goddamn campers"
+      },
+      {
+        "text": "hacking"
+      },
+      {
+        "text": "Red Dead Redemption"
+      },
+      {
+        "text": "Goat Simulator"
+      },
+      {
+        "text": "that moment you realise Samus is a girl"
+      },
+      {
+        "text": "Princess Peach"
+      },
+      {
+        "text": "goddamn dating sims"
+      },
+      {
+        "text": "catching all the pokemon"
+      },
+      {
+        "text": "World of Warcraft"
+      },
+      {
+        "text": "Unturned"
+      },
+      {
+        "text": "Xbox 360"
+      },
+      {
+        "text": "Tekken"
+      },
+      {
+        "text": "the Konami code"
+      },
+      {
+        "text": "Disgaea"
+      },
+      {
+        "text": "the player character"
+      },
+      {
+        "text": "strategy games"
+      },
+      {
+        "text": "losing all of your friends due to Mario Party"
+      },
+      {
+        "text": "the hype every gamer experiences when waiting in line for a new game"
+      },
+      {
+        "text": "Battlefield"
+      },
+      {
+        "text": "shooters"
+      },
+      {
+        "text": "gamers"
+      },
+      {
+        "text": "Spyro"
+      },
+      {
+        "text": "all of your characters being wiped out by an OP enemy"
+      },
+      {
+        "text": "Wii U"
+      },
+      {
+        "text": "the Gamecube"
+      },
+      {
+        "text": "girl gamers"
+      },
+      {
+        "text": "phone games"
+      },
+      {
+        "text": "raid bosses"
+      },
+      {
+        "text": "EA, those evil bastards"
+      },
+      {
+        "text": "visual novels"
+      },
+      {
+        "text": "Mad Father"
+      },
+      {
+        "text": "Snake's glorious cardboard box"
+      },
+      {
+        "text": "respawns"
+      },
+      {
+        "text": "Angry Birds"
+      },
+      {
+        "text": "QWOP"
+      },
+      {
+        "text": "games which can only be completed if you have friends"
+      },
+      {
+        "text": "Ivy from Soulcaliber"
+      },
+      {
+        "text": "Commander Shepard"
+      },
+      {
+        "text": "Disney Infinity"
+      },
+      {
+        "text": "PS2"
+      },
+      {
+        "text": "headshotting everyone that enters your sights"
+      },
+      {
+        "text": "Pac-man"
+      },
+      {
+        "text": "Kratos"
+      },
+      {
+        "text": "8-bit video game graphics"
+      },
+      {
+        "text": "Half-Life"
+      },
+      {
+        "text": "the console wars"
+      },
+      {
+        "text": "realising you were once a powerless noob"
+      },
+      {
+        "text": "the Sega Genesis"
+      },
+      {
+        "text": "PC"
+      },
+      {
+        "text": "the mew glitch"
+      },
+      {
+        "text": "the game"
+      },
+      {
+        "text": "Mortal Kombat"
+      },
+      {
+        "text": "Plants vs Zombies"
+      },
+      {
+        "text": "those people who can only name Pikachu and no other pokemon"
+      },
+      {
+        "text": "Recettear"
+      },
+      {
+        "text": "those idiots who don't know the main character of the Legend of Zelda is named Link, not Zelda"
+      },
+      {
+        "text": "Sonic"
+      },
+      {
+        "text": "Grand Theft Auto"
+      },
+      {
+        "text": "RPGs"
+      },
+      {
+        "text": "Metal Gear Solid 4's incredibly long ending"
+      },
+      {
+        "text": "Sleeping Dogs"
+      },
+      {
+        "text": "Saints Row"
+      },
+      {
+        "text": "giant video game boobs"
+      },
+      {
+        "text": "Team Fortress 2"
+      },
+      {
+        "text": "Xenoblade"
+      },
+      {
+        "text": "Star Wars games"
+      },
+      {
+        "text": "letting your sim die for your entertainment"
+      },
+      {
+        "text": "Devil May Cry"
+      },
+      {
+        "text": "the extra secret boss everyone now knows about"
+      },
+      {
+        "text": "overlapping your opponents"
+      },
+      {
+        "text": "invincibility"
+      },
+      {
+        "text": "the Sims"
+      },
+      {
+        "text": "Mario Kart"
+      },
+      {
+        "text": "Metal Gear Solid"
+      },
+      {
+        "text": "multiple endings to video games"
+      },
+      {
+        "text": "Heavy Rain"
+      },
+      {
+        "text": "NPCs"
+      },
+      {
+        "text": "Amnesia"
+      },
+      {
+        "text": "solo players"
+      },
+      {
+        "text": "casual gamers"
+      },
+      {
+        "text": "obscure video games"
+      },
+      {
+        "text": "Doom"
+      },
+      {
+        "text": "God of  War"
+      },
+      {
+        "text": "fucking zombie survival games"
+      },
+      {
+        "text": "Dark Souls"
+      },
+      {
+        "text": "Metroid"
+      },
+      {
+        "text": "Missingno"
+      },
+      {
+        "text": "sucking at the game"
+      },
+      {
+        "text": "Elder Scrolls"
+      },
+      {
+        "text": "3DS"
+      },
+      {
+        "text": "Link"
+      },
+      {
+        "text": "a big breasted elf"
+      },
+      {
+        "text": "dovahkiin (the dragonborn)"
+      },
+      {
+        "text": "Mario, that red-clothed bastard"
+      },
+      {
+        "text": "DEMON FANG!"
+      },
+      {
+        "text": "Golden Axe"
+      },
+      {
+        "text": "bosses"
+      },
+      {
+        "text": "Harvest Moon"
+      },
+      {
+        "text": "video game guilds made just for attention"
+      },
+      {
+        "text": "Skyrim"
+      },
+      {
+        "text": "Princess Zelda"
+      },
+      {
+        "text": "Persona"
+      },
+      {
+        "text": "dungeons"
+      },
+      {
+        "text": "the triforce"
+      },
+      {
+        "text": "Aeris dying"
+      },
+      {
+        "text": "catchy video game music"
+      },
+      {
+        "text": "Pay to Win games"
+      },
+      {
+        "text": "Meta Knight"
+      },
+      {
+        "text": "dying in a visual novel"
+      },
+      {
+        "text": "Borderlands"
+      },
+      {
+        "text": "Sheik"
+      },
+      {
+        "text": "Agarest"
+      },
+      {
+        "text": "Sony"
+      },
+      {
+        "text": "Don't Starve"
+      },
+      {
+        "text": "Samus in a sexy pixelated bikini"
+      },
+      {
+        "text": "Mass Effect 3's horrible, horrible ending"
+      },
+      {
+        "text": "Atari"
+      },
+      {
+        "text": "Watch Dogs"
+      },
+      {
+        "text": "Mario Party"
+      },
+      {
+        "text": "Hatoful Boyfriend (that crazy creepy pigeon dating sim!)"
+      },
+      {
+        "text": "survival games"
+      },
+      {
+        "text": "Minecraft"
+      },
+      {
+        "text": "rage quitting"
+      },
+      {
+        "text": "Dungeons and Dragons"
+      }
+    ]
+  }
+}

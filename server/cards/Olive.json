@@ -1,0 +1,107 @@
+{
+  "info": {
+    "name": "Personal jokes",
+    "code": "AWN6Y",
+    "description": "Inside jokes of multiple youtube persinalities like Ashens, The Mighty Jingles and QuickyBaby.",
+    "rating": "5.0"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "Look at that cute little _.",
+        "answers": 1
+      },
+      {
+        "text": "_ engineering, best engineering in the world!",
+        "answers": 1
+      },
+      {
+        "text": "That name's too difficult, so let's just call him _.",
+        "answers": 1
+      },
+      {
+        "text": "If I was a betting man, I wouldn't put any _ on it.",
+        "answers": 1
+      },
+      {
+        "text": "I've got a feeling Mr. Trackpad might _.",
+        "answers": 1
+      },
+      {
+        "text": "It's not often I'm right, but this time I _.",
+        "answers": 1
+      },
+      {
+        "text": "I think he's one of those fabled _.",
+        "answers": 1
+      },
+      {
+        "text": "Because you know, _ is for NOOBS.",
+        "answers": 1
+      },
+      {
+        "text": "Chew on that one, _!",
+        "answers": 1
+      },
+      {
+        "text": "If you throw enough _ at the wall, some of it might _.",
+        "answers": 2
+      },
+      {
+        "text": "An intelligent bot? Maybe the intelligent bot will _.",
+        "answers": 1
+      },
+      {
+        "text": "Nyet, Nyet, _, stay away!",
+        "answers": 1
+      },
+      {
+        "text": "That's _ , he has to be a _.",
+        "answers": 2
+      },
+      {
+        "text": "This is indeed _.",
+        "answers": 1
+      },
+      {
+        "text": "But would _ still be there?",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "Mister Trackpad"
+      },
+      {
+        "text": "surprise buttsex"
+      },
+      {
+        "text": "valiantly defend the base"
+      },
+      {
+        "text": "Dave"
+      },
+      {
+        "text": "some sort of space goblin"
+      },
+      {
+        "text": "the worlds sharpest knife"
+      },
+      {
+        "text": "Ivan"
+      },
+      {
+        "text": "trackpad players"
+      },
+      {
+        "text": "Luchs"
+      },
+      {
+        "text": "lots and lots of kolobanov medals"
+      },
+      {
+        "text": "my word"
+      }
+    ]
+  }
+}

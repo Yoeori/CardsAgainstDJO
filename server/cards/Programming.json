@@ -1,0 +1,396 @@
+{
+  "info": {
+    "name": "Programming Humor",
+    "code": "W3HMJ",
+    "description": "A card pack with a lot of software development based humor in it. Use at your own risk.",
+    "rating": "5.0"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "\"Introducing: the i_\"",
+        "answers": 1
+      },
+      {
+        "text": "I tried writing an app for Windows Phone and _ happened.",
+        "answers": 1
+      },
+      {
+        "text": "Where can I download more RAM? _.",
+        "answers": 1
+      },
+      {
+        "text": "What platform does your app run on? _.",
+        "answers": 1
+      },
+      {
+        "text": "So we gave our _ access to our production servers and _ happened.",
+        "answers": 2
+      },
+      {
+        "text": "Instead of the usual WWDC jacket, next year Apple will be giving out _ to developers.",
+        "answers": 1
+      },
+      {
+        "text": "_ is dead! All the cool kids are using: _.",
+        "answers": 2
+      },
+      {
+        "text": "We just got acquired by _.",
+        "answers": 1
+      },
+      {
+        "text": "Null Pointer Exception: _.",
+        "answers": 1
+      },
+      {
+        "text": "npm install _.",
+        "answers": 1
+      },
+      {
+        "text": "It only took me 3 hours to implement _.",
+        "answers": 1
+      },
+      {
+        "text": "Your branch is ahead of '_/_' by 2 commits.",
+        "answers": 2
+      },
+      {
+        "text": "JSON error: missing _.",
+        "answers": 1
+      },
+      {
+        "text": "Our team uses Slack now because _.",
+        "answers": 1
+      },
+      {
+        "text": "What's the WiFi password? _.",
+        "answers": 1
+      },
+      {
+        "text": "I tried to use Apple maps to get directions and I accidently ended up at _.",
+        "answers": 1
+      },
+      {
+        "text": "Within 5 years, everyone will be using _.",
+        "answers": 1
+      },
+      {
+        "text": "[std cout << \"_\";]",
+        "answers": 1
+      },
+      {
+        "text": "We’ve made the _ 26% thinner.",
+        "answers": 1
+      },
+      {
+        "text": "_.js, the new Javascript framework.",
+        "answers": 1
+      },
+      {
+        "text": "Look, _ just filed their IPO!",
+        "answers": 1
+      },
+      {
+        "text": "We put _ on a drone and flew it into _.",
+        "answers": 2
+      },
+      {
+        "text": "Don't worry,  _ will be deprecated in the next few years.",
+        "answers": 1
+      },
+      {
+        "text": "_ is also monitored by Prism",
+        "answers": 1
+      },
+      {
+        "text": "One more thing: _.",
+        "answers": 1
+      },
+      {
+        "text": "We wrote our new _ entirely in Haskell.",
+        "answers": 1
+      },
+      {
+        "text": "Why won't my code compile? _.",
+        "answers": 1
+      },
+      {
+        "text": "Error 404: _ not found.",
+        "answers": 1
+      },
+      {
+        "text": "At my startup, they feed us fresh _ at every meal.",
+        "answers": 1
+      },
+      {
+        "text": "Our machine learning algorithm mistook _ for _.",
+        "answers": 2
+      },
+      {
+        "text": "I'm a developer evangelist for _.",
+        "answers": 1
+      },
+      {
+        "text": "The client wants to put _ in _!? Are they insane?",
+        "answers": 2
+      },
+      {
+        "text": "\"One more thing... _\"",
+        "answers": 1
+      },
+      {
+        "text": "It's like Uber for _.",
+        "answers": 1
+      },
+      {
+        "text": "_? Real coders use _.",
+        "answers": 2
+      },
+      {
+        "text": "We've pivoted our stack towards using _ for everything.",
+        "answers": 1
+      },
+      {
+        "text": "What will be the next NSA revelation? _.",
+        "answers": 1
+      },
+      {
+        "text": "What's my new Hackathon project? _.",
+        "answers": 1
+      },
+      {
+        "text": "Xcode quit unexpectedly. Why? _.",
+        "answers": 1
+      },
+      {
+        "text": "We're rewriting _ in Swift.",
+        "answers": 1
+      },
+      {
+        "text": "What caused the demo gods to hate me? _.",
+        "answers": 1
+      },
+      {
+        "text": "Why did my Mac just kernel panic? _.",
+        "answers": 1
+      },
+      {
+        "text": "We tried to implement CoreData, but then _.",
+        "answers": 1
+      },
+      {
+        "text": "_ : You keep using that term. I do not think it means what you think it means",
+        "answers": 1
+      },
+      {
+        "text": "Our new CEO believes in a bluesky-radical-_ way of thinking.",
+        "answers": 1
+      },
+      {
+        "text": "Bro, do you even _?",
+        "answers": 1
+      },
+      {
+        "text": "The REAL best web framework is _.",
+        "answers": 1
+      },
+      {
+        "text": "\"Today, Apple are glad to announce OS X _\"",
+        "answers": 1
+      },
+      {
+        "text": "Error 403: _ forbidden.",
+        "answers": 1
+      },
+      {
+        "text": "I mean.. _ might fix it, right?",
+        "answers": 1
+      },
+      {
+        "text": "What do you mean your _ doesn't support _?",
+        "answers": 2
+      },
+      {
+        "text": "I threw _ on my keyboard and it typed syntactically correct Perl script.",
+        "answers": 1
+      },
+      {
+        "text": "Why not use the _ API to  _?",
+        "answers": 2
+      },
+      {
+        "text": "Syntax error: _ invalid.",
+        "answers": 1
+      },
+      {
+        "text": "What's the only real dev language? _.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "Twilio."
+      },
+      {
+        "text": "Forgetting a semicolon."
+      },
+      {
+        "text": "Uber."
+      },
+      {
+        "text": "Brainfuck."
+      },
+      {
+        "text": "Vim."
+      },
+      {
+        "text": "San Francisco."
+      },
+      {
+        "text": "BitBucket."
+      },
+      {
+        "text": "YO-SEM-IT-EE."
+      },
+      {
+        "text": "Source Control."
+      },
+      {
+        "text": "Send me a pull request."
+      },
+      {
+        "text": "Git merge conflicts."
+      },
+      {
+        "text": "Big Data."
+      },
+      {
+        "text": "Pascal."
+      },
+      {
+        "text": "[REDACTED]."
+      },
+      {
+        "text": "Android Development."
+      },
+      {
+        "text": "An API."
+      },
+      {
+        "text": "Swift."
+      },
+      {
+        "text": "Haskell."
+      },
+      {
+        "text": "Hair Force One."
+      },
+      {
+        "text": "Internet Explorer 7."
+      },
+      {
+        "text": "This isn't working."
+      },
+      {
+        "text": "Building your own TCP server in C# just for fun."
+      },
+      {
+        "text": "Hackathons."
+      },
+      {
+        "text": "Xcode."
+      },
+      {
+        "text": "Pull Request."
+      },
+      {
+        "text": "The new NSApple iPhone 8 Plus, now with WEP."
+      },
+      {
+        "text": "Emacs."
+      },
+      {
+        "text": "Aah-loo-min-ee-um."
+      },
+      {
+        "text": "Reinstalling your OS."
+      },
+      {
+        "text": "NSEverything."
+      },
+      {
+        "text": "Fuck it, ship it."
+      },
+      {
+        "text": "Redis."
+      },
+      {
+        "text": "Developers. Developers. Developers."
+      },
+      {
+        "text": "Hipsters."
+      },
+      {
+        "text": "MongoDB."
+      },
+      {
+        "text": "Dude, we're on TechCrunch."
+      },
+      {
+        "text": "Hitting it until it works."
+      },
+      {
+        "text": "Web Framework."
+      },
+      {
+        "text": "Xcode quit unexpectedly."
+      },
+      {
+        "text": "The pain inflicted by C++."
+      },
+      {
+        "text": "jQuery."
+      },
+      {
+        "text": "Java."
+      },
+      {
+        "text": "Reading everything that ever existed a jillion times into a mega-jillion sized array."
+      },
+      {
+        "text": "Xcode build errors that won't go away unless you clean/rebuild/exorcise the project."
+      },
+      {
+        "text": "Beta is Beta."
+      },
+      {
+        "text": "Currently under NDA."
+      },
+      {
+        "text": "Ruby on Rails."
+      },
+      {
+        "text": "Semicolon."
+      },
+      {
+        "text": "I'm on the front page of HackerNews."
+      },
+      {
+        "text": "Chrome."
+      },
+      {
+        "text": "NodeJS."
+      },
+      {
+        "text": "Web Scale."
+      },
+      {
+        "text": "SendGrid."
+      },
+      {
+        "text": "Data Schemas."
+      }
+    ]
+  }
+}

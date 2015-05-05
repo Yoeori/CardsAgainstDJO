@@ -1,0 +1,339 @@
+{
+  "info": {
+    "name": "Expansion 3 - CAH",
+    "code": "CAHE3",
+    "description": "This is the third expansion pack for Cards Against Humanity.\n\nCards Against Humanity is a Trademark of Cards Against Humanity, LLC. Cards Against Humanity is distributed under a Creative Commons BY-NC-SA 2.0 license.",
+    "rating": "3.6"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "_. Awesome in theory, kind of a mess in practice.",
+        "answers": 1
+      },
+      {
+        "text": "Money can't buy me love, but it can buy me _.",
+        "answers": 1
+      },
+      {
+        "text": "The blind date was going horribly until we discovered our shared interest in _.",
+        "answers": 1
+      },
+      {
+        "text": "My gym teacher got fired for adding _ to the obstacle course.",
+        "answers": 1
+      },
+      {
+        "text": "When you get right down to it, _ is just _.",
+        "answers": 2
+      },
+      {
+        "text": "Finally! A service that delivers _ right to your door.",
+        "answers": 1
+      },
+      {
+        "text": "Lovin' you is easy 'cause you're _.",
+        "answers": 1
+      },
+      {
+        "text": "In the seventh circle of Hell, sinners must endure _ for all eternity.",
+        "answers": 1
+      },
+      {
+        "text": "I'm not like the rest of you. I'm too rich and busy for _.",
+        "answers": 1
+      },
+      {
+        "text": "_: Hours of fun. Easy to use. Perfect for _!",
+        "answers": 2
+      },
+      {
+        "text": "Turns out that _-Man was neither the hero we needed nor wanted.",
+        "answers": 1
+      },
+      {
+        "text": "During high school, I never really fit in until I found _ club.",
+        "answers": 1
+      },
+      {
+        "text": "Listen, son. If you want to get involved with _, I won't stop you. Just steer clear of _.",
+        "answers": 2
+      },
+      {
+        "text": "As part of his daily regimen, Anderson Cooper sets aside 15 minutes for _.",
+        "answers": 1
+      },
+      {
+        "text": "Having problems with _? Try _!",
+        "answers": 2
+      },
+      {
+        "text": "Call the law offices of Goldstein & Goldstein, because no one should have to tolerate _ in the workplace.",
+        "answers": 1
+      },
+      {
+        "text": "My life is ruled by a vicious cycle of _ and _.",
+        "answers": 2
+      },
+      {
+        "text": "After months of practice with _, I think I'm finally ready for _.",
+        "answers": 2
+      },
+      {
+        "text": "And what did you bring for show and tell? _.",
+        "answers": 1
+      },
+      {
+        "text": "With enough time and pressure, _ will turn into _.",
+        "answers": 2
+      },
+      {
+        "text": "What left this stain on my couch? _.",
+        "answers": 1
+      },
+      {
+        "text": "A successful job interview begins with a firm handshake and ends with _.",
+        "answers": 1
+      },
+      {
+        "text": "As part of his contract, Prince won't perform without _ in his dressing room.",
+        "answers": 1
+      },
+      {
+        "text": "To prepare for his upcoming role, Daniel Day-Lewis immersed himself in the world of _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey, baby, come back to my place and I'll show you _.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "demonic possession"
+      },
+      {
+        "text": "filling every orifice with butterscotch pudding"
+      },
+      {
+        "text": "indescribable loneliness"
+      },
+      {
+        "text": "a pile of squirming bodies"
+      },
+      {
+        "text": "a lamprey swimming up the toilet and latching onto your taint"
+      },
+      {
+        "text": "getting your dick stuck in a Chinese finger trap with another dick"
+      },
+      {
+        "text": "a botched circumcision"
+      },
+      {
+        "text": "putting an entire peanut butter and jelly sandwich into the VCR"
+      },
+      {
+        "text": "a vagina that leads to another dimension"
+      },
+      {
+        "text": "chugging a lava lamp"
+      },
+      {
+        "text": "not having sex"
+      },
+      {
+        "text": "the way white people is"
+      },
+      {
+        "text": "the systematic destruction of an entire people and their way of life"
+      },
+      {
+        "text": "blowing some dudes in an alley"
+      },
+      {
+        "text": "sneezing, farting, and coming at the same time"
+      },
+      {
+        "text": "vietnam flashbacks"
+      },
+      {
+        "text": "the primal, ball-slapping sex your parents are having right now"
+      },
+      {
+        "text": "the thin veneer of situational causality that underlies porn"
+      },
+      {
+        "text": "an ass disaster"
+      },
+      {
+        "text": "some kind of bird-man"
+      },
+      {
+        "text": "the Quesadilla Explosion Salad™ from Chili's©"
+      },
+      {
+        "text": "not contributing to society in any meaningful way"
+      },
+      {
+        "text": "Mufasa's death scene"
+      },
+      {
+        "text": "that ass"
+      },
+      {
+        "text": "spending lots of money"
+      },
+      {
+        "text": "unlimited soup, salad, and breadsticks"
+      },
+      {
+        "text": "the entire Internet"
+      },
+      {
+        "text": "fisting"
+      },
+      {
+        "text": "dying alone and in pain"
+      },
+      {
+        "text": "a greased-up Matthew McConaughey"
+      },
+      {
+        "text": "having shotguns for legs"
+      },
+      {
+        "text": "letting everyone down"
+      },
+      {
+        "text": "Bill Clinton, naked on a bearskin rug with a saxophone"
+      },
+      {
+        "text": "slapping a racist old lady"
+      },
+      {
+        "text": "Roland the Farter, flatulist to the king"
+      },
+      {
+        "text": "crying into the pages of Sylvia Plath"
+      },
+      {
+        "text": "the moist, demanding chasm of his mouth"
+      },
+      {
+        "text": "a boo-boo"
+      },
+      {
+        "text": "disco fever"
+      },
+      {
+        "text": "a black male in his early 20s, last seen wearing a hoodie"
+      },
+      {
+        "text": "nothing"
+      },
+      {
+        "text": "velcro™"
+      },
+      {
+        "text": "a PowerPoint presentation"
+      },
+      {
+        "text": "eating Tom Selleck's mustache to gain his powers"
+      },
+      {
+        "text": "self-flagellation"
+      },
+      {
+        "text": "a cop who is also a dog"
+      },
+      {
+        "text": "Samuel L. Jackson"
+      },
+      {
+        "text": "the Harlem Globetrotters"
+      },
+      {
+        "text": "screaming like a maniac"
+      },
+      {
+        "text": "a cat video so cute that your eyes roll back and your spine slides out of your anus"
+      },
+      {
+        "text": "my manservant, Claude"
+      },
+      {
+        "text": "reverse cowgirl"
+      },
+      {
+        "text": "buying the right pants to be cool"
+      },
+      {
+        "text": "an all-midget production of Shakespeare's \"Richard III\""
+      },
+      {
+        "text": "all my friends dying"
+      },
+      {
+        "text": "jumping out at people"
+      },
+      {
+        "text": "cock"
+      },
+      {
+        "text": "actually getting shot, for real"
+      },
+      {
+        "text": "flying robots that kill people"
+      },
+      {
+        "text": "running naked through a mall, pissing and shitting everywhere"
+      },
+      {
+        "text": "going around punching people"
+      },
+      {
+        "text": "the Land of Chocolate"
+      },
+      {
+        "text": "warm, velvety muppet sex"
+      },
+      {
+        "text": "gay aliens"
+      },
+      {
+        "text": "vomiting mid-blowjob"
+      },
+      {
+        "text": "an unstoppable wave of fire ants"
+      },
+      {
+        "text": "shutting the fuck up"
+      },
+      {
+        "text": "drinking ten 5-hour ENERGYs® to get fifty continuous hours of energy"
+      },
+      {
+        "text": "blood farts"
+      },
+      {
+        "text": "three months in the hole"
+      },
+      {
+        "text": "some douche with an acoustic guitar"
+      },
+      {
+        "text": "girls that always be textin'"
+      },
+      {
+        "text": "a spontaneous conga line"
+      },
+      {
+        "text": "having sex on top of a pizza"
+      },
+      {
+        "text": "a surprising amount of hair"
+      }
+    ]
+  }
+}

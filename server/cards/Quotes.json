@@ -1,0 +1,177 @@
+{
+  "info": {
+    "name": "Famous Quotes",
+    "code": "1NF9N",
+    "description": "The quotes everyone knows and loves...or hates",
+    "rating": "5.0"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "You're gonna need a bigger _.",
+        "answers": 1
+      },
+      {
+        "text": "I've got a feeling we're not in _ anymore.",
+        "answers": 1
+      },
+      {
+        "text": "One does not simply _ into _.",
+        "answers": 2
+      },
+      {
+        "text": "A boy's best friend is his _.",
+        "answers": 1
+      },
+      {
+        "text": "No reward is worth _.",
+        "answers": 1
+      },
+      {
+        "text": "_ is your only weakness.",
+        "answers": 1
+      },
+      {
+        "text": "Even the smallest _ can change the course of the future.",
+        "answers": 1
+      },
+      {
+        "text": "Get your stinking _ off me, you damn dirty _ .",
+        "answers": 2
+      },
+      {
+        "text": "A Jedi craves not _.",
+        "answers": 1
+      },
+      {
+        "text": "IT'S A _ !",
+        "answers": 1
+      },
+      {
+        "text": "Never tell me the _!",
+        "answers": 1
+      },
+      {
+        "text": "I find your lack of _ disturbing.",
+        "answers": 1
+      },
+      {
+        "text": "Do not underestimate the power of the Dark _ .",
+        "answers": 1
+      },
+      {
+        "text": "I see dead _.",
+        "answers": 1
+      },
+      {
+        "text": "There's no _ like _.",
+        "answers": 2
+      },
+      {
+        "text": "Would someone get this big walking _ out of my _?",
+        "answers": 2
+      },
+      {
+        "text": "Now, witness the power of this fully operational _.",
+        "answers": 1
+      },
+      {
+        "text": "You'll find I'm full of _ !",
+        "answers": 1
+      },
+      {
+        "text": "Give me _ , or give me _!",
+        "answers": 2
+      },
+      {
+        "text": "I am Gandalf the _.",
+        "answers": 1
+      },
+      {
+        "text": "You had me at '_'.",
+        "answers": 1
+      },
+      {
+        "text": "Keep your _ close, but your _ closer.",
+        "answers": 2
+      },
+      {
+        "text": "You will never find a more wretched hive of _ and _.",
+        "answers": 2
+      },
+      {
+        "text": "_ , my dear Watson.",
+        "answers": 1
+      },
+      {
+        "text": "We would be honored if you _.",
+        "answers": 1
+      },
+      {
+        "text": "No reward is worth _ !",
+        "answers": 1
+      },
+      {
+        "text": "I have always depended on the _ of strangers.",
+        "answers": 1
+      },
+      {
+        "text": "I am a _ , as my father was before me.",
+        "answers": 1
+      },
+      {
+        "text": "Give me _, or give me _!",
+        "answers": 2
+      },
+      {
+        "text": "He is as _ as he is _.",
+        "answers": 2
+      },
+      {
+        "text": "Sorry about the _.",
+        "answers": 1
+      },
+      {
+        "text": "I am serious.... and don't call me _ .",
+        "answers": 1
+      },
+      {
+        "text": "If you're saying that _ was a _ , I'm starting to agree with you.",
+        "answers": 2
+      },
+      {
+        "text": "I give myself very good _but I very seldom _ it.",
+        "answers": 2
+      },
+      {
+        "text": "I used to be a _ like you. Then I took a _ to the _ .",
+        "answers": 3
+      },
+      {
+        "text": "Houston, we have a _.",
+        "answers": 1
+      },
+      {
+        "text": "Don't lets ask for the _. We have the _.",
+        "answers": 2
+      },
+      {
+        "text": "THIS. IS. _!!!!!",
+        "answers": 1
+      },
+      {
+        "text": "May the _ be with you.",
+        "answers": 1
+      },
+      {
+        "text": "We seem to be made to _ . It's our lot in life.",
+        "answers": 1
+      },
+      {
+        "text": "Obey me _ , obey me _ !",
+        "answers": 2
+      }
+    ],
+    "responses": []
+  }
+}

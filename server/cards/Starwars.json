@@ -1,0 +1,323 @@
+{
+  "info": {
+    "name": "Star Wars Original Trilogy",
+    "code": "B7GN6",
+    "description": "Do or do not, there is no try.",
+    "rating": "4.0"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "I love you.  _.",
+        "answers": 1
+      },
+      {
+        "text": "Why you stuck up, half witted, scruffy looking _.",
+        "answers": 1
+      },
+      {
+        "text": "_ always put Darth Vader in the mood.",
+        "answers": 1
+      },
+      {
+        "text": "For over a thousand generations, the Jedi Knights were the guardians of _ and _ in the Old Republic.",
+        "answers": 2
+      },
+      {
+        "text": "That's no moon, that's  _.",
+        "answers": 1
+      },
+      {
+        "text": "Who’s the more foolish; the fool, or the _.",
+        "answers": 1
+      },
+      {
+        "text": "This is not the _ you're looking for.",
+        "answers": 1
+      },
+      {
+        "text": "_. That's why Han was frozen in carbonite.",
+        "answers": 1
+      },
+      {
+        "text": "I find your lack of _ disturbing.",
+        "answers": 1
+      },
+      {
+        "text": "No, I am your _.",
+        "answers": 1
+      },
+      {
+        "text": "Luke's twin sister is actually _.",
+        "answers": 1
+      },
+      {
+        "text": "Aren't you a little short for _ ?",
+        "answers": 1
+      },
+      {
+        "text": "Mos Eisley Spaceport. You will never find a more wretched hive of _ and _.",
+        "answers": 2
+      },
+      {
+        "text": "You have failed me for the last time, _.",
+        "answers": 1
+      },
+      {
+        "text": "Many Imperials died due to _.",
+        "answers": 1
+      },
+      {
+        "text": "Look sir, _!",
+        "answers": 1
+      },
+      {
+        "text": "Do or do not, there is no _.",
+        "answers": 1
+      },
+      {
+        "text": "May _ be with you.",
+        "answers": 1
+      },
+      {
+        "text": "Great kid! Don't get _!",
+        "answers": 1
+      },
+      {
+        "text": "You are part of the Rebel Alliance and  _ ! Take her away!",
+        "answers": 1
+      },
+      {
+        "text": "This R2 unit has a bad _!",
+        "answers": 1
+      },
+      {
+        "text": "What went through Luke Skywalker's mind when Leia kissed him? _.",
+        "answers": 1
+      },
+      {
+        "text": "Help me, _. You're my only hope.",
+        "answers": 1
+      },
+      {
+        "text": "I recognized your _ when I was brought onboard.",
+        "answers": 1
+      },
+      {
+        "text": "_ shot first.",
+        "answers": 1
+      },
+      {
+        "text": "_. I've got a bad feeling about this.",
+        "answers": 1
+      },
+      {
+        "text": "This is _ , standing by.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "The sexual tension between Luke and Leia."
+      },
+      {
+        "text": "Cloud City."
+      },
+      {
+        "text": "Making the Kessel Run in less than 12 parsecs."
+      },
+      {
+        "text": "A swarm of Jawas."
+      },
+      {
+        "text": "The Empire striking back."
+      },
+      {
+        "text": "Yoda."
+      },
+      {
+        "text": "The smell of a wet Wookiee."
+      },
+      {
+        "text": "Droids!"
+      },
+      {
+        "text": "Frozen in carbonite."
+      },
+      {
+        "text": "Grand Moff Tarkin's cheek bones."
+      },
+      {
+        "text": "Bowels of the Sarlacc Pit."
+      },
+      {
+        "text": "Faith in The Force."
+      },
+      {
+        "text": "Darth Vader's burnt testicles."
+      },
+      {
+        "text": "A lightsaber."
+      },
+      {
+        "text": "A bad motivator."
+      },
+      {
+        "text": "A feisty little one!"
+      },
+      {
+        "text": "IT'S A TRAP!"
+      },
+      {
+        "text": "C3PO's detached leg."
+      },
+      {
+        "text": "Luke Skywalker's severed hand."
+      },
+      {
+        "text": "Leia's metal bikini."
+      },
+      {
+        "text": "Princess Leia's dildo."
+      },
+      {
+        "text": "Mos Eisley Cantina."
+      },
+      {
+        "text": "Letting the Wookiee win."
+      },
+      {
+        "text": "Being as bored as Ben Kenobi on Tattooine."
+      },
+      {
+        "text": "The Millennium Falcon."
+      },
+      {
+        "text": "Constantly re-editing the Original Trilogy."
+      },
+      {
+        "text": "Massive Wampa cock."
+      },
+      {
+        "text": "A three-way with R2-D2, and C3PO."
+      },
+      {
+        "text": "Crying like the Rancor keeper."
+      },
+      {
+        "text": "Jabba the Hutt's choking fetish."
+      },
+      {
+        "text": "Luke Skywalker."
+      },
+      {
+        "text": "The simple life of a moisture farmer."
+      },
+      {
+        "text": "Actually showing C3PO respect."
+      },
+      {
+        "text": "Using The Force to masturbate."
+      },
+      {
+        "text": "Jedi Knight."
+      },
+      {
+        "text": "Lando Calrissian's power of seduction."
+      },
+      {
+        "text": "Darth Vader, wearing nothing but his helmet."
+      },
+      {
+        "text": "Death Star."
+      },
+      {
+        "text": "Ewoks on a killing spree."
+      },
+      {
+        "text": "A pet AT-AT."
+      },
+      {
+        "text": "A galaxy far, far away."
+      },
+      {
+        "text": "The tallest Ewok."
+      },
+      {
+        "text": "Starting up the Falcon by punching it."
+      },
+      {
+        "text": "Shaving Chewbacca."
+      },
+      {
+        "text": "X-Wings."
+      },
+      {
+        "text": "Sexy Hutt."
+      },
+      {
+        "text": "An Ewok orgy."
+      },
+      {
+        "text": "Nerf-herder."
+      },
+      {
+        "text": "The force."
+      },
+      {
+        "text": "The Emperor getting a tan."
+      },
+      {
+        "text": "A stormtrooper with decent aim."
+      },
+      {
+        "text": "Walking carpet."
+      },
+      {
+        "text": "(Darth Vader breathing)"
+      },
+      {
+        "text": "Stormtroopers."
+      },
+      {
+        "text": "Ben Kenobi's accent."
+      },
+      {
+        "text": "TIE Fighters."
+      },
+      {
+        "text": "Aunt Beru."
+      },
+      {
+        "text": "The Card Czar turning to the dark side."
+      },
+      {
+        "text": "The shitty Star Wars prequels."
+      },
+      {
+        "text": "Boba Fett."
+      },
+      {
+        "text": "Black stormtrooper."
+      },
+      {
+        "text": "Skywalker incest."
+      },
+      {
+        "text": "Bathing Jabba the Hutt."
+      },
+      {
+        "text": "The lightsaber's vibration setting."
+      },
+      {
+        "text": "Tattooine."
+      },
+      {
+        "text": "Chewbacca."
+      },
+      {
+        "text": "The dark side."
+      }
+    ]
+  }
+}

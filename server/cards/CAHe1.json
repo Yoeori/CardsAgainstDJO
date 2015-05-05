@@ -1,0 +1,334 @@
+{
+  "info": {
+    "name": "Expansion 1 - CAH",
+    "code": "CAHE1",
+    "description": "This is the first expansion pack for Cards Against Humanity.\n\nCards Against Humanity is a Trademark of Cards Against Humanity, LLC. Cards Against Humanity is distributed under a Creative Commons BY-NC-SA 2.0 license.",
+    "rating": "3.2"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "What brought the orgy to a grinding halt? _.",
+        "answers": 1
+      },
+      {
+        "text": "Dear Sir or Madam, We regret to inform you that the Office of _ has denied your request for _.",
+        "answers": 2
+      },
+      {
+        "text": "What has been making life difficult at the nudist colony? _.",
+        "answers": 1
+      },
+      {
+        "text": "The CIA now interrogates enemy agents by repeatedly subjecting them to _.",
+        "answers": 1
+      },
+      {
+        "text": "When all else fails, I can always masturbate to _.",
+        "answers": 1
+      },
+      {
+        "text": "An international tribunal has found _ guilty of _.",
+        "answers": 2
+      },
+      {
+        "text": "My plan for world domination begins with _.",
+        "answers": 1
+      },
+      {
+        "text": "The socialist governments of Scandinavia have declared that access to _ is a basic human right.",
+        "answers": 1
+      },
+      {
+        "text": "In the distant future, historians will agree that _ marked the beginning of America's decline.",
+        "answers": 1
+      },
+      {
+        "text": "In its new tourism campaign, Detroit proudly proclaims that it has finally eliminated _.",
+        "answers": 1
+      },
+      {
+        "text": "When I pooped, what came out of my butt? _.",
+        "answers": 1
+      },
+      {
+        "text": "Science will never explain _.",
+        "answers": 1
+      },
+      {
+        "text": "In his new self-produced album, Kanye West raps over the sounds of _.",
+        "answers": 1
+      },
+      {
+        "text": "And I would have gotten away with it, too, if it hadn't been for _.",
+        "answers": 1
+      },
+      {
+        "text": "In Rome, there are whisperings that the Vatican has a secret room devoted to _.",
+        "answers": 1
+      },
+      {
+        "text": "I learned the hard way that you can't cheer up a grieving friend with _.",
+        "answers": 1
+      },
+      {
+        "text": "In a pinch, _ can be a suitable substitute for _.",
+        "answers": 2
+      },
+      {
+        "text": "What's the gift that keeps on giving? _.",
+        "answers": 1
+      },
+      {
+        "text": "Michael Bay's new three-hour action epic pits _ against _.",
+        "answers": 2
+      },
+      {
+        "text": "Next season on Man vs. Wild, Bear Grylls must survive in the depths of the Amazon with only _ and his wits.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "Ryan Gosling riding in on a white horse"
+      },
+      {
+        "text": "moral ambiguity"
+      },
+      {
+        "text": "nubile slave boys"
+      },
+      {
+        "text": "statistically validated stereotypes"
+      },
+      {
+        "text": "Stockholm Syndrome"
+      },
+      {
+        "text": "a low standard of living"
+      },
+      {
+        "text": "making the penises kiss"
+      },
+      {
+        "text": "a nuanced critique"
+      },
+      {
+        "text": "tripping balls"
+      },
+      {
+        "text": "genetically engineered super-soldiers"
+      },
+      {
+        "text": "leveling up"
+      },
+      {
+        "text": "apologizing"
+      },
+      {
+        "text": "sudden Poop Explosion Disease"
+      },
+      {
+        "text": "a woman scorned"
+      },
+      {
+        "text": "sexual humiliation"
+      },
+      {
+        "text": "quivering jowls"
+      },
+      {
+        "text": "clams"
+      },
+      {
+        "text": "Jafar"
+      },
+      {
+        "text": "scrotum tickling"
+      },
+      {
+        "text": "the ooze"
+      },
+      {
+        "text": "Shaft"
+      },
+      {
+        "text": "finding a skeleton"
+      },
+      {
+        "text": "quiche"
+      },
+      {
+        "text": "suicidal thoughts"
+      },
+      {
+        "text": "revenge fucking"
+      },
+      {
+        "text": "fabricating statistics"
+      },
+      {
+        "text": "a crappy little hand"
+      },
+      {
+        "text": "historical revisionism"
+      },
+      {
+        "text": "carnies"
+      },
+      {
+        "text": "the hiccups"
+      },
+      {
+        "text": "24-hour media coverage"
+      },
+      {
+        "text": "hipsters"
+      },
+      {
+        "text": "the harsh light of day"
+      },
+      {
+        "text": "clenched butt cheeks"
+      },
+      {
+        "text": "George Clooney's musk"
+      },
+      {
+        "text": "Dorito breath"
+      },
+      {
+        "text": "a rival dojo"
+      },
+      {
+        "text": "gladiatorial combat"
+      },
+      {
+        "text": "panty raids"
+      },
+      {
+        "text": "the economy"
+      },
+      {
+        "text": "insatiable bloodlust"
+      },
+      {
+        "text": "being a dinosaur"
+      },
+      {
+        "text": "the four arms of Vishnu"
+      },
+      {
+        "text": "beating your wives"
+      },
+      {
+        "text": "getting in her pants, politely"
+      },
+      {
+        "text": "sexy Siamese twins"
+      },
+      {
+        "text": "space muffins"
+      },
+      {
+        "text": "deflowering the princess"
+      },
+      {
+        "text": "Zeus's sexual appetites"
+      },
+      {
+        "text": "Jean-Claude Van Damme"
+      },
+      {
+        "text": "Syphilitic insanity"
+      },
+      {
+        "text": "getting abducted by Peter Pan"
+      },
+      {
+        "text": "literally eating shit"
+      },
+      {
+        "text": "a passionate Latino lover"
+      },
+      {
+        "text": "mad hacky-sack skills"
+      },
+      {
+        "text": "ripping into a man's chest and pulling out his still-beating heart"
+      },
+      {
+        "text": "my machete"
+      },
+      {
+        "text": "the boners of the elderly"
+      },
+      {
+        "text": "saliva"
+      },
+      {
+        "text": "enormous Scandinavian women"
+      },
+      {
+        "text": "a beached whale"
+      },
+      {
+        "text": "coughing into a vagina"
+      },
+      {
+        "text": "a web of lies"
+      },
+      {
+        "text": "Gandalf"
+      },
+      {
+        "text": "a bloody pacifier"
+      },
+      {
+        "text": "Santa Claus"
+      },
+      {
+        "text": "Bosnian chicken farmers"
+      },
+      {
+        "text": "words, words, words"
+      },
+      {
+        "text": "one thousand Slim Jims"
+      },
+      {
+        "text": "being a busy adult with many important things to do"
+      },
+      {
+        "text": "Medieval Times© Dinner & Tournament"
+      },
+      {
+        "text": "the shambling corpse of Larry King"
+      },
+      {
+        "text": "just the tip"
+      },
+      {
+        "text": "ominous background music"
+      },
+      {
+        "text": "overpowering your father"
+      },
+      {
+        "text": "a big black dick"
+      },
+      {
+        "text": "a plunger to the face"
+      },
+      {
+        "text": "eating an albino"
+      },
+      {
+        "text": "the Gulags"
+      },
+      {
+        "text": "Neil Patrick Harris"
+      }
+    ]
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "info": {
+    "name": "Not Safe For Humanity (Revised)",
+    "code": "6Y9HP",
+    "description": "My very first generic deck, made with members of the Ars Against Humanity G+ group. Revised edition, now with 20 less cards and all spelling/grammar errors fixed (no more 'shreads' of dignity).\n\nUpdate 2015-03-22: Removed the white card 'Teaching the bitch a lesson'. Nothing of value was lost.",
+    "rating": "0.0"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "I got fired because of my not-so-secret obsession over _.",
+        "answers": 1
+      },
+      {
+        "text": "My three wishes will be for _, _, and _.",
+        "answers": 3
+      },
+      {
+        "text": "My father gave his life fighting to protect _ from _.",
+        "answers": 2
+      },
+      {
+        "text": "When I was 10 I wrote to Santa wishing for _.",
+        "answers": 1
+      },
+      {
+        "text": "My zombie survival kit includes food, water, and _.",
+        "answers": 1
+      },
+      {
+        "text": "The way to a man's heart is through _.",
+        "answers": 1
+      },
+      {
+        "text": "David Icke's newest conspiracy theory states that _ caused _.",
+        "answers": 2
+      },
+      {
+        "text": "_, never leave home without it.",
+        "answers": 1
+      },
+      {
+        "text": "What was the theme of my second wedding? ",
+        "answers": 1
+      },
+      {
+        "text": "Instead of chess, the Grim Reaper now gambles for your soul with a game of _.",
+        "answers": 1
+      },
+      {
+        "text": "_. This is my fetish.",
+        "answers": 1
+      },
+      {
+        "text": "I can only express myself through _.",
+        "answers": 1
+      },
+      {
+        "text": "In The Hangover part 3, those four guys have to deal with _, _, and _.",
+        "answers": 3
+      },
+      {
+        "text": "The Mayan prophecies really heralded the coming of _ in 2012.",
+        "answers": 1
+      },
+      {
+        "text": "I’m very sorry Mrs. Smith, but Little Billy has tested positive for _.",
+        "answers": 1
+      },
+      {
+        "text": "Instead of cutting, trendy young emo girls now engage in _.",
+        "answers": 1
+      },
+      {
+        "text": "Why is my throat sore? ",
+        "answers": 1
+      },
+      {
+        "text": "In college, our lecturer made us write a report comparing _ to _.",
+        "answers": 2
+      },
+      {
+        "text": "Between love and madness lies _.",
+        "answers": 1
+      },
+      {
+        "text": "I need your clothes, your boots, and _.",
+        "answers": 1
+      },
+      {
+        "text": "My new favourite sexual position is The _.",
+        "answers": 1
+      },
+      {
+        "text": "The definition of rock bottom is gambling away _.",
+        "answers": 1
+      },
+      {
+        "text": "_ sparked a city-wide riot that only ended with _.",
+        "answers": 2
+      },
+      {
+        "text": "The next US election will be fought on the key issues of _ against _.",
+        "answers": 2
+      },
+      {
+        "text": "In a new Cold War retro movie, the red menace tries to conquer the world through the cunning use of _.",
+        "answers": 1
+      },
+      {
+        "text": "The latest horrifying school shooting was inspired by _.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "a guy and two robots who won’t shut up"
+      },
+      {
+        "text": "my robot duplicate"
+      },
+      {
+        "text": "redneck gypsies"
+      },
+      {
+        "text": "Frankenstein's Monster"
+      },
+      {
+        "text": "the bullet with your name on it"
+      },
+      {
+        "text": "liposuction gone horrible wrong"
+      },
+      {
+        "text": "stealing your sister's underwear"
+      },
+      {
+        "text": "the oceans rising to reclaim the land"
+      },
+      {
+        "text": "being chained to the bed and whipped to orgasmic bliss by a leather-clad woman"
+      },
+      {
+        "text": "being tarred and feathered"
+      },
+      {
+        "text": "low-flying planes"
+      },
+      {
+        "text": "upskirts"
+      },
+      {
+        "text": "the last shreds of dignity"
+      },
+      {
+        "text": "a cocained-fuelled sex orgy heart attack"
+      },
+      {
+        "text": "jailbait ass"
+      },
+      {
+        "text": "other people’s children"
+      },
+      {
+        "text": "being so wet it just slides out of you"
+      },
+      {
+        "text": "a short walk in the desert with shovels"
+      },
+      {
+        "text": "endlessly tumbling down an up escalator"
+      },
+      {
+        "text": "slow seductive tentacle rape"
+      },
+      {
+        "text": "autoerotic asphyxiation"
+      },
+      {
+        "text": "greeting Christmas carollers naked"
+      },
+      {
+        "text": "forgetting the safety word"
+      },
+      {
+        "text": "Anne Frank's diary"
+      },
+      {
+        "text": "playing God with the power of lightning"
+      },
+      {
+        "text": "george Washington riding on a giant eagle"
+      },
+      {
+        "text": "pancake bitches"
+      },
+      {
+        "text": "scissoring"
+      },
+      {
+        "text": "a great big floppy donkey dick"
+      },
+      {
+        "text": "Ecco the Dolphin"
+      },
+      {
+        "text": "having a drill for a penis"
+      },
+      {
+        "text": "biting your girlfriend like a vampire during sex"
+      },
+      {
+        "text": "fun with nuns"
+      },
+      {
+        "text": "Ilsa, she-wolf of the SS"
+      },
+      {
+        "text": "racing cheese wheels downhill"
+      },
+      {
+        "text": "making a human centipede"
+      },
+      {
+        "text": "stroking a cat the wrong way"
+      },
+      {
+        "text": "winning"
+      },
+      {
+        "text": "Blow Up Bianca the Latex Lovedoll"
+      },
+      {
+        "text": "getting it all over the walls"
+      },
+      {
+        "text": "going viral on YouTube"
+      },
+      {
+        "text": "the power of friendship"
+      },
+      {
+        "text": "pulling down panties with your teeth"
+      },
+      {
+        "text": "handcuffs, without the key"
+      },
+      {
+        "text": "settling arguments with dance-offs"
+      },
+      {
+        "text": "nailgun fights"
+      },
+      {
+        "text": "a murder/suicide pact"
+      },
+      {
+        "text": "dungeons and/or dragons"
+      },
+      {
+        "text": "nazi super science"
+      },
+      {
+        "text": "all the boys staring at your chest"
+      },
+      {
+        "text": "my harem of scantily-clad women"
+      },
+      {
+        "text": "more than you can chew"
+      },
+      {
+        "text": "dropping your pants and saluting"
+      },
+      {
+        "text": "tenderly kissing a unicorn's horn"
+      },
+      {
+        "text": "playing tonsil-hockey"
+      },
+      {
+        "text": "sheer spite"
+      },
+      {
+        "text": "shedding skin like a snake"
+      },
+      {
+        "text": "an amorous stallion"
+      },
+      {
+        "text": "going full retard"
+      },
+      {
+        "text": "napalm"
+      },
+      {
+        "text": "Holiday Dinner by Jack Daniels"
+      },
+      {
+        "text": "going slob-slob-slob all over that knob"
+      },
+      {
+        "text": "making the baby Jesus cry"
+      },
+      {
+        "text": "a shotgun wedding"
+      },
+      {
+        "text": "sucking and blowing"
+      },
+      {
+        "text": "gushing"
+      },
+      {
+        "text": "getting abducted and probed by aliens"
+      },
+      {
+        "text": "a breath of fresh air"
+      },
+      {
+        "text": "riding the bomb"
+      },
+      {
+        "text": "a squirming mass of kittens"
+      },
+      {
+        "text": "leaking implants"
+      },
+      {
+        "text": "a school bus surrounded by cop cars"
+      },
+      {
+        "text": "getting a blowjob in a theater"
+      },
+      {
+        "text": "the entire rest of eternity, spent in fucking Bruges"
+      },
+      {
+        "text": "an angry mob with torches and pitchforks"
+      },
+      {
+        "text": "throwing water on a braless woman in a white t-shirt"
+      },
+      {
+        "text": "a tight Asian pussy"
+      },
+      {
+        "text": "a powerful gag reflex"
+      },
+      {
+        "text": "projectile vomiting"
+      },
+      {
+        "text": "wasting all your money on hookers and booze"
+      }
+    ]
+  }
+}

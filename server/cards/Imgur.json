@@ -1,0 +1,176 @@
+{
+  "info": {
+    "name": "Imgur",
+    "code": "2B5C4",
+    "description": "The official Imgur expansion, developed by the staff of http://imgur.com.",
+    "rating": "5.0"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "What's in the safe? _.",
+        "answers": 1
+      },
+      {
+        "text": "+1 for _.",
+        "answers": 1
+      },
+      {
+        "text": "_ for scale.",
+        "answers": 1
+      },
+      {
+        "text": "Wow. Such _. Very _.",
+        "answers": 2
+      },
+      {
+        "text": "What does it take to make the front page? _.",
+        "answers": 1
+      },
+      {
+        "text": "I always upvote _.",
+        "answers": 1
+      },
+      {
+        "text": "Not sure if _ or _.",
+        "answers": 2
+      },
+      {
+        "text": "Imgur, I need your help. My _ has _.",
+        "answers": 2
+      },
+      {
+        "text": "Press 0 twice for _.",
+        "answers": 1
+      },
+      {
+        "text": "What did I see in user-sub? _.",
+        "answers": 1
+      },
+      {
+        "text": "_. Better drink my own piss.",
+        "answers": 1
+      },
+      {
+        "text": "OP is _.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "waking up with a finger that smells like poop"
+      },
+      {
+        "text": "parenting done right"
+      },
+      {
+        "text": "Grumpy Cat"
+      },
+      {
+        "text": "Moon Moon"
+      },
+      {
+        "text": "a baby that look like it pay taxes"
+      },
+      {
+        "text": "TL;DR"
+      },
+      {
+        "text": "a Stay Classy Imgur confession"
+      },
+      {
+        "text": "bananas for scale"
+      },
+      {
+        "text": "skipping leg day"
+      },
+      {
+        "text": "a repost"
+      },
+      {
+        "text": "Overly Attached Girlfriend"
+      },
+      {
+        "text": "upvote whoring"
+      },
+      {
+        "text": "SQUIRREL!"
+      },
+      {
+        "text": "Game of Thrones spoilers"
+      },
+      {
+        "text": "OC"
+      },
+      {
+        "text": "'MURICA"
+      },
+      {
+        "text": "dat ass"
+      },
+      {
+        "text": "Ned Stark's severed head"
+      },
+      {
+        "text": "dad jokes"
+      },
+      {
+        "text": "Good Guy Greg"
+      },
+      {
+        "text": "the safe"
+      },
+      {
+        "text": "you're*"
+      },
+      {
+        "text": "a lap dance from Emma Watson"
+      },
+      {
+        "text": "another doge GIF"
+      },
+      {
+        "text": "getting top comment"
+      },
+      {
+        "text": "dick butt"
+      },
+      {
+        "text": "Edward Macaroni Fork"
+      },
+      {
+        "text": "an Imgur dating site"
+      },
+      {
+        "text": "bacon and whiskey"
+      },
+      {
+        "text": "Imgur"
+      },
+      {
+        "text": "screenshots from Tumblr"
+      },
+      {
+        "text": "making the front page"
+      },
+      {
+        "text": "blackjack and hookers"
+      },
+      {
+        "text": "Late Night Imgur"
+      },
+      {
+        "text": "a cat with a mustache"
+      },
+      {
+        "text": "restored faith in humanity"
+      },
+      {
+        "text": "eating your own sock"
+      },
+      {
+        "text": "Drake"
+      }
+    ]
+  }
+}

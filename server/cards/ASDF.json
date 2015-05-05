@@ -1,0 +1,444 @@
+{
+  "info": {
+    "name": "ASDF",
+    "code": "NTMVU",
+    "description": "All of your favourite ASDF movie quotes all in one place.",
+    "rating": "4.0"
+  },
+  "cards": {
+    "calls": [
+      {
+        "text": "When I grow up, I wanna go to the moon. _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey you wanna play catch the knife? Sure! _.",
+        "answers": 1
+      },
+      {
+        "text": "Yum: _.",
+        "answers": 1
+      },
+      {
+        "text": "Sir, you appear to have a very severe case of _.",
+        "answers": 1
+      },
+      {
+        "text": "What are you up to son? _.",
+        "answers": 1
+      },
+      {
+        "text": "Aw man, you ever gonna run out of muffins? _.",
+        "answers": 1
+      },
+      {
+        "text": "Joey did you eat my sandwich? _.",
+        "answers": 1
+      },
+      {
+        "text": "Aw man I'm so full. _.",
+        "answers": 1
+      },
+      {
+        "text": "Alien attack: _.",
+        "answers": 1
+      },
+      {
+        "text": "You're getting mugged kid. _.",
+        "answers": 1
+      },
+      {
+        "text": "Goodbye world. _.",
+        "answers": 1
+      },
+      {
+        "text": "Knock knock. Who's there? _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey what'd you get for your birthday? _.",
+        "answers": 1
+      },
+      {
+        "text": "Quick don't think about cats. _.",
+        "answers": 1
+      },
+      {
+        "text": "What are you drawing honey? _.",
+        "answers": 1
+      },
+      {
+        "text": "I like singing, I like dancing, _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey you got a licence for that? _.",
+        "answers": 1
+      },
+      {
+        "text": "It worked, my time machine worked. _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey man, aw what the hell was that? _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey man look at my new dog. _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey did you know that carrots are good for your eyesight? _.",
+        "answers": 1
+      },
+      {
+        "text": "Ma'am, I'm afraid I caught your son doing _.",
+        "answers": 1
+      },
+      {
+        "text": "Somebody help me I'm being robbed! _.",
+        "answers": 1
+      },
+      {
+        "text": "I can't wait to eat this bagel. _.",
+        "answers": 1
+      },
+      {
+        "text": "Hello parking meter. _.",
+        "answers": 1
+      },
+      {
+        "text": "Quack. _.",
+        "answers": 1
+      },
+      {
+        "text": "Desmond the moon bear: _. THE END",
+        "answers": 1
+      },
+      {
+        "text": "Hey kids, I brought you some cookies: _.",
+        "answers": 1
+      },
+      {
+        "text": "Warning, pointless button: _.",
+        "answers": 1
+      },
+      {
+        "text": "Hello mine turtle. _.",
+        "answers": 1
+      },
+      {
+        "text": "Doctor I think I might be a homosexual. How can you tell? _.",
+        "answers": 1
+      },
+      {
+        "text": "I'm going to punch your face: _.",
+        "answers": 1
+      },
+      {
+        "text": "I was being sarcastic: _.",
+        "answers": 1
+      },
+      {
+        "text": "Doctor I think I might be a homosexual. How can you tell? _.",
+        "answers": 1
+      },
+      {
+        "text": "Die Potato! _.",
+        "answers": 1
+      },
+      {
+        "text": "Mummy mummy look a turtle: _.",
+        "answers": 1
+      },
+      {
+        "text": "I'm gonna punch you in the face. _.",
+        "answers": 1
+      },
+      {
+        "text": "You've gotta help me man, _!",
+        "answers": 1
+      },
+      {
+        "text": "Hey it says gullible on the ceiling. _.",
+        "answers": 1
+      },
+      {
+        "text": "I baked you a pie! Oh boy, what flavour? _.",
+        "answers": 1
+      },
+      {
+        "text": "Look out, he's got _!",
+        "answers": 1
+      },
+      {
+        "text": "Hey son, catch. _.",
+        "answers": 1
+      },
+      {
+        "text": "Kitten fight! _.",
+        "answers": 1
+      },
+      {
+        "text": "Hello, hello, hello _.",
+        "answers": 1
+      },
+      {
+        "text": "Now son, don't touch that cactus. _.",
+        "answers": 1
+      },
+      {
+        "text": "You are a chair darling. _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey baby, are you an angel? _.",
+        "answers": 1
+      },
+      {
+        "text": "There's something on your face: _.",
+        "answers": 1
+      },
+      {
+        "text": "Is anybody here a doctor? I am! _.",
+        "answers": 1
+      },
+      {
+        "text": "Hello burger. _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey guys, check out my new camera: _.",
+        "answers": 1
+      },
+      {
+        "text": "Hello and welcome to standing up school. _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey, you know who's gay? _.",
+        "answers": 1
+      },
+      {
+        "text": "Honey why is the baby on fire? _.",
+        "answers": 1
+      },
+      {
+        "text": "Don't jump, you have so much to live for. _.",
+        "answers": 1
+      },
+      {
+        "text": "Here hold this: _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey kid, you can't skate here. _.",
+        "answers": 1
+      },
+      {
+        "text": "They said I could never teach a Llama to drive! _.",
+        "answers": 1
+      },
+      {
+        "text": "Hey Joey, do you wanna eat me? _.",
+        "answers": 1
+      },
+      {
+        "text": "I'm gonna do an internet! _.",
+        "answers": 1
+      },
+      {
+        "text": "The science show: _.",
+        "answers": 1
+      }
+    ],
+    "responses": [
+      {
+        "text": "Well I stole your face."
+      },
+      {
+        "text": "No Llama, no!"
+      },
+      {
+        "text": "Well you're a nerd!"
+      },
+      {
+        "text": "I am a stegosaurus"
+      },
+      {
+        "text": "Why wait!"
+      },
+      {
+        "text": "my tie is evil and it's gonna kill me"
+      },
+      {
+        "text": "No, because I work a the muffin factory."
+      },
+      {
+        "text": "IT WAS PAIN!"
+      },
+      {
+        "text": "baby voice"
+      },
+      {
+        "text": "Aw that's really coo... Wait there's no dog here."
+      },
+      {
+        "text": "I like trains"
+      },
+      {
+        "text": "You"
+      },
+      {
+        "text": "No, you're getting mugged."
+      },
+      {
+        "text": "You lied to me."
+      },
+      {
+        "text": "Homework"
+      },
+      {
+        "text": "I am your sandwich."
+      },
+      {
+        "text": "How did I get here?"
+      },
+      {
+        "text": "I got older."
+      },
+      {
+        "text": "and you fail"
+      },
+      {
+        "text": "AAAAHH Why would you do this!"
+      },
+      {
+        "text": "No wait, I'm allergic to adorableness."
+      },
+      {
+        "text": "In the face."
+      },
+      {
+        "text": "Pie flavour"
+      },
+      {
+        "text": "Thanks"
+      },
+      {
+        "text": "I like trains."
+      },
+      {
+        "text": "Man I suck at this game."
+      },
+      {
+        "text": "Okay Jim I'll see you aroun... OH NO OH GOD THAT'S NOT WHAT I THOUGHT HE MEANT BY THAT AT ALL"
+      },
+      {
+        "text": "Meow"
+      },
+      {
+        "text": "PIANOS!"
+      },
+      {
+        "text": "Not today!"
+      },
+      {
+        "text": "hello"
+      },
+      {
+        "text": "Because I am allergic to feathers."
+      },
+      {
+        "text": "I used to be a cow."
+      },
+      {
+        "text": "I'm drawing a bear."
+      },
+      {
+        "text": "splat"
+      },
+      {
+        "text": "Hello"
+      },
+      {
+        "text": "buy me more jewellery"
+      },
+      {
+        "text": "No thanks Mr. Muffin"
+      },
+      {
+        "text": "hello"
+      },
+      {
+        "text": "The door"
+      },
+      {
+        "text": "You're dead to me."
+      },
+      {
+        "text": "Level up!"
+      },
+      {
+        "text": "I'll save you... Tree powers activate."
+      },
+      {
+        "text": "Hello"
+      },
+      {
+        "text": "I like trains."
+      },
+      {
+        "text": "Hmmm"
+      },
+      {
+        "text": "I'm gonna do a book"
+      },
+      {
+        "text": "Wait this isn't my camera."
+      },
+      {
+        "text": "Throw the cheese"
+      },
+      {
+        "text": "nooooooooooooooooo"
+      },
+      {
+        "text": "I CAN DREAM HAROLD"
+      },
+      {
+        "text": "Why won't you let me die"
+      },
+      {
+        "text": "RAINBOWS!"
+      },
+      {
+        "text": "a nose"
+      },
+      {
+        "text": "EVERYBODY DO THE FLOP"
+      },
+      {
+        "text": "I was just about to say that."
+      },
+      {
+        "text": "I like trains"
+      },
+      {
+        "text": "You can't tell me what to do!"
+      },
+      {
+        "text": "Yes you can."
+      },
+      {
+        "text": "You'll never take me alive."
+      },
+      {
+        "text": "Aw you stole my lungs."
+      },
+      {
+        "text": "But it's opposite day."
+      }
+    ]
+  }
+}
