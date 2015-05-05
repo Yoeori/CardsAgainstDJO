@@ -8,7 +8,7 @@ var App = {
 
 
   initialize: function() {
-    this.socket = io("192.168.2.16:3000");
+    this.socket = io();
 
     this.user = Object.create(UserModel);
     this.user.initialize(this, this.socket);
