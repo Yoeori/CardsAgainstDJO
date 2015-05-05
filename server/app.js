@@ -18,8 +18,21 @@ module.exports = App = {
 
     this.io.on('connection', function(socket) {
       self.userConnect(socket);
+
+      socket.on("login_with_token", function(data) {
+        self.loginWithToken(this.users[socket.id], data["id"], data["token"]);
+      });
     });
 
+  },
+
+  loginWithToken: function(user, id, token) {
+    if(this.users[id].getToken() == token) {
+      this.users[id].setSocket(user.getSocket());
+      user = this.users[id];
+      delete this.users[id];
+      user.sendUserData();
+    }
   },
 
   getCardManager: function() {
@@ -32,7 +45,7 @@ module.exports = App = {
   },
 
   userDisconnect: function(socket) {
-    delete this.users[socket.id];
+    //TODO delete after 10 minutes?
   },
 
   hasUserWithUsername: function(username) {

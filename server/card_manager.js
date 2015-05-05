@@ -1,6 +1,7 @@
 var Card = require("./models/card");
 var Deck = require("./models/deck");
 var fs = require("fs");
+var packDownloader = require("./packDownloader");
 
 module.exports = CardManager = {
 
@@ -31,7 +32,28 @@ module.exports = CardManager = {
       return decks[id];
     }
     return {error: true, message: "deck not found"};
-  }
+  },
+
+  doesDeckExist: function(id) {
+    return typeof decks[id] != "undefined";
+  },
+
+  downloadDeck: function(id, callback) {
+    if(!this.doesDeckExist(id)) {
+      packDownloader(id, function(plain_deck, error) {
+        if(error == false) {
+          new_deck = Object.create(Deck);
+          new_deck.load(plain_deck);
+          this.decks[new_deck.id] = new_deck;
+          callback(new_deck, false);
+        } else {
+          callback(null, error);
+        }
+      });
+    } else {
+      callback(this.getDeck(id), false);
+    }
+  },
 
 
 }

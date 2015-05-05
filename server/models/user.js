@@ -3,12 +3,14 @@ module.exports = User = {
   app: undefined,
   socket: undefined,
   name: undefined,
+  token: undefined,
 
   initialize: function(app, socket) {
     var self = this;
 
     this.app = app;
-    this.socket = socket;
+    this.setSocket(socket);
+    this.token = this._generateToken();
 
     socket.on('disconnect', function() {
       self.onDisconnect();
@@ -45,6 +47,10 @@ module.exports = User = {
     return this.socket;
   },
 
+  setSocket: function(socket) {
+    this.socket = socket;
+  },
+
   getApp: function() {
     return this.app;
   },
@@ -62,7 +68,21 @@ module.exports = User = {
   _getUserData: function() {
     return {
       username: this.getUsername(),
+      id: this.id,
+      token: this.getToken()
     }
+  },
+
+  getToken: function() {
+    return this.token;
+  },
+
+  _generateToken: function() {
+    function s4() {
+      return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1);
+    }
+
+    return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
   }
 
 }

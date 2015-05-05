@@ -12,7 +12,7 @@ module.exports = Deck = {
   load: function(deck) {
     this.blackCards = [];
     this.whiteCards = [];
-    
+
     this.setId(deck["info"]["code"]);
     this.setName(deck["info"]["name"]);
     this.setDescription(deck["info"]["description"]);
@@ -42,6 +42,18 @@ module.exports = Deck = {
 
   setDescription: function(description) {
     this.description = description;
+  },
+
+  getBlackCards: function() {
+    return this.blackCards;
+  },
+
+  getWhiteCards: function() {
+    return this.whiteCards;
+  },
+
+  getRating: function() {
+    return this.rating;
   }
 
 };
