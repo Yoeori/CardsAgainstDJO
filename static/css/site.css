@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,800,400italic,400);
+
+html, body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.divider {
+  width: 100%;
+  height: 5px;
+  background: #999;
+}
+
+.username-field {
+  margin-top: 200px;
+}
+.username-control {
+  width: 100%;
+}
+@media(max-width: 768px) {
+  .username-field {
+    margin-top: 20px;
+  }
+}

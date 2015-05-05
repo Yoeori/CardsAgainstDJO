@@ -1,0 +1,14 @@
+{
+  "name": "CAHOnline",
+  "version": "0.1.0",
+  "description": "Uhm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jelmerro & Yoeori",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}

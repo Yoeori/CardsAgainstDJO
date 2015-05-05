@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cards Against DJO</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/site.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="page_username" class="hidden">
+      <div class="container">
+        <div class="row username-field">
+          <div class="col-xs-8 col-xs-offset-2">
+            <div class="well">
+              <div class="row">
+                <div class="col-xs-10">
+                  <input type="text" class="form-control" id="username" placeholder="Username">
+                </div>
+                <div class="col-xs-2" style="padding-left: 0;">
+                  <button class="btn btn-info" id="username_submit_button" style="width: 100%;">log in</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page_game" class="hidden">
+      <canvas id="canvas" height="500px">
+        the canvas element is not supported by your inferior browser.
+      </canvas>
+      <div class="divider"></div>
+      <div class="content">
+        <div class="user-list">
+
+        </div>
+        <div class="chatbox">
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/views/page_game.js"></script>
+    <script src="js/views/page_username.js"></script>
+    <script src="js/views/card.js"></script>
+    <script src="js/models/card.js"></script>
+    <script src="js/models/user.js"></script>
+    <script src="js/client.js"></script>
+
+    <script type="text/javascript">
+    var app;
+    $(window).ready(function() {
+      app = Object.create(App);
+      app.initialize();
+    });
+    </script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
