@@ -1,11 +1,8 @@
-
-
 var App = {
 
   user: undefined,
   socket: undefined,
   view: undefined,
-
 
   initialize: function() {
     this.socket = io();
