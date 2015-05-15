@@ -1,4 +1,4 @@
-module.exports = Card = {
+var Card = module.exports = {
 
   text: undefined,
   pack: undefined,
@@ -17,6 +17,8 @@ module.exports = Card = {
   },
 
   setText: function(text) {
+    if(this.getType() == "white")
+      text = this._capitalize(text);
     this.text = text;
   },
 
