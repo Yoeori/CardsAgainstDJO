@@ -1,4 +1,4 @@
-var Card = module.exports = {
+var Deck = module.exports = {
 
   id: undefined,
   name: undefined,
