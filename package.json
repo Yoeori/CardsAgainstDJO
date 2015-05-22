@@ -6,18 +6,16 @@
   "contributors": [
     "Jelmerro <bla.dingetje+github@gmail.com>"
   ],
-  
   "license": "Creative Commons BY-NC-SA 2.0 license",
   "repository": "Yoeori/CardsAgainstDJO",
   "homepage": "http://cardsagainstdjo.ml:3003/",
-  
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "dependencies": {
     "express": "^4.12.3",
-    "socket.io": "~1.3.5"
+    "socket.io": "~1.3.5",
+    "mysql": "^2.6.2"
   }
 }

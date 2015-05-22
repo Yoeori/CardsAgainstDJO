@@ -1,6 +1,7 @@
 var User = require("./models/user");
 var Game = require("./models/game");
 var CardManager = require("./card_manager");
+var mysql = require("mysql");
 
 module.exports = App = {
 
@@ -9,9 +10,13 @@ module.exports = App = {
   games: [],
   cardManager: undefined,
 
-  initialize: function(io) {
+  initialize: function(io, config) {
     var self = this;
     this.io = io;
+    this.config = config;
+
+    //Initialize MySQL
+    this.connection = mysql.createConnection(this.getConfig()["database"]);
 
     this.cardManager = Object.create(CardManager);
     this.cardManager.initialize;
@@ -44,10 +49,6 @@ module.exports = App = {
     this.users[socket.id].initialize(this, socket);
   },
 
-  userDisconnect: function(socket) {
-    //TODO delete after 10 minutes?
-  },
-
   hasUserWithUsername: function(username) {
     for(user_id in this.users) {
       user = this.users[user_id];
@@ -56,6 +57,14 @@ module.exports = App = {
       }
     }
     return false;
+  },
+
+  getConfig: function() {
+    return this.config;
+  },
+
+  getConnection: function() {
+    return this.connection;
   }
 
 };
