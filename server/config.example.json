@@ -3,7 +3,7 @@
 		"host": "localhost",
 		"user": "username",
 		"password": "password",
-		"database": "database",
+		"database": "database"
 	},
 	"port": 3000
 }
