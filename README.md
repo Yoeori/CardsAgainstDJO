@@ -1,9 +1,33 @@
 # Cards Against DJO
 
+### Summary
+
 A web version of [Cards Against Humanity](http://cardsagainsthumanity.com/) made by Jelmerro & Yoeori.  
 We are running a live demo on [cardsagainstdjo.ml](http://cardsagainstdjo.ml).  
 We included a bunch of packs ourselves, but custom packs can be added using the 5-digit code from [Cardcast](http://cardcastgame.com).  
+Build on Node.js 0.12.2.  
 Still in early development.  
+
+### Usage
+
+First of all you need node.js to run this.  
+It can be found on [nodejs.org](https://nodejs.org/).  
+After that we need a bunch of packages.  
+Run this command in the root of the project to obtain them:
+```
+npm install
+```
+After that you need to configure a few settings.  
+Open the 'server' folder and create a 'config.json'.  
+Then use the 'config.example.json' to fill your own config and save it with your settings.  
+It is recommended to keep the example in case your settings don't work.  
+After that everything should be ready to go.  
+From now on simply go to the root of the project and run:
+```
+node app.js
+```
+
+### License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
 	<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
