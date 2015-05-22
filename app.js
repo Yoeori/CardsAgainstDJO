@@ -6,31 +6,19 @@ var app = express();
 var server = http.createServer(app);
 var io = require("socket.io").listen(server);
 
-var config;
-
-if(fs.existsSync("./server/config.json")) {
-	config = require("./server/config");
-	if (typeof config["database"]["host"] == 'undefined') {
-		incompleteConfigExit();
-	}
-	if (typeof config["database"]["user"] == 'undefined') {
-		incompleteConfigExit();
-	}
-	if (typeof config["database"]["password"] == 'undefined') {
-		incompleteConfigExit();
-	}
-	if (typeof config["database"]["database"] == 'undefined') {
-		incompleteConfigExit();
-	}
-	if (typeof config["port"] == 'undefined') {
-		incompleteConfigExit();
-	}
-} else {
+if(!fs.existsSync("./server/config.json")) {
 	console.error("Error: Configuration file doesn't exist.");
 	process.exit();
 }
 
-function incompleteConfigExit() {
+var config = require("./server/config");
+
+if (typeof config["database"]["host"] == 'undefined' ||
+    typeof config["database"]["user"] == 'undefined' ||
+    typeof config["database"]["password"] == 'undefined' ||
+    typeof config["database"]["database"] == 'undefined' ||
+    typeof config["port"] == 'undefined') {
+    	
 	console.error("Error: Configuration file is incomplete.");
 	process.exit();
 }
