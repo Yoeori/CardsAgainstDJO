@@ -5,7 +5,7 @@
 A web version of [Cards Against Humanity](http://cardsagainsthumanity.com/) made by Jelmerro & Yoeori.  
 We are running a live demo on [cardsagainstdjo.ml](http://cardsagainstdjo.ml).  
 We included a bunch of packs ourselves, but custom packs can be added using the 5-digit code from [Cardcast](http://cardcastgame.com).  
-Build on Node.js 0.12.2.  
+Built on Node.js 0.12.2.  
 Still in early development.  
 
 ### Usage
