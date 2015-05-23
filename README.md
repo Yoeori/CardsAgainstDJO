@@ -17,6 +17,8 @@ Run this command in the root of the project to obtain them:
 ```
 npm install
 ```
+Now you need a database for all your users.  
+Go to your database and add database.sql from the 'server' folder to your database.  
 After that you need to configure a few settings.  
 Open the 'server' folder and create a 'config.json'.  
 Then use the 'config.example.json' to fill your own config and save it with your settings.  
