@@ -5,7 +5,7 @@ var packDownloader = require("./packDownloader");
 
 module.exports = CardManager = {
 
-  CARDS_LOCATION: "./cards/",
+  CARDS_LOCATION: __dirname + "/cards/",
 
   decks: {},
 
@@ -23,7 +23,7 @@ module.exports = CardManager = {
 
     }
 
-    console.log("Loaded all " + card_files_list.length + "decks.");
+    console.log("Loaded all " + card_files_list.length + " decks.");
 
   },
 
