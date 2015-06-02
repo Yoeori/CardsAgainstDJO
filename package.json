@@ -1,18 +1,21 @@
 {
-  "name": "CAHOnline",
+  "name": "CardsAgainstDJO",
   "description": "Multiplayer HTML5 version of the famous card game Cards Against Humanity",
   "version": "0.1.0",
   "author": "Yoeri Otten <yoeori@live.nl>",
   "contributors": [
     "Jelmerro <bla.dingetje+github@gmail.com>"
   ],
-  "license": "Creative Commons BY-NC-SA 2.0 license",
+
+  "license": "CC-BY-NC-SA-2.0",
   "repository": "Yoeori/CardsAgainstDJO",
-  "homepage": "http://cardsagainstdjo.ml:3003/",
+  "homepage": "http://cardsagainstdjo.ml/",
+
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "dependencies": {
     "express": "^4.12.3",
     "socket.io": "~1.3.5",
