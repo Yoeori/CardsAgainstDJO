@@ -6,19 +6,19 @@ var app = express();
 var server = http.createServer(app);
 var io = require("socket.io").listen(server);
 
-if(!fs.existsSync("./server/config.json")) {
+if(!fs.existsSync("./config.json")) {
 	console.error("Error: Configuration file doesn't exist.");
 	process.exit();
 }
 
-var config = require("./server/config");
+var config = require("./config");
 
 if (typeof config["database"]["host"] == 'undefined' ||
     typeof config["database"]["user"] == 'undefined' ||
     typeof config["database"]["password"] == 'undefined' ||
     typeof config["database"]["database"] == 'undefined' ||
     typeof config["port"] == 'undefined') {
-    	
+
 	console.error("Error: Configuration file is incomplete.");
 	process.exit();
 }
