@@ -23,7 +23,7 @@ module.exports = CardManager = {
 
     }
 
-    console.log("Loaded all " + card_files_list.length + " decks.");
+    console.info("Loaded all " + card_files_list.length + " decks.");
 
   },
 
