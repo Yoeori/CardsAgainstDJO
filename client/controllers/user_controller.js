@@ -1,15 +1,25 @@
-var UserController = {
+ControllersRouter.registerController("user", {
 
-  updateUsername: function(app, name) {
-    app.getSocket().emit("user_set_username", name);
+  app: undefined,
+
+  initialize: function(app) {
+    this.app = app;
   },
 
-  receiveUsername: function(app, name) {
-    app.getUser().setUsername(name);
+  setUsername: function(data) {
+    this.getApp().send("user#setusername", data);
   },
 
-  receiveUserData: function(app, data) {
+  receiveUsername: function(data) {
+    this.getApp().getUser().setUsername(name);
+  },
 
-  }
+  receiveUserData: function(data) {
 
-}
+  },
+
+  getApp: function() {
+    return this.app;
+  },
+
+});

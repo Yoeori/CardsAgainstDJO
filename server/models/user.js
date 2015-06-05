@@ -56,8 +56,7 @@ module.exports = User = {
   },
 
   onDisconnect: function() {
-    console.log("user "+ this.socket.conn.remoteAddress + " " + (this.getUsername() ? '(' +this.getUsername()+ ') ': '') + "has disconnected from the server.");
-    this.app.userDisconnect(this.socket);
+    //this.app.userDisconnect(this.socket);
   },
 
   sendUserData: function() {

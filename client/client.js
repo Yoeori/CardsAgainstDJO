@@ -1,22 +1,33 @@
 var App = {
 
-  user: undefined,
   socket: undefined,
-  view: undefined,
+
+  viewManager: undefined,
+  packetManager: undefined,
 
   initialize: function() {
     this.socket = io();
 
-    this.user = Object.create(UserModel);
-    this.user.initialize(this, this.socket);
+    this.packetManager = Object.create(PacketManager);
+    this.packetManager.initialize(this);
 
-    this.setView(PageUsernameView);
+    this.viewManager = Object.create(ViewManager);
+    this.viewManager.initialize(this);
+
+    //this.user = Object.create(User);
+    //this.user.initialize(this, this.socket);
+
+    //this.setView(PageUsernameView);
+
+    this.getController("user").loginPage();
+
   },
 
   getUser: function() {
     return this.user;
   },
 
+  /*
   setView: function(view) {
     if(this.view != undefined) {
       this.view.onDie();
@@ -25,13 +36,31 @@ var App = {
     this.view = Object.create(view);
     this.view.initialize(this);
   },
+  */
+
+  send: function(packet_name, data) {
+    this.getPacketManager().sendPacket(packet_name, data);
+  },
 
   getSocket: function() {
     return this.socket;
-  }
+  },
 
-}
+  getPacketManager: function() {
+    return this.packetManager;
+  },
 
+  getViewManager: function() {
+    return this.viewManager;
+  },
+
+  getController: function(name) {
+    return this.getPacketManager().getRouter().getController(name);
+  },
+
+};
+
+/*
 $(window).resize(function() {
   //canvas.height = 500;
   //canvas.width = window.innerWidth;
@@ -47,3 +76,4 @@ $(window).resize(function() {
 $(window).ready(function() {
   $(this).resize();
 });
+*/
