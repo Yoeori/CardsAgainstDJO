@@ -3,32 +3,30 @@
 
 console.info("The bootstrap file is still under development.")
 
-function bootstrap() {
+console.info('Welcome to the setup of Cards Against DJO, this program will install all the dependecies and setup your database.');
 
-  console.info('Welcome to the setup of Cards Against DJO, this program will install all the dependecies and setup your database.');
+var exec = require('child_process').exec;
+var fs = require('fs');
+var config_example = require('./config.example');
 
-  var exec = require('child_process').exec;
-  var fs = require('fs');
-  var config_example = require('./config.example');
+console.info("Installing dependecies.");
 
-  console.info("Installing dependecies.");
+exec('npm install', function (error, stdout, stderr) {
+  console.log(stdout);
 
-  exec('npm install', function (error, stdout, stderr) {
-    console.log(stdout);
+  if(stderr != "")
+    console.error('error: ' + stderr);
 
-    if(stderr != "")
-      console.error('error: ' + stderr);
+  console.info("Dependecies installed.");
 
-    console.info("Dependecies installed.");
+  if(!fs.existsSync("./config.json")) {
+    console.info("Copying config.example.json to config.json");
+    fs.createReadStream('./config.example.json').pipe(fs.createWriteStream('./config.json'));
+    console.info("Example configuration copied.");
+    console.info("Before starting your server, please replace the database settings in config.json with your own.");
+  }
 
-    if(!fs.existsSync("./config.json")) {
-      console.info("Copying config.example.json to config.json");
-      fs.createReadStream('./config.example.json').pipe(fs.createWriteStream('./config.json'));
-      console.info("Example configuration copied.");
-      console.info("Before starting your server, please replace the database settings in config.json with your own.");
-    }
+  console.info("setup done, you can now start the server with: $node app.js");
+});
 
-    console.info("setup done, you can now start the server with: $node app.js");
-  });
 
-}();

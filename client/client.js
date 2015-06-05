@@ -19,7 +19,7 @@ var App = {
 
     //this.setView(PageUsernameView);
 
-    this.getController("user").loginPage();
+    //this.getController("user").loginPage();
 
   },
 

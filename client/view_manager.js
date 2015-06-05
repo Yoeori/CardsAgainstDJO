@@ -7,10 +7,22 @@ var ViewManager = {
   initialize: function(app) {
     this.app = app;
     this.view_history = [];
+
+    this._cacheAllTemplates();
   },
 
   getApp: function() {
     return this.app;
+  },
+
+  _cacheAllTemplates: function() {
+    var self = this;
+
+    $('[type="x-tmpl-mustache"]').each(function() {
+      var m = self.getMustache();
+      console.log(this);
+      m.parse($(this).html());
+    });
   },
 
   setView: function(view) {
@@ -23,6 +35,14 @@ var ViewManager = {
 
   getCurrentView: function() {
     return this.current_view;
-  }
+  },
 
+  getMustache: function() {
+    return Mustache;
+  },
+
+  getTemplate: function(name) {
+
+  },
+ 
 }
