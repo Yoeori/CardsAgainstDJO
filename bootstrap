@@ -5,7 +5,7 @@ console.info("The bootstrap file is still under development.")
 
 function bootstrap() {
 
-  console.info('Setting up Cards Against DJO');
+  console.info('Welcome to the setup of Cards Against DJO, this program will install all the dependecies and setup your database.');
 
   var exec = require('child_process').exec;
   var fs = require('fs');
@@ -28,7 +28,7 @@ function bootstrap() {
       console.info("Before starting your server, please replace the database settings in config.json with your own.");
     }
 
-    console.info("setup done, you can now start the server with: $ node app.js");
+    console.info("setup done, you can now start the server with: $node app.js");
   });
 
-}
+}();
