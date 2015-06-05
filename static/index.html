@@ -13,43 +13,49 @@
     <link href="css/site.css" rel="stylesheet">
     <link href="css/octicons.css" rel="stylesheet">
   </head>
-  <body style="visibility: hidden;">
-    <div id="page_username" class="hidden">
+  <body>
+    <div id="main_page" style="visibility: hidden;">
+      <div id="page_username" class="hidden">
 
-    </div>
-
-    <div id="page_dashboard" class="hidden">
-      <div class="game_selection_header">
-        <button class="btn btn-info" id="create_game_button">Start new game</button>
-        <button class="btn btn-default" id="logout_button" style="float: right;">Logout</button>
       </div>
-      <div class="game_selection_games">
-        Games. Rejoice.
-      </div>
-    </div>
 
-    <div id="page_game" class="hidden">
-      <canvas id="canvas" height="500px">
-        the canvas element is not supported by your inferior browser.
-      </canvas>
-      <div class="divider"></div>
-      <div class="content">
-        <div class="user-list">
-
+      <div id="page_dashboard" class="hidden">
+        <div class="game_selection_header">
+          <button class="btn btn-info" id="create_game_button">Start new game</button>
+          <button class="btn btn-default" id="logout_button" style="float: right;">Logout</button>
         </div>
-        <div class="chatbox">
-
+        <div class="game_selection_games">
+          Games. Rejoice.
         </div>
       </div>
+
+      <div id="page_game" class="hidden">
+        <canvas id="canvas" height="500px">
+          the canvas element is not supported by your inferior browser.
+        </canvas>
+        <div class="divider"></div>
+        <div class="content">
+          <div class="user-list">
+
+          </div>
+          <div class="chatbox">
+
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <span class="octicon octicon-code"></span>
+        with <span class="octicon octicon-heart"></span> by
+        <a href="https://github.com/Jelmerro" target="_blank">@Jelmerro</a> &amp;
+        <a href="https://github.com/Yoeori" target="_blank">@Yoeori</a>.
+        view us on <a class="octicon octicon-logo-github" style="vertical-align: text-bottom;" href="https://github.com/Yoeori/CardsAgainstDJO" target="_blank"></a>
+      </footer>
     </div>
 
-    <footer>
-      <span class="octicon octicon-code"></span>
-      with <span class="octicon octicon-heart"></span> by
-      <a href="https://github.com/Jelmerro" target="_blank">@Jelmerro</a> &amp;
-      <a href="https://github.com/Yoeori" target="_blank">@Yoeori</a>.
-      view us on <a class="octicon octicon-logo-github" style="vertical-align: text-bottom;" href="https://github.com/Yoeori/CardsAgainstDJO" target="_blank"></a>
-    </footer>
+    <div id="warning">
+      Loading game, please make sure Javascript is enabled.
+    </div>
 
     <!-- Requirements -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -64,7 +70,8 @@
     $(window).ready(function() {
       app = Object.create(App);
       app.initialize();
-      $("body").css("visibility", "visible");
+      $("#warning").css("visibility", "hidden");
+      $("#main_page").css("visibility", "visible");
     });
     </script>
 
