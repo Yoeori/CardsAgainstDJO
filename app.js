@@ -28,6 +28,13 @@ app.use("/js", express.static('client'));
 app.use("/js", express.static('shared'));
 app.use("/views", express.static('client/views/html'));
 
+/*
+TODO implement minifier
+var UglifyJS = require("uglify-js");
+var result = UglifyJS.minify(["client/client.js", "client/packet_manager.js"]);
+console.log(result.code);
+*/
+
 port = config["port"];
 
 server.listen(port, function() {
