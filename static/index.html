@@ -13,7 +13,7 @@
     <link href="css/site.css" rel="stylesheet">
     <link href="css/octicons.css" rel="stylesheet">
   </head>
-  <body>
+  <body style="visibility: hidden;">
     <div id="page_username" class="hidden">
 
     </div>
@@ -64,6 +64,7 @@
     $(window).ready(function() {
       app = Object.create(App);
       app.initialize();
+      $("body").css("visibility", "visible");
     });
     </script>
 
@@ -74,7 +75,7 @@
     <script src="js/views/page_dashboard.js"></script>
     <script src="js/views/card.js"></script>
 
-    <!-- View templates -->
+    <!--  Templates -->
     <script src="views/login.html" id="view_template_login" type="x-tmpl-mustache"></script>
 
     <!-- Models -->
