@@ -12,12 +12,15 @@
 
     <link href="css/site.css" rel="stylesheet">
     <link href="css/octicons.css" rel="stylesheet">
+
   </head>
+
   <body>
-    <div id="main_page" style="visibility: hidden;">
-
+    <div id="main_page" class="main">
       <div id="content" class="content">
-
+        <p style="text-align: center; margin-top: 20px;">
+          Something went wrong while loading the main page.
+        </p>
       </div>
 
       <footer>
@@ -30,7 +33,7 @@
 
     </div>
 
-    <div id="loading_warning">
+    <div id="loading_warning" style="text-align: center; margin-top: 20px;">
       Loading game, please make sure Javascript is enabled.
     </div>
 
@@ -41,26 +44,33 @@
     <script src="js/mustache.min.js"></script>
 
     <script>
-    var module = {exports: undefined};
+    var module = {}; //Fix shared script bugs
+
     //Start everthing
     var app;
     $(window).ready(function() {
       app = Object.create(App);
-      app.initialize();
-      $("#loading_warning").css("visibility", "hidden");
-      $("#main_page").css("visibility", "visible");
+      app.initialize(function() {
+
+        //Display page
+        $("#loading_warning").css("display", "none");
+        $("#main_page").css("display", "block");
+
+      });
     });
     </script>
 
     <!-- Views -->
     <script src="js/view_manager.js"></script>
-    <script src="js/views/page_game.js"></script>
-    <script src="js/views/page_username.js"></script>
-    <script src="js/views/page_dashboard.js"></script>
-    <script src="js/views/card.js"></script>
+    <script src="js/views/card_view.js"></script>
+    <script src="js/views/dashboard_view.js"></script>
+    <script src="js/views/game_view.js"></script>
+    <script src="js/views/login_view.js"></script>
 
-    <!--  Templates -->
-    <script src="views/login.html" id="view_template_login" type="x-tmpl-mustache"></script>
+    <!-- Templates -->
+    <script src="templates/login.html" name="login" type="x-tmpl-mustache"></script>
+    <script src="templates/dashboard.html" name="dashboard" type="x-tmpl-mustache"></script>
+    <script src="templates/game.html" name="game" type="x-tmpl-mustache"></script>
 
     <!-- Models -->
     <script src="js/models/card_model.js"></script>
@@ -73,7 +83,7 @@
     <script src="js/controllers/user_controller.js"></script>
     <script src="js/controllers/game_controller.js"></script>
 
-    <!-- Base -->
+    <!-- Base game -->
     <script src="js/client.js"></script>
     <script src="js/packet_manager.js"></script>
 

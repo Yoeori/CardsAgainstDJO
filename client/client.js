@@ -5,21 +5,22 @@ var App = {
   viewManager: undefined,
   packetManager: undefined,
 
-  initialize: function() {
+  initialize: function(callback) {
     this.socket = io();
 
     this.packetManager = Object.create(PacketManager);
     this.packetManager.initialize(this);
 
     this.viewManager = Object.create(ViewManager);
-    this.viewManager.initialize(this);
+    this.viewManager.initialize(this, function() {
+      //this.user = Object.create(User);
+      //this.user.initialize(this, this.socket);
 
-    //this.user = Object.create(User);
-    //this.user.initialize(this, this.socket);
+      //this.setView(PageUsernameView);
 
-    //this.setView(PageUsernameView);
-
-    //this.getController("user").loginPage();
+      //this.getController("user").loginPage();
+      callback();
+    });
 
   },
 

@@ -26,7 +26,6 @@ if (typeof config["database"]["host"] == 'undefined' ||
 app.use(express.static('static'));
 app.use("/js", express.static('client'));
 app.use("/js", express.static('shared'));
-app.use("/views", express.static('client/views/html'));
 
 /*
 TODO implement minifier

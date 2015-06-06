@@ -1,48 +1,151 @@
+/**
+ * manages the main page's content
+ * @type {Object}
+ * @name ViewManager
+ */
 var ViewManager = {
 
+  /**
+   * local instance of Client
+   * @type {Client}
+   * @private
+   */
   app: undefined,
+
+  /**
+   * history of all the main views to have been on screen
+   * @type {Array}
+   * @private
+   */
   view_history: [],
+
+  /**
+   * the current main view
+   * @type {View}
+   * @private
+   */
   current_view: undefined,
 
-  initialize: function(app) {
+  /**
+   * Object of all the cached templates (name=>template)
+   * @type {Object}
+   * @private
+   */
+  templates: {},
+
+  /**
+   * Initalizes an instance of ViewManager
+   * @param  {Client}   app      the app running this instance of ViewManager
+   * @param  {Function} callback callback to be called when done initializing
+   */
+  initialize: function(app, callback) {
     this.app = app;
     this.view_history = [];
 
-    this._cacheAllTemplates();
+    this._cacheAllTemplates(callback);
   },
 
+  /**
+   * returns an instance of this viewManager's Client
+   * @return {Client} the current instance of Client
+   */
   getApp: function() {
     return this.app;
   },
 
-  _cacheAllTemplates: function() {
+  /**
+   * downloads all the HTML template files and caches them
+   * @param  {Function} callback the function to be called when done
+   * @private
+   */
+  _cacheAllTemplates: function(callback) {
     var self = this;
+    var m = self.getMustache();
+
+    var length = $('[type="x-tmpl-mustache"]').length;
+    var i = 0;
 
     $('[type="x-tmpl-mustache"]').each(function() {
-      var m = self.getMustache();
-      console.log(this);
-      m.parse($(this).html());
+      var _element = this;
+
+      $.ajax({
+        url: $(_element).attr("src"),
+      }).done(function(data) {
+        i++;
+
+        self.templates[$(_element).attr("name")] = data;
+        m.parse(data);
+
+        console.log("Loaded template: " + $(_element).attr("name"));
+
+        if(i >= length) {
+          callback();
+        }
+      });
+
     });
+
   },
 
+  /**
+   * sets the current main view and saves the old one
+   * @param  {View} view the view to be set as main view
+   */
   setView: function(view) {
     if(this.getCurrentView() != undefined) {
       this.view_history.push(this.getCurrentView());
     }
-    
+
     this.current_view = view;
   },
 
+  /**
+   * sets the current content of the main page
+   * @param  {String} content  the content to be set
+   */
+  setContent: function(content) {
+    //TODO
+  },
+
+  /**
+   * gets the current context if the current view has a canvas in the DOM
+   * @return {context} the current context
+   */
+  getContext: function() {
+
+  },
+
+  /**
+   * gets the canvas if the current view has a canvas in the DOM
+   * @return {element} the canvas element
+   */
+  getCanvas: function() {
+
+  },
+
+  /**
+   * returns the instance of the current main view
+   * @return {View} current main view
+   */
   getCurrentView: function() {
     return this.current_view;
   },
 
+  /**
+   * returns an instance of the Mustache rendering engine
+   * @return {Mustache} an instance of the mustache rendering engine
+   */
   getMustache: function() {
     return Mustache;
   },
 
+  /**
+   * gets a template by name
+   * @param  {string} name the template's name
+   * @return {string}      the template
+   */
   getTemplate: function(name) {
-
+    return this.templates[name];
   },
- 
+
 }

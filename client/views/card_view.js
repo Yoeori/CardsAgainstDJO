@@ -5,12 +5,21 @@ var CardView = {
   x: 100,
   y: 100,
 
-  render: function(ctx) {
+  view_manager: undefined,
 
-    x = this.x;
-    y = this.y;
+  initialize: function(view_manager, card) {
+    this.view_manager = view_manager;
+    this.setCard(card);
+  },
 
-    var size = [this.size, this.size * 1.5];
+  render: function() {
+
+    var ctx = this.getViewManager.getContext();
+
+    var x = this.getX();
+    var y = this.getY()s;
+
+    var size = this.getSize();
     var delta = size[0] / 200;
 
     var curve = 25 * delta;
@@ -46,7 +55,6 @@ var CardView = {
   },
 
   getCard: function() {
-
     return this.card;
   },
 
@@ -56,6 +64,18 @@ var CardView = {
 
   setY: function(y) {
     this.y = y;
+  },
+
+  getX: function() {
+    return this.x;
+  },
+
+  getY: function() {
+    return this.y;
+  },
+
+  getSize: function() {
+    return [this.size, this.size * 1.5];
   },
 
   setSize: function(size) {
@@ -75,12 +95,23 @@ var CardView = {
     ctx.quadraticCurveTo(x, y, x+curve, y);
   },
 
+  /**
+   * Splits the text in number of lines that fit in a certain sendPacket, credit goes to someone sadly I do not know who.
+   * @param  {context} ctx         instance of the canvas' context
+   * @param  {String}  phrase      the text to be split
+   * @param  {int}     maxPxLength the number of pixels max in one lines
+   * @param  {String}  textStyle   the style of text (font, size)
+   * @return {Array}               an array of lines that are a maximum of the maxPxLenght length
+   */
   _getLines: function(ctx, phrase, maxPxLength, textStyle) {
     var wa = phrase.split(" "),
         phraseArray = [],
         lastPhrase = wa[0],
         l = maxPxLength,
         measure = 0;
+
+    if(wa.length == 1)
+      return [phrase];
 
     ctx.font = textStyle;
     for (var i = 1; i < wa.length; i++) {
@@ -99,5 +130,9 @@ var CardView = {
     }
 
     return phraseArray;
+  },
+
+  _getViewManager: function() {
+    return this.view_manager;
   }
 }
