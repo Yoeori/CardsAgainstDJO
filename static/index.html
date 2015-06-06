@@ -15,33 +15,9 @@
   </head>
   <body>
     <div id="main_page" style="visibility: hidden;">
-      <div id="page_username" class="hidden">
 
-      </div>
+      <div id="content" class="content">
 
-      <div id="page_dashboard" class="hidden">
-        <div class="game_selection_header">
-          <button class="btn btn-info" id="create_game_button">Start new game</button>
-          <button class="btn btn-default" id="logout_button" style="float: right;">Logout</button>
-        </div>
-        <div class="game_selection_games">
-          Games. Rejoice.
-        </div>
-      </div>
-
-      <div id="page_game" class="hidden">
-        <canvas id="canvas" height="500px">
-          the canvas element is not supported by your inferior browser.
-        </canvas>
-        <div class="divider"></div>
-        <div class="content">
-          <div class="user-list">
-
-          </div>
-          <div class="chatbox">
-
-          </div>
-        </div>
       </div>
 
       <footer>
@@ -51,9 +27,10 @@
         <a href="https://github.com/Yoeori" target="_blank">@Yoeori</a>.
         view us on <a class="octicon octicon-logo-github" style="vertical-align: text-bottom;" href="https://github.com/Yoeori/CardsAgainstDJO" target="_blank"></a>
       </footer>
+
     </div>
 
-    <div id="warning">
+    <div id="loading_warning">
       Loading game, please make sure Javascript is enabled.
     </div>
 
@@ -70,7 +47,7 @@
     $(window).ready(function() {
       app = Object.create(App);
       app.initialize();
-      $("#warning").css("visibility", "hidden");
+      $("#loading_warning").css("visibility", "hidden");
       $("#main_page").css("visibility", "visible");
     });
     </script>
