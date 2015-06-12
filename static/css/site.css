@@ -71,17 +71,17 @@ footer > a:hover, footer > a:focus {
   color: rgba(0,0,0,0.8);
   text-decoration: none;
 }
-.btn-register {
+.btn-orange {
   color: #fff;
   background-color: #EA5B00;
   border-color: #C64F04;
 }
-.btn-register:hover,
-.btn-register:focus,
-.btn-register.focus,
-.btn-register:active,
-.btn-register.active,
-.open > .dropdown-toggle.btn-register {
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange.focus,
+.btn-orange:active,
+.btn-orange.active,
+.open > .dropdown-toggle.btn-orange {
   color: #fff;
   background-color: #CE5101;
   border-color: #C64F04;
