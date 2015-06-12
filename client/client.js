@@ -5,6 +5,8 @@ var App = {
   viewManager: undefined,
   packetManager: undefined,
 
+  user: undefined,
+
   initialize: function(callback) {
     this.socket = io();
 

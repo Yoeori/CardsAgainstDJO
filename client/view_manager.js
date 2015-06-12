@@ -79,6 +79,8 @@ var ViewManager = {
         console.log("Loaded template: " + $(_element).attr("name"));
 
         if(i >= length) {
+          self.setView(Object.create(LoginView));
+
           callback();
         }
       });
@@ -91,12 +93,13 @@ var ViewManager = {
    * sets the current main view and saves the old one
    * @param  {View} view the view to be set as main view
    */
-  setView: function(view) {
+  setView: function(view, arguments) {
     if(this.getCurrentView() != undefined) {
       this.view_history.push(this.getCurrentView());
     }
 
     this.current_view = view;
+    this.getCurrentView().initialize(this.getApp(), arguments);
   },
 
   /**
@@ -104,7 +107,11 @@ var ViewManager = {
    * @param  {String} content  the content to be set
    */
   setContent: function(content) {
-    //TODO
+    if(content in this.templates) {
+      content = this.getTemplate(content);
+    }
+    this._currentContent = content;
+    $("#content").html(content);
   },
 
   /**
@@ -112,7 +119,7 @@ var ViewManager = {
    * @return {context} the current context
    */
   getContext: function() {
-
+    return this.isCanvasVisible() ? this.getCanvasView().getContext() : false;
   },
 
   /**
@@ -120,7 +127,7 @@ var ViewManager = {
    * @return {element} the canvas element
    */
   getCanvas: function() {
-
+    return this.isCanvasVisible() ? this.getCanvasView().getCanvas() : false;
   },
 
   /**
@@ -147,5 +154,25 @@ var ViewManager = {
   getTemplate: function(name) {
     return this.templates[name];
   },
+
+  /**
+   * returns the canvas view manager
+   * @return {CanvasViewManager} the current CanvasViewManager
+   */
+  getCanvasView: function() {
+    return this.canvas_view;
+  },
+
+  /**
+   * Checks if the current views has a canvas enabled
+   * @return {boolean} if the canvas object is visible
+   */
+  isCanvasVisible: function() {
+    if("hasCanvas" in this.getCurrentView()) {
+      return this.getCurrentView().hasCanvas();
+    } else {
+      return false;
+    }
+  }
 
 }

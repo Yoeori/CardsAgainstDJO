@@ -1,10 +1,13 @@
-var PageUsernameView = {
+var LoginView = {
   app: undefined,
+  view_manager: undefined,
 
-  initialize: function(app) {
+  initialize: function(app, arguments) {
     var self = this;
 
     this.app = app;
+    this.view_manager = this.getApp().getViewManager();
+    this.view_manager.setContent("login")
 
     this.unbindfunction = function(e) {
       if(e.which === 13) {
