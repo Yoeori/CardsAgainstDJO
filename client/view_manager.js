@@ -95,6 +95,7 @@ var ViewManager = {
    */
   setView: function(view, arguments) {
     if(this.getCurrentView() != undefined) {
+      this.getCurrentView().onDie();
       this.view_history.push(this.getCurrentView());
     }
 

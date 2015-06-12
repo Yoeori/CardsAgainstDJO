@@ -9,7 +9,10 @@ var RegisterView = {
 
     this.view_manager = this.getApp().getViewManager();
     this.view_manager.setContent("register");
-    
+
+    $("#cancel_submit_button").click(function() {
+      self.getViewManager().setView(Object.create(LoginView));
+    });
 
   },
 

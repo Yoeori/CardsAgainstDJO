@@ -76,7 +76,7 @@ var CardCanvasView = {
     var ctx = this.getViewManager().getContext();
 
     var x = this.getX();
-    var y = this.getY()s;
+    var y = this.getY();
 
     var size = this.getSize();
     var delta = size[0] / 200;
@@ -177,7 +177,7 @@ var CardCanvasView = {
    */
   getColour: function() {
     return this.getCard().getType() == "black" ? '#000' : '#FFF';
-  }
+  },
 
   /**
    * Makes rounded rectangle path for certain values
