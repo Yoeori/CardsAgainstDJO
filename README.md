@@ -10,19 +10,19 @@ Still in early development.
 
 ## Usage
 
-First of all you need node.js to run this.  
+First of all you need Node.js to run this.  
 It can be found on [nodejs.org](https://nodejs.org/).  
-After that we need a bunch of packages.  
+After that, we need a bunch of packages.  
 Run this command in the root of the project to obtain them:
 ```
 npm install
 ```
 Now you need a database for all your users.  
 Go to your database and add database.sql from the 'server' folder to your database.  
-After that you need to configure a few settings.  
+After that, you need to configure a few settings.  
 In the main project folder create a 'config.json'.  
 Then use the 'config.example.json' to fill your own config and save it with your settings.  
-It is recommended to keep the example in case your settings don't work.  
+It is recommended keeping the example in case your settings don't work.  
 After that everything should be ready to go.  
 From now on simply go to the root of the project and run:
 ```
