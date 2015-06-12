@@ -9,7 +9,7 @@ var LoginView = {
     this.view_manager = this.getApp().getViewManager();
     this.view_manager.setContent("register");
 
-    this.unbindfunction = function(e) {
+    /*this.unbindfunction = function(e) {
       if(e.which === 13) {
         self.onSubmit($("#username").val());
       }
@@ -20,7 +20,19 @@ var LoginView = {
       self.onSubmit($("#username").val());
     });
 
-    $("#page_username").removeClass("hidden");
+    $("#page_username").removeClass("hidden");*/
+
+    $("#register_submit_button").click(function() {
+      self.view_manager.setContent("login");
+    });
+
+    $("#cancel_submit_button").click(function() {
+      self.view_manager.setContent("dashboard");
+    });
+
+    $("#register_password_confirm").click(function() {
+      self.view_manager.setContent("game");
+    });
   },
 
   onSubmit: function(username) {
