@@ -5,6 +5,9 @@
     "password": "password",
     "database": "database"
   },
-  "port": 3000,
-  "google-sitekey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  "recaptcha": {
+	"google-sitekey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+	"google-secretkey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "port": 3000
 }
