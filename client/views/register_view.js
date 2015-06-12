@@ -9,6 +9,7 @@ var RegisterView = {
 
     this.view_manager = this.getApp().getViewManager();
     this.view_manager.setContent("register");
+    
 
   },
 
