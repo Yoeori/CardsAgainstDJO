@@ -7,7 +7,7 @@ var LoginView = {
 
     this.app = app;
     this.view_manager = this.getApp().getViewManager();
-    this.view_manager.setContent("login")
+    this.view_manager.setContent("register");
 
     this.unbindfunction = function(e) {
       if(e.which === 13) {
