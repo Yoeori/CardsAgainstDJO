@@ -71,6 +71,7 @@ footer > a:hover, footer > a:focus {
   color: rgba(0,0,0,0.8);
   text-decoration: none;
 }
+/*orange button */
 .btn-orange {
   color: #fff;
   background-color: #EA5B00;
@@ -85,6 +86,26 @@ footer > a:hover, footer > a:focus {
   color: #fff;
   background-color: #CE5101;
   border-color: #C64F04;
+}
+/*purple button */
+.btn-purple {
+  color: #fff;
+  background-color: #43239B;
+  border-color: ##4A11E6;
+}
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple.focus,
+.btn-purple:active,
+.btn-purple.active,
+.open > .dropdown-toggle.btn-purple {
+  color: #fff;
+  background-color: #270F6B;
+  border-color: ##4A11E6;
+}
+/*purple label */
+.label-purple {
+  background-color:#43239B;
 }
 /*Octicon hover footer feature*/
 .octicon-heart:hover { color: #CE5101; content: '\2665'} /* â™¥ */
