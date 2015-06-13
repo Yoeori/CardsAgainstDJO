@@ -1,9 +1,84 @@
 <div class="game_selection_header">
-  <button class="btn btn-orange" id="create_game_button">Start new game</button>
+  <button class="btn btn-orange" id="create_game_button">Create Game</button>
   <button class="btn btn-default" id="logout_button" style="float: right;">Logout</button>
 </div>
 
 <div class="game_selection_games" style="color: #F5F5F5;">
-  <h2 style="padding: 15px 25px 15px">Games. Rejoice.</h2><br>
-  <img src="http://i.imgur.com/uJ2A7Bo.png" style="margin-left:25px;border: 2px solid #F5F5F5;border-radius:0px;">
+  <nav>
+  <ul class="pagination" style="margin: 25px;">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+  </nav>
+  <div class="panel-group" id="accordion" style="margin: 0px 25px 25px 25px;">
+    <div class="panel panel-default">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+    		<div class="panel-heading">
+    			<h4 class="panel-title">
+            <span class="glyphicon glyphicon-lock"/>
+    				 Yoeori's Game (4 players) <span class="label label-success">In Lobby</span>
+            <button class="btn btn-success" id="join-game" style="float:right; margin-top: -6px; padding: 5px 15px 5px 15px;">Join</button>
+    			</h4>
+  		  </div>
+      </a>
+  		<div id="collapseOne" class="panel-collapse collapse">
+  			<div class="panel-body" style="color: #555">
+  				<b>Game status:</b> <span class="label label-success">In Lobby</span> <br/>
+          <b>Card Decks:</b> <span class="label label-primary">Main Pack</span> <span class="label label-primary">First Expansion</span> <span class="label label-primary">Second Expansion</span> <br/>
+          <b>Current Players:</b> <br/>
+          Roelofr, Fabiaant, <span class="label label-info">Dev</span>Yoeori, Saatke
+  			</div>
+  		</div>
+  	</div>
+    <div class="panel panel-default">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+    		<div class="panel-heading">
+    			<h4 class="panel-title">
+    				Max's Game (3 players) <span class="label label-danger">Restarting</span>
+            <button class="btn btn-success" id="join-game" style="float:right; margin-top: -6px; padding: 5px 15px 5px 15px;">Join</button>
+    			</h4>
+  		  </div>
+      </a>
+  		<div id="collapseTwo" class="panel-collapse collapse">
+  			<div class="panel-body" style="color: #555">
+          <b>Game status:</b> <span class="label label-danger">Restarting</span> <br/>
+          <b>Card Decks:</b> <span class="label label-primary">Main Pack</span> <span class="label label-primary">Imgur</span> <span class="label label-primary">Second Expansion</span> <br/>
+          <b>Current Players:</b> <br/>
+          Jorik, <span class="label label-info">Dev</span>Max, XxX360nOsCoPeXxX
+  			</div>
+  		</div>
+  	</div>
+    <div class="panel panel-default">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+    		<div class="panel-heading">
+    			<h4 class="panel-title">
+    				Jelmerro's Game (4 players) <span class="label label-warning">Round 4/10</span>
+            <button class="btn btn-success disabled" id="join-game" style="float:right; margin-top: -6px; padding: 5px 15px 5px 15px;">Join</button>
+    			</h4>
+  		  </div>
+      </a>
+  		<div id="collapseThree" class="panel-collapse collapse">
+  			<div class="panel-body" style="color: #555">
+          <b>Game status:</b> <span class="label label-warning">Round 4/10</span> <br/>
+          <b>Card Decks:</b> <span class="label label-primary">Main Pack</span> <span class="label label-primary">DJO</span> <span class="label label-primary">First Expansion</span> <br/>
+          <b>Current Players:</b> <br/>
+          <span class="label label-info">Dev</span>Jelmerro, Stumpertje, Daan, Roel
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+  <!--<h2 style="padding: 15px 25px 15px">Games. Rejoice.</h2><br>
+  <img src="http://i.imgur.com/uJ2A7Bo.png" style="margin-left:25px;border: 2px solid #F5F5F5;border-radius:0px;">-->
 </div>
