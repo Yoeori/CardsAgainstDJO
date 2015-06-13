@@ -1,34 +1,43 @@
 <div class="game_selection_header">
-  <button class="btn btn-orange" id="create_game_button">Create Game</button>
-  <button class="btn btn-default" id="logout_button" style="float: right;">Logout</button>
+  <button class="btn btn-orange" id="create_game_button"><span class="glyphicon glyphicon-plus"/> Create Game</button>
+  <button class="btn btn-default" id="logout_button" style="float: right;"><span class="glyphicon glyphicon-log-out"/> Logout</button>
 </div>
-
-<div class="game_selection_games" style="color: #F5F5F5;">
-  <nav>
-  <ul class="pagination" style="margin: 25px;">
-    <li>
-      <a href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-      </a>
-    </li>
-    <li><a href="#">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li>
-      <a href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-      </a>
-    </li>
-  </ul>
-  </nav>
-  <div class="panel-group" id="accordion" style="margin: 0px 25px 25px 25px;">
+<div class="game_selection_games" style="color: #F5F5F5; margin: 25px; ">
+  <div style="max-width: 300px; margin-left:-15px;" class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"/></button>
+      </span>
+      <input type="text" class="form-control" placeholder="Search for players or games">
+    </div>
+  </div>
+  <center>
+    <nav style="margin-top:-25px; margin-left:-300px; display: inline-block; position: relative">
+    <ul class="pagination">
+      <li class="btn disabled">
+        <a href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="active"><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li>
+        <a href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+    </nav>
+  </center>
+  <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
     		<div class="panel-heading">
     			<h4 class="panel-title">
             <span class="glyphicon glyphicon-lock"/>
     				 Yoeori's Game (4 players) <span class="label label-success">In Lobby</span>
-            <button class="btn btn-success" id="join-game" style="float:right; margin-top: -6px; padding: 5px 15px 5px 15px;">Join</button>
+            <button class="btn btn-success" id="join-game" style="float:right; margin-top: -6px; padding: 5px 15px 5px 6px;"><span class="glyphicon glyphicon-circle-arrow-right"/> Join</button>
     			</h4>
   		  </div>
       </a>
@@ -46,7 +55,7 @@
     		<div class="panel-heading">
     			<h4 class="panel-title">
     				Max's Game (3 players) <span class="label label-danger">Restarting</span>
-            <button class="btn btn-success" id="join-game" style="float:right; margin-top: -6px; padding: 5px 15px 5px 15px;">Join</button>
+            <button class="btn btn-success" id="join-game" style="float:right; margin-top: -6px; padding: 5px 15px 5px 6px;"><span class="glyphicon glyphicon-circle-arrow-right"/> Join</button>
     			</h4>
   		  </div>
       </a>
@@ -64,7 +73,7 @@
     		<div class="panel-heading">
     			<h4 class="panel-title">
     				Jelmerro's Game (4 players) <span class="label label-warning">Round 4/10</span>
-            <button class="btn btn-success disabled" id="join-game" style="float:right; margin-top: -6px; padding: 5px 15px 5px 15px;">Join</button>
+            <button class="btn btn-success disabled" id="join-game" style="float:right; margin-top: -6px; padding: 5px 15px 5px 6px;"><span class="glyphicon glyphicon-circle-arrow-right"/> Join</button>
     			</h4>
   		  </div>
       </a>
