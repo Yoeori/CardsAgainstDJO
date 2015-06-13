@@ -86,6 +86,19 @@ footer > a:hover, footer > a:focus {
   background-color: #CE5101;
   border-color: #C64F04;
 }
+/*Octicon hover footer feature*/
 .octicon-heart:hover { color: #CE5101; content: '\2665'} /* â™¥ */
 .octicon-code:hover {color: #CE5101; content: '\f05f'} /* ïŸ */
 .octicon-logo-github:hover {color: #CE5101; content: '\f092'} /* ï‚’ */
+/*Game selection hover feature*/
+
+.panel-default:hover {
+  background-color: #DDDDDD !important;
+}
+a {
+  text-decoration: none !important;
+  outline: none !important;
+}
+a:focus {
+  outline: none !important;
+}
