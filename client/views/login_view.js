@@ -10,7 +10,7 @@ var LoginView = {
     this.view_manager = this.getApp().getViewManager();
     this.view_manager.setContent("login");
 
-    $("#register_submit_button").click(function() {
+    $('[data-onclick="register"]').click(function() {
       self.getViewManager().setView(Object.create(RegisterView));
     });
 

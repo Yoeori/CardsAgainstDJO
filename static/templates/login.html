@@ -8,9 +8,8 @@
           <div class="col-sm-10">
             <input type="text" class="form-control" id="username" autofocus placeholder="Username">
           </div>
-          <div class="visible-xs"><br /></div>
-          <div class="col-sm-2 remove-padding-login-button">
-            <button class="btn btn-default" id="register_submit_button" style="width: 100%;">Register</button>
+          <div class="col-sm-2 remove-padding-login-button hidden-xs">
+            <button class="btn btn-default" data-onclick="register" style="width: 100%;">Register</button>
           </div>
         </div>
         <div class="row" style="margin-top: 10px">
@@ -20,6 +19,9 @@
           <div class="visible-xs"><br /></div>
           <div class="col-sm-2 remove-padding-login-button">
             <button class="btn btn-orange" id="login_submit_button" style="width: 100%;">Login</button>
+            <div class="visible-xs" style="margin-top: 5px;">
+              <button class="btn btn-default" data-onclick="register" style="width: 100%;">Register</button>
+            </div>
           </div>
         </div>
         <hr>
