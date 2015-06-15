@@ -22,7 +22,7 @@ html, body {
 
 .content {
   width: 100%;
-  height: calc(100% - 50px);
+  height: calc(100% - 35px);
   overflow-y: auto;
 }
 
@@ -64,13 +64,22 @@ footer {
   text-align: center;
   color: rgba(0,0,0,0.6);
 }
+
 footer > a {
   color: rgba(0,0,0,0.6);
 }
+
 footer > a:hover, footer > a:focus {
   color: rgba(0,0,0,0.8);
   text-decoration: none;
 }
+@media(max-width: 500px) {
+  .hidden-xxs {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 /*orange button */
 .btn-orange {
   color: #fff;
