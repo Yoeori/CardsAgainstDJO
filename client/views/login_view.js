@@ -15,13 +15,6 @@ var LoginView = {
     });
 
 
-    /*$("#cancel_submit_button").click(function() {
-      self.getViewManager().setContent("dashboard");
-    });
-
-    $("#register_password_confirm").click(function() {
-      self.getViewManager().setContent("game");
-    });*/
   },
 
   _onSubmit: function(username) {
