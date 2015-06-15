@@ -14,7 +14,9 @@ var LoginView = {
       self.getViewManager().setView(Object.create(RegisterView));
     });
 
-    $("#username").focus();
+    setTimeout(function() {
+      $("#username").focus();
+    }, 1);
 
   },
 
