@@ -52,6 +52,7 @@ html, body {
   padding: 10px;
 }
 
+/* footer */
 footer {
   background-color: #fff;
   border-top: 2px rgba(0,0,0,0.6) solid;
@@ -65,14 +66,19 @@ footer {
   color: rgba(0,0,0,0.6);
 }
 
-footer > a {
+footer a {
   color: rgba(0,0,0,0.6);
 }
 
-footer > a:hover, footer > a:focus {
+footer a:hover, footer a:focus {
   color: rgba(0,0,0,0.8);
   text-decoration: none;
 }
+
+footer .octicon:hover {
+  color: #CE5101;
+}
+
 @media(max-width: 500px) {
   .hidden-xxs {
     display: none;
@@ -80,7 +86,7 @@ footer > a:hover, footer > a:focus {
   }
 }
 
-/*orange button */
+/* orange button */
 .btn-orange {
   color: #fff;
   background-color: #EA5B00;
@@ -96,7 +102,7 @@ footer > a:hover, footer > a:focus {
   background-color: #CE5101;
   border-color: #C64F04;
 }
-/*purple button */
+/* purple button */
 .btn-purple {
   color: #fff;
   background-color: #43239B;
@@ -116,12 +122,8 @@ footer > a:hover, footer > a:focus {
 .label-purple {
   background-color:#43239B;
 }
-/*Octicon hover footer feature*/
-.octicon-heart:hover { color: #CE5101; content: '\2665'} /* â™¥ */
-.octicon-code:hover {color: #CE5101; content: '\f05f'} /* ïŸ */
-.octicon-logo-github:hover {color: #CE5101; content: '\f092'} /* ï‚’ */
-/*Game selection hover feature*/
 
+/*Game selection hover feature*/
 .panel-default:hover {
   background-color: #DDDDDD !important;
 }
