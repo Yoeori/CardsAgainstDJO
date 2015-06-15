@@ -14,6 +14,8 @@ var RegisterView = {
       self.getViewManager().setView(Object.create(LoginView));
     });
 
+    $("#register_username").focus();
+
   },
 
   _onSubmit: function(username) {
