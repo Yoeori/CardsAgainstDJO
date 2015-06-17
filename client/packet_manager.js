@@ -24,8 +24,8 @@ var PacketManager = {
 
   sendPacket: function(packet_name, data) {
     this.getSocket().emit("game_packet", {
-      "packet_name": packet_name,
-      "data": data
+      name: packet_name,
+      data: data
     });
   },
 
@@ -34,7 +34,7 @@ var PacketManager = {
   },
 
   getSocket: function() {
-    return this.io;
+    return this.socket;
   },
 
   getRouter: function() {
