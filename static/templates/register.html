@@ -2,48 +2,46 @@
   <div class="row username-field">
     <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
       <div class="well">
-        <center>
-            <h1><b>Register</b></h1>
-        </center>
+        <h1 class="text-center"><b>Register</b></h1>
         <hr>
         <div class="row">
           <div class="col-xs-12">
             <div class="input-group">
-              <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
-              <input type="text" tabindex="1" class="form-control" placeholder="Username" autofocus id="register_username" aria-describedby="basic-addon1"/>
+              <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+              <input type="text" tabindex="1" class="form-control" placeholder="Username" autofocus id="register_username" />
             </div>
           </div>
         </div>
         <div class="row" style="margin-top: 10px">
           <div class="col-xs-12">
             <div class="input-group">
-              <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
-              <input type="email" tabindex="2" class="form-control" placeholder="Email" id="register_email" aria-describedby="basic-addon1"/>
+              <span class="input-group-addon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
+              <input type="email" tabindex="2" class="form-control" placeholder="Email" id="register_email" />
             </div>
           </div>
         </div>
         <div class="row" style="margin-top: 10px">
           <div class="col-xs-12">
             <div class="input-group">
-              <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
-              <input type="password" tabindex="3" class="form-control" placeholder="Password" id="register_password" aria-describedby="basic-addon1"/>
+              <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+              <input type="password" tabindex="3" class="form-control" placeholder="Password" id="register_password" />
             </div>
           </div>
         </div>
         <div class="row" style="margin-top: 10px">
           <div class="col-xs-12">
             <div class="input-group">
-              <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
-              <input type="password" tabindex="4" class="form-control" placeholder="Confirm password" id="register_password_confirm" aria-describedby="basic-addon1"/>
+              <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+              <input type="password" tabindex="4" class="form-control" placeholder="Confirm password" id="register_password_confirm" />
             </div>
           </div>
         </div>
         <div class="row" style="margin-top: 10px">
           <div class="col-xs-12">
-            <div style="float: left" class="g-recaptcha" data-sitekey="6LfwRAgTAAAAAOvRpPMX4vSgyMdvQZzES0HkTVuu"></div>
+            <div style="float: left" id="register_captcha"><p>Captcha is being loaded.</p></div>
             <div class="register-page-buttons">
               <button class="btn btn-default" id="cancel_submit_button">Cancel</button>
-              <button class="btn btn-orange" tabindex="5" id="register_submit_button"><span class="glyphicon glyphicon-pencil"/> Register</button>
+              <button class="btn btn-orange" tabindex="5" id="register_submit_button"><span class="glyphicon glyphicon-pencil" /> Register</button>
             </div>
           </div>
         </div>
@@ -51,6 +49,3 @@
     </div>
   </div>
 </div>
-
-<!-- recaptcha -->
-<script src='https://www.google.com/recaptcha/api.js'></script>

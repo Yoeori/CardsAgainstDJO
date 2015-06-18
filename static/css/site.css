@@ -109,6 +109,7 @@ footer .octicon:hover {
   background-color: #43239B;
   border-color: ##4A11E6;
 }
+
 .btn-purple:hover,
 .btn-purple:focus,
 .btn-purple.focus,
@@ -120,31 +121,34 @@ footer .octicon:hover {
   border-color: ##4A11E6;
 }
 
-/*purple label */
+/* purple label */
 .label-purple {
   background-color:#43239B;
 }
 
-/*Game selection hover feature*/
+/* game selection hover feature */
 .panel-default:hover {
   background-color: #DDDDDD !important;
 }
+
 a {
   text-decoration: none !important;
   outline: none !important;
 }
+
 a:focus {
   outline: none !important;
 }
 
 /* register page */
-@media(min-width: 560px) {
+@media(min-width: 544px) {
   .register-page-buttons {
     float: right;
     margin-top: 40px;
   }
 }
-@media(max-width: 559px) {
+
+@media(max-width: 543px) {
   .register-page-buttons {
     float: left;
     margin-top: 7px;
