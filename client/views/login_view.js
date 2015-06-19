@@ -20,17 +20,17 @@ var LoginView = {
 
 
     $("#login_form").submit(function(e) {
-      self._onSubmit($("#username").val(), $("#password").val());
+      self._onSubmit($("#email").val(), $("#password").val());
     });
 
   },
 
-  _onSubmit: function(username, password) {
+  _onSubmit: function(email, password) {
     var self = this;
 
     //TODO add check for values
     console.log("sending packet");
-    this.getApp().send("user#login", {username: username, password: password});
+    this.getApp().send("user#login", {email: email, password: password});
   },
 
   onDie: function() {
