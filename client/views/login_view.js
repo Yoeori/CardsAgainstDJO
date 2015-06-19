@@ -18,10 +18,19 @@ var LoginView = {
       $("#username").focus();
     }, 1);
 
+
+    $("#login_form").submit(function(e) {
+      self._onSubmit($("#username").val(), $("#password").val());
+    });
+
   },
 
-  _onSubmit: function(username) {
+  _onSubmit: function(username, password) {
     var self = this;
+
+    //TODO add check for values
+    console.log("sending packet");
+    this.getApp().send("user#login", {username: username, password: password});
   },
 
   onDie: function() {
