@@ -26,7 +26,7 @@ module.exports = UserController = {
             self.getApp().getMailer().send({
                 from: '"Cards Against DJO" <cad@yoeori.nl>',
                 to: rows[0].email,
-                subject: 'You just logged from ' + socket.request.connection.remoteAddress,
+                subject: 'You just logged from ' + (socket.request.headers['x-forwarded-for'] || socket.request.connection.remoteAddress),
                 text: 'We just wanted to tell you....'
             });
 
