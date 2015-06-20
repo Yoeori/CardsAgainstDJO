@@ -1,6 +1,7 @@
 var CardManager = require("./card_manager");
 var MySQL = require("mysql");
 var PacketManager = require("./packet_manager");
+var MailManager = require("./mail_manager");
 
 module.exports = App = {
 
@@ -11,6 +12,8 @@ module.exports = App = {
   connection: undefined,
 
   packet_manager: undefined,
+
+  mailer: undefined,
 
   initialize: function(io, config) {
     var self = this;
@@ -31,6 +34,10 @@ module.exports = App = {
 
     this.packet_manager = Object.create(PacketManager);
     this.packet_manager.initialize(this);
+
+    this.mailer = Object.create(MailManager);
+    this.mailer.initialize(this);
+
 
   },
 
@@ -86,6 +93,10 @@ module.exports = App = {
 
   getPacketManager: function() {
     return this.packet_manager;
+  },
+
+  getMailer: function() {
+    return this.mailer;
   },
 
   send: function(sockets, packet) {

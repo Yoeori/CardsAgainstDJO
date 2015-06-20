@@ -9,5 +9,14 @@
     "google-sitekey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     "google-secretkey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   },
+  "mail": {
+    "type": "smtp",
+    "host": "localhost",
+    "port": 25,
+    "auth": {
+      "user": "mail@example.com",
+      "pass": "password"
+    },
+  },
   "port": 3000
 }
