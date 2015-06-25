@@ -11,12 +11,15 @@
   },
   "mail": {
     "type": "smtp",
-    "host": "localhost",
-    "port": 25,
-    "auth": {
-      "user": "mail@example.com",
-      "pass": "password"
-    },
+    "from": "Cards Against DJO <cardsagainstdjo@example.com>",
+    "authentication" : {
+      "host": "localhost",
+      "port": 25,
+      "auth": {
+        "user": "mail@example.com",
+        "pass": "password"
+      }
+    }
   },
   "port": 3000
 }
