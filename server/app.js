@@ -21,10 +21,11 @@ module.exports = App = {
     this.config = config;
 
     //Initialize MySQL
-    this.connection = MySQL.createConnection(this.getConfig()["database"]);
-    this.connection.connect(function(err) {
-      if(err) return self.error(err);
-      console.info("Connected to database on " + self.getConfig()["database"]["user"] + "@" + self.getConfig()["database"]["host"]);
+    console.info("Connecting to database on " + self.getConfig()["database"]["user"] + "@" + self.getConfig()["database"]["host"]);
+    this.connection = MySQL.createPool(this.getConfig()["database"]);
+
+    this.connection.on('error', function(err) {
+      self._handleMySQLerror(err);
     });
 
     this.cardManager = Object.create(CardManager);
@@ -41,39 +42,29 @@ module.exports = App = {
 
   },
 
-  /*
-  loginWithToken: function(user, id, token) {
-    if(this.users[id].getToken() == token) {
-      this.users[id].setSocket(user.getSocket());
-      user = this.users[id];
-      delete this.users[id];
-      user.sendUserData();
+  _handleMySQLerror: function(err) {
+    var self = this;
+
+    if (!err.fatal) {
+      return;
     }
+
+    if (err.code !== 'PROTOCOL_CONNECTION_LOST') {
+      throw err;
+    }
+
+    console.log('Re-connecting lost connection: ' + err.stack);
+
+    this.connection = MySQL.createPool(this.getConfig()["database"]);
+    this.connection.on('error', function(err) {
+      self._handleMySQLerror(err);
+    });
+
   },
-  */
 
   getCardManager: function() {
     return this.cardManager;
   },
-
-  /*
-  userConnect: function(socket) {
-    this.users[socket.id] = Object.create(User);
-    this.users[socket.id].initialize(this, socket);
-  },
-  */
-
-  /*
-  hasUserWithUsername: function(username) {
-    for(user_id in this.users) {
-      user = this.users[user_id];
-      if(user.getUsername() != undefined && user.getUsername().toLowerCase() == username.toLowerCase()) {
-        return true;
-      }
-    }
-    return false;
-  },
-  */
 
   getConfig: function() {
     return this.config;
