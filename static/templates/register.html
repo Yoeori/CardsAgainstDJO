@@ -4,47 +4,53 @@
       <div class="well">
         <h1 class="text-center"><b>Register</b></h1>
         <hr>
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="input-group">
-              <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
-              <input type="text" tabindex="1" class="form-control" placeholder="Username" autofocus id="register_username" />
+        <div class="alert alert-danger hidden" id="register_error" role="alert">
+          <strong>Oops, </strong>
+          <span id="register_error_text"></span>
+        </div>
+        <form id="register_form" action="javascript:void(0)" method="post">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="input-group">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                <input type="text" tabindex="1" class="form-control" placeholder="Username" autofocus id="register_username" />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row" style="margin-top: 10px">
-          <div class="col-xs-12">
-            <div class="input-group">
-              <span class="input-group-addon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
-              <input type="email" tabindex="2" class="form-control" placeholder="Email" id="register_email" />
+          <div class="row" style="margin-top: 10px">
+            <div class="col-xs-12">
+              <div class="input-group">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
+                <input type="email" tabindex="2" class="form-control" placeholder="Email" id="register_email" />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row" style="margin-top: 10px">
-          <div class="col-xs-12">
-            <div class="input-group">
-              <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
-              <input type="password" tabindex="3" class="form-control" placeholder="Password" id="register_password" />
+          <div class="row" style="margin-top: 10px">
+            <div class="col-xs-12">
+              <div class="input-group">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+                <input type="password" tabindex="3" class="form-control" placeholder="Password" id="register_password" />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row" style="margin-top: 10px">
-          <div class="col-xs-12">
-            <div class="input-group">
-              <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
-              <input type="password" tabindex="4" class="form-control" placeholder="Confirm password" id="register_password_confirm" />
+          <div class="row" style="margin-top: 10px">
+            <div class="col-xs-12">
+              <div class="input-group">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+                <input type="password" tabindex="4" class="form-control" placeholder="Confirm password" id="register_password_confirm" />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row" style="margin-top: 10px">
-          <div class="col-xs-12">
-            <div style="float: left" id="register_captcha"><p>Captcha is being loaded.</p></div>
-            <div class="register-page-buttons">
-              <button class="btn btn-default" id="cancel_submit_button">Cancel</button>
-              <button class="btn btn-orange" tabindex="5" id="register_submit_button"><span class="glyphicon glyphicon-pencil" /> Register</button>
+          <div class="row" style="margin-top: 10px">
+            <div class="col-xs-12">
+              <div style="float: left" id="register_captcha"><p>Captcha is being loaded.</p></div>
+              <div class="register-page-buttons">
+                <button class="btn btn-default" type="button" id="cancel_submit_button">Cancel</button>
+                <button class="btn btn-orange" type="submit" tabindex="5" id="register_submit_button"><span class="glyphicon glyphicon-pencil" /> Register</button>
+              </div>
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   </div>

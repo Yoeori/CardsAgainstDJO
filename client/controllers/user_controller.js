@@ -6,6 +6,10 @@ ControllersRouter.registerController("user", {
     this.app = app;
   },
 
+  register_error: function(data) {
+    this.getApp().getViewManager().getCurrentView().submitError(data.error);
+  },
+
   setUsername: function(data) {
     this.getApp().send("user#setusername", data);
   },
