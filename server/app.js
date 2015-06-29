@@ -91,6 +91,9 @@ module.exports = App = {
   },
 
   send: function(sockets, packet) {
+    if(arguments.length == 3) {
+      packet = {name: arguments[1], data: arguments[2]};
+    }
     this.getPacketManager().sendPacketToSockets(packet.name, sockets, packet.data);
   },
 

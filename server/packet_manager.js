@@ -46,8 +46,8 @@ module.exports = {
 
     for(var i = 0; i < sockets.length; i++) {
       sockets[i].emit("game_packet", {
-        "packet_name": packet_name,
-        "data": data
+        name: packet_name,
+        data: data
       });
     }
 
