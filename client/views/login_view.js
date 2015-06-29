@@ -2,7 +2,7 @@ var LoginView = {
   app: undefined,
   view_manager: undefined,
 
-  initialize: function(app, arguments) {
+  initialize: function(app, options) {
     var self = this;
 
     this.app = app;
@@ -18,10 +18,14 @@ var LoginView = {
       $("#username").focus();
     }, 1);
 
-
     $("#login_form").submit(function(e) {
       self._onSubmit($("#email").val(), $("#password").val());
     });
+
+    if(options.hasOwnProperty("message")) {
+      $("#info_message").text(options.message);
+      $("#info_message").removeClass("hidden");
+    }
 
   },
 

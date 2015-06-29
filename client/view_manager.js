@@ -93,14 +93,18 @@ var ViewManager = {
    * sets the current main view and saves the old one
    * @param  {View} view the view to be set as main view
    */
-  setView: function(view, arguments) {
+  setView: function(view, options) {
     if(this.getCurrentView() != undefined) {
       this.getCurrentView().onDie();
       this.view_history.push(this.getCurrentView());
     }
 
+    if(typeof options == "undefined") {
+      options = {};
+    }
+
     this.current_view = view;
-    this.getCurrentView().initialize(this.getApp(), arguments);
+    this.getCurrentView().initialize(this.getApp(), options);
   },
 
   /**

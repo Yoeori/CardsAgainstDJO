@@ -33,6 +33,7 @@ var ControllersRouter = {
     route: function(name, data) {
       if(name == "game#test") return this.controllers["game"].test(data);
       if(name == "user#register_error") return this.controllers["user"].register_error(data);
+      if(name == "user#register_complete") return this.controllers["user"].register_complete(data);
 
       console.error("catched packet with invalid name: " + name + ".");
 
