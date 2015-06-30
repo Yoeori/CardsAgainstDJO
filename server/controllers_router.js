@@ -32,6 +32,7 @@ module.exports = {
   route: function(name, socket, data) {
     if(name == "game#test") return this.controllers["game"].test(socket, data);
     if(name == "user#login") return this.controllers["user"].login(socket, data);
+    if(name == "user#register") return this.controllers["user"].register(socket, data);
 
     console.error("catched packet with invalid name: [" + name + "]");
 

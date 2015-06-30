@@ -7,6 +7,7 @@ var PacketManager = {
   router: undefined,
 
   initialize: function(app) {
+    var self = this;
 
     this.app = app;
 
@@ -15,10 +16,13 @@ var PacketManager = {
     this.router.initialize(this.getApp());
 
     this.socket = this.getApp().getSocket();
+    this.socket.on("game_packet", function(packet) {
+      self.handlePacket(packet.name, packet.data);
+    });
 
   },
 
-  handlePacket: function(packet_name, socket, data) {
+  handlePacket: function(packet_name, data) {
     this.getRouter().route(packet_name, data);
   },
 

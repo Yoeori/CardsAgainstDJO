@@ -34,11 +34,14 @@ var result = UglifyJS.minify(["client/client.js", "client/packet_manager.js"]);
 console.log(result.code);
 */
 
-port = config["port"];
+var game = Object.create(require("./server/app"));
+game.initialize(io, config);
 
+app.get('/:token([0-9a-zA-Z]{32})', function(req, res) {
+  game.getPacketManager().getRouter().controllers["user"].register_complete(req.params.token, req, res);
+});
+
+port = config["port"];
 server.listen(port, function() {
   console.log("Server listening at: *:"+port);
 });
-
-var game = Object.create(require("./server/app"));
-game.initialize(io, config);
