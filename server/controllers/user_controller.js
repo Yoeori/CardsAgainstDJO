@@ -11,7 +11,7 @@ module.exports = UserController = {
   /**
    * Checks user credentials and logs them in.
    * @param  {Socket} socket the socket that is trying to log in
-   * @param  {Object} data   data the user has filled in
+   * @param  {Object} data   data the user has filled in [username/password]
    */
   login: function(socket, data /* email/password */) {
     var self = this;
