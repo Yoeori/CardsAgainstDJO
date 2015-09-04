@@ -30,12 +30,6 @@ module.exports = UserController = {
             //TODO handle succesfull login
             console.log("user "+ rows[0].username + " has succesfully logged in");
 
-            self.getApp().getMailer().send({
-                to: rows[0].email,
-                subject: 'You just logged from ' + (socket.request.headers['x-forwarded-for'] || socket.request.connection.remoteAddress),
-                text: 'We just wanted to tell you....'
-            });
-
 
           } else {
             //TODO handle invalid details (send back failed login packet)

@@ -1,0 +1,139 @@
+<div class="game_selection_header">
+  <button class="btn btn-orange" id="create_game_button"><span class="glyphicon glyphicon-plus"/> Create Game</button>
+  <span class="hidden-xs"style="font-size: 16px; padding-left: 10px; padding-left: 10px; position: absolute; top: 17px;">Hello <b>{{user.name}}</b>!</span>
+  <button class="btn btn-default" id="logout_button" style="float: right;"><span class="glyphicon glyphicon-log-out"/> Logout</button>
+</div>
+<div class="game_selection_games" style="color: #F5F5F5; margin: 25px; ">
+  <div class="hidden-xs" style="max-width: 300px; margin-left:-15px;" class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"/></button>
+      </span>
+      <input type="text" class="form-control" placeholder="Search for players or games">
+    </div>
+  </div>
+  <div class="visible-xs">
+    Noope
+  </div>
+  <center>
+    <nav style="margin-top:-25px; margin-left:-300px; display: inline-block; position: relative">
+      <ul class="pagination">
+        <li class="btn disabled">
+          <a href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li>
+          <a href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </center>
+  <div class="panel-group" id="accordion" style="margin-top:10px;">
+    <div class="panel panel-default">
+      <a data-toggle="collapse" data-parent="#accordion" href="#HB">
+    		<div class="panel-heading">
+    			<h4 class="panel-title">
+    				 Hillebrand's Game (1 player) <span class="label label-success"><span class="glyphicon glyphicon-ok"/> In Lobby</span>
+            <button class="btn btn-success" id="join-game" style="float:right; margin-top: -7px; margin-right: -11px; padding: 5px 15px 5px 6px;"><span class="glyphicon glyphicon-circle-arrow-right" style="padding-right:6px;"/> Join</button>
+    			</h4>
+  		  </div>
+  		<div id="HB" class="panel-collapse collapse">
+  			<div class="panel-body" style="color: #555">
+  				<p><b>Game Status</b><br/>
+            <span class="label label-success"><span class="glyphicon glyphicon-ok"/> In Lobby</span> <span class="label label-warning"></p>
+          <p><b>Card Decks</b><br/>
+            <span class="label label-primary">Turtle Deck</span> <br/></p>
+          <p><b>Current Players</b><br/>
+            Hillebrand</p>
+  			</div>
+        </a>
+  		</div>
+  	</div>
+    <div class="panel panel-default">
+      <a data-toggle="collapse" data-parent="#accordion" href="#SY">
+    		<div class="panel-heading">
+    			<h4 class="panel-title">
+    				 Suomynona's Game (3 players) <span class="label label-success"><span class="glyphicon glyphicon-ok"/> In Lobby</span>
+            <button class="btn btn-success" id="join-game" style="float:right; margin-top: -7px; margin-right: -11px; padding: 5px 15px 5px 6px;"><span class="glyphicon glyphicon-circle-arrow-right" style="padding-right:6px;"/> Join</button>
+    			</h4>
+  		  </div>
+  		<div id="SY" class="panel-collapse collapse">
+  			<div class="panel-body" style="color: #555">
+  				<p><b>Game Status</b><br/>
+            <span class="label label-success"><span class="glyphicon glyphicon-ok"/> In Lobby</span></p>
+          <p><b>Card Decks</b><br/>
+            <span class="label label-primary">Main Pack</span> <span class="label label-primary">First Expansion</span> <span class="label label-primary">Second Expansion</span> <span class="label label-primary">Brony Deck</span><br/></p>
+          <p><b>Current Players</b><br/>
+            Suomynona, Roelofr, Roel</p>
+  			</div>
+        </a>
+  		</div>
+  	</div>
+    <div class="panel panel-default">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+    		<div class="panel-heading">
+    			<h4 class="panel-title">
+    				 Yoeori's Game (4 players) <span class="label label-success"><span class="glyphicon glyphicon-ok"/> In Lobby</span> <span class="label label-purple"><span class="glyphicon glyphicon-lock"/> Password-Protected</span>
+            <button class="btn btn-purple" id="join-game" style="float:right; margin-top: -7px; margin-right: -11px; padding: 5px 15px 5px 6px;"><span class="glyphicon glyphicon-circle-arrow-right" style="padding-right:6px;"/> Join</button>
+    			</h4>
+  		  </div>
+  		<div id="collapseOne" class="panel-collapse collapse">
+  			<div class="panel-body" style="color: #555">
+  				<p><b>Game Status</b><br/>
+            <span class="label label-success"><span class="glyphicon glyphicon-ok"/> In Lobby</span> <span class="label label-purple"><span class="glyphicon glyphicon-lock"/> Password-Protected</span></p>
+          <p><b>Card Decks</b><br/>
+            <span class="label label-primary">Main Pack</span> <span class="label label-primary">First Expansion</span> <span class="label label-primary">Second Expansion</span> <br/></p>
+          <p><b>Current Players</b><br/>
+            <span class="label label-info">Yoeori</span>, Roelofr, Fabiaant, Saatke</p>
+  			</div>
+        </a>
+  		</div>
+  	</div>
+    <div class="panel panel-default">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+    		<div class="panel-heading">
+    			<h4 class="panel-title">
+    				Max's Game (3 players) <span class="label label-danger"><span class="glyphicon glyphicon-repeat"/> Restarting</span>
+            <button class="btn btn-danger disabled" id="join-game" style="float:right; margin-top: -7px; margin-right: -11px; padding: 5px 15px 5px 6px;"><span class="glyphicon glyphicon-circle-arrow-right" style="padding-right:6px;"/> Join</button>
+    			</h4>
+  		  </div>
+  		<div id="collapseTwo" class="panel-collapse collapse">
+  			<div class="panel-body" style="color: #555">
+          <p><b>Game Status</b><br/>
+            <span class="label label-danger">Restarting</span></p>
+          <p><b>Card Decks</b><br/>
+            <span class="label label-primary">Main Pack</span> <span class="label label-primary">First Expansion</span> <span class="label label-primary">Second Expansion</span> <span class="label label-primary">Imgur</span><br/></p>
+          <p><b>Current Players</b><br/>
+            <span class="label label-info">Max</span>, Roelofr, Fabiaant, Saatke</p>
+  			</div>
+        </a>
+  		</div>
+  	</div>
+    <div class="panel panel-default">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+    		<div class="panel-heading">
+    			<h4 class="panel-title">
+    				Jelmerro's Game (4 players) <span class="label label-info"><span class="glyphicon glyphicon-hourglass"/> In-Game</span> <span class="label label-default"><span class="glyphicon glyphicon-time"/> Round 4/10</span>
+            <button class="btn btn-info disabled" id="join-game" style="float:right; margin-top: -7px; margin-right: -11px; padding: 5px 15px 5px 6px;"><span class="glyphicon glyphicon-circle-arrow-right" style="padding-right:6px;"/> Join</button>
+    			</h4>
+  		  </div>
+  		<div id="collapseThree" class="panel-collapse collapse">
+  			<div class="panel-body" style="color: #555">
+          <p><b>Game Status</b><br/>
+            <span class="label label-info"><span class="glyphicon glyphicon-hourglass"/> In-Game</span> <span class="label label-default"><span class="glyphicon glyphicon-time"/> Round 4/10</span></p>
+          <p><b>Card Decks</b><br/>
+            <span class="label label-primary">Main Pack</span> <span class="label label-primary">First Expansion</span> <span class="label label-primary">Second Expansion</span> <br/></p>
+          <p><b>Current Players</b><br/>
+            <span class="label label-info">Jelmerro</span>, Roelofr, Fabiaant, Saatke</p>
+  			</div>
+        </a>
+  		</div>
+  	</div>
+  </div>
+</div>
